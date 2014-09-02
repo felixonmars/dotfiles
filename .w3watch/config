@@ -1,0 +1,257 @@
+# w3watch config file
+#
+# * Lines starting with a # will be ignored
+# * Every line contains one URL
+# * An optional filter can be defined by separating any command
+#   from the url using whitspaces
+# * Prepend an @ to the URL to work on bare HTML source
+#
+# Example:
+#
+# Watch a complete web page:
+#http://www.archlinux.org
+#
+# You are only interested in xorg related updates?
+# Pipe the page through a grep command.
+#http://www.archlinux.org	grep -i 'xorg'
+#
+# Note: You can use any command which accepts a website dump on stdin and 
+#       prints its filtered output to stdout
+#
+
+
+http://algo.ing.unimo.it/people/paolo/disk_sched/patches/
+http://boinc.berkeley.edu/download_all.php grep "Recommend"
+#http://boinc.berkeley.edu/gitweb/?p=boinc.git;a=tags piep '"client_release_" in p | "ago" in p | "boinc " + p.split("ago")[1]'
+http://community.wps.cn/download/ grep "http.*tar.xz"
+http://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=python grep "CVE"
+http://download.fcitx-im.org/
+http://download.gimp.org/pub/gimp/help/ grep -v nightly
+http://download.newrelic.com/php_agent/release/ piep '"tar.gz" in p | "http" not in p | p.split()[0]'
+http://download.newrelic.com/python_agent/release/ piep '"tar.gz" in p | "http" not in p | p.split()[0]'
+http://download.newrelic.com/server_monitor/release/ piep '"tar.gz" in p | "http" not in p | p.split()[0]'
+http://download.opensuse.org/repositories/home:/garloff:/storage/xUbuntu_12.04/ grep "ddrescue"
+http://fallabs.com/kyotocabinet/pkg/
+http://gsdview.appspot.com/dart-archive/channels/stable/release/latest/linux_packages/debian_wheezy/
+http://ipafont.ipa.go.jp/ipafont/download.html
+http://keyserver.ubuntu.com:11371/pks/lookup?search=0xB5971F2C5C10A9A08C60030F786C63F330D7CB92&op=vindex grep "sig"
+http://luke.dashjr.org/programs/bitcoin/files/bfgminer/
+http://matplotlib.org/downloads.html grep "tar.gz"
+http://mirror.racket-lang.org/installers/
+http://mirrors.jenkins-ci.org/war/
+http://natura.di.uminho.pt/download/sources/Dictionaries/aspell6/
+http://openlab.ring.gr.jp/skk/dic/
+http://openlab.ring.gr.jp/skk/tools/
+#http://pgp.mit.edu:11371/pks/lookup?op=vindex&fingerprint=on&exact=on&search=0xB5971F2C5C10A9A08C60030F786C63F330D7CB92
+#http://pkgbuild.com/git/aur-mirror.git/log/ piep '"updated on" in p | p.split("updated on")[1]'
+https://bitbucket.org/libkkc/ibus-kkc/downloads grep "^http.*tar.[xg]z"
+https://bitbucket.org/libkkc/libkkc-data/downloads grep "^http.*tar.[xg]z"
+https://bitbucket.org/libkkc/libkkc/downloads grep "^http.*tar.[xg]z"
+https://code.google.com/feeds/p/boinctui/downloads/basic grep "id"
+https://code.google.com/feeds/p/google-glog/downloads/basic grep "id"
+https://code.google.com/feeds/p/opencc/downloads/basic grep "id"
+https://code.google.com/feeds/p/open-gram/downloads/basic grep "id"
+https://code.google.com/feeds/p/ruijieclient/downloads/basic grep "id"
+https://developers.google.com/appengine/downloads grep "http://googleappengine.googlecode.com/files/"
+http://serf.googlecode.com/svn/src_releases/
+@https://github.com/allinurl/goaccess/tags grep "tar.gz"
+@https://github.com/amoffat/sh/tags grep "tar.gz"
+@https://github.com/apenwarr/sshuttle/tags grep "tar.gz"
+@https://github.com/ariya/phantomjs/tags grep "tar.gz"
+@https://github.com/bower/bower/tags grep "tar.gz"
+@https://github.com/celery/kombu/tags grep "tar.gz"
+@https://github.com/celery/librabbitmq/tags grep "tar.gz"
+@https://github.com/ckolivas/cgminer/tags grep "tar.gz"
+@https://github.com/definite/ibus-table-chinese/tags grep "tar.gz"
+@https://github.com/docopt/docopt/tags grep "tar.gz"
+@https://github.com/facebook/tornado/tags grep "tar.gz"
+@https://github.com/goagent/goagent/tags grep "tar.gz"
+@https://github.com/ibus/ibus-anthy/tags grep "tar.gz"
+@https://github.com/ibus/ibus-m17n/tags grep "tar.gz"
+@https://github.com/ibus/ibus-pinyin/tags grep "tar.gz"
+@https://github.com/ibus/ibus-qt/tags grep "tar.gz"
+@https://github.com/ibus/ibus/tags grep "tar.gz"
+@https://github.com/jcrocholl/pep8/tags grep "tar.gz"
+@https://github.com/jedisct1/libsodium/tags grep "tar.gz"
+@https://github.com/joyent/node/tags grep "tar.gz"
+@https://github.com/kaio/ibus-table/tags grep "tar.gz"
+@https://github.com/libpinyin/libpinyin/tags grep "tar.gz"
+@https://github.com/lotem/brise/tags grep "tar.gz"
+@https://github.com/lotem/ibus-rime/tags grep "tar.gz"
+@https://github.com/lotem/librime/tags grep "tar.gz"
+@https://github.com/MythTV/mythtv/tags grep "tar.gz"
+@https://github.com/npm/npm/tags grep "tar.gz"
+@https://github.com/opendns/dnscrypt-proxy/tags grep "tar.gz"
+@https://github.com/pycurl/pycurl/tags grep "tar.gz"
+@https://github.com/rcairo/rcairo/tags grep "tar.gz"
+@https://github.com/RDFLib/rdflib/tags grep "tar.gz"
+@https://github.com/TimofeyTitovets/systemd-swap/tags grep "tar.gz"
+@https://github.com/WizTeam/WizQTClient/tags grep "tar.gz"
+https://metacpan.org/release/AnyEvent grep "release-name"
+https://metacpan.org/release/AppConfig grep "release-name"
+https://metacpan.org/release/Archive-Extract grep "release-name"
+https://metacpan.org/release/Archive-Zip grep "release-name"
+https://metacpan.org/release/Async-Interrupt grep "release-name"
+https://metacpan.org/release/Bit-Vector grep "release-name"
+https://metacpan.org/release/Carp-Clan grep "release-name"
+https://metacpan.org/release/Class-Inspector grep "release-name"
+https://metacpan.org/release/common-sense grep "release-name"
+https://metacpan.org/release/CPANPLUS grep "release-name"
+https://metacpan.org/release/Crypt-PasswdMD5 grep "release-name"
+https://metacpan.org/release/Date-Calc grep "release-name"
+https://metacpan.org/release/Date-Manip grep "release-name"
+https://metacpan.org/release/DBD-SQLite grep "release-name"
+https://metacpan.org/release/DBI grep "release-name"
+https://metacpan.org/release/Digest-HMAC grep "release-name"
+https://metacpan.org/release/Digest-Nilsimsa grep "release-name"
+https://metacpan.org/release/Digest-SHA1 grep "release-name"
+https://metacpan.org/release/Email-Date-Format grep "release-name"
+https://metacpan.org/release/Encode-Locale grep "release-name"
+https://metacpan.org/release/Error grep "release-name"
+https://metacpan.org/release/Event-ExecFlow grep "release-name"
+https://metacpan.org/release/EV grep "release-name"
+https://metacpan.org/release/ExtUtils-Depends grep "release-name"
+https://metacpan.org/release/ExtUtils-MakeMaker grep "release-name"
+https://metacpan.org/release/ExtUtils-PkgConfig grep "release-name"
+https://metacpan.org/release/File-BaseDir grep "release-name"
+https://metacpan.org/release/File-Copy-Recursive grep "release-name"
+https://metacpan.org/release/File-DesktopEntry grep "release-name"
+https://metacpan.org/release/File-Listing grep "release-name"
+https://metacpan.org/release/File-MimeInfo grep "release-name"
+https://metacpan.org/release/File-ReadBackwards grep "release-name"
+https://metacpan.org/release/File-Slurp-Tiny grep "release-name"
+#https://metacpan.org/release/ grep "release-name"
+https://metacpan.org/release/Guard grep "release-name"
+https://metacpan.org/release/HTML-Parser grep "release-name"
+https://metacpan.org/release/HTML-Tagset grep "release-name"
+https://metacpan.org/release/HTML-Template grep "release-name"
+https://metacpan.org/release/HTTP-Cookies grep "release-name"
+https://metacpan.org/release/HTTP-Date grep "release-name"
+https://metacpan.org/release/HTTP-Message grep "release-name"
+https://metacpan.org/release/HTTP-Negotiate grep "release-name"
+https://metacpan.org/release/IO-HTML grep "release-name"
+https://metacpan.org/release/IPC-System-Simple grep "release-name"
+https://metacpan.org/release/libintl-perl grep "release-name"
+https://metacpan.org/release/List-MoreUtils grep "release-name"
+https://metacpan.org/release/Log-Log4perl grep "release-name"
+https://metacpan.org/release/Log-Message grep "release-name"
+https://metacpan.org/release/Log-Message-Simple grep "release-name"
+https://metacpan.org/release/LWP-Protocol-https grep "release-name"
+https://metacpan.org/release/Mail-SPF grep "release-name"
+https://metacpan.org/release/MailTools grep "release-name"
+https://metacpan.org/release/MIME-Lite grep "release-name"
+https://metacpan.org/release/MIME-Types grep "release-name"
+https://metacpan.org/release/Module-Build grep "release-name"
+https://metacpan.org/release/Module-Pluggable grep "release-name"
+https://metacpan.org/release/Mozilla-CA grep "release-name"
+https://metacpan.org/release/MP3-Info grep "release-name"
+https://metacpan.org/release/NetAddr-IP grep "release-name"
+https://metacpan.org/release/Net-CIDR-Lite grep "release-name"
+https://metacpan.org/release/Net-DNS grep "release-name"
+https://metacpan.org/release/Net-DNS-Resolver-Programmable grep "release-name"
+https://metacpan.org/release/Net-HTTP grep "release-name"
+https://metacpan.org/release/Net-IP grep "release-name"
+https://metacpan.org/release/Net-Server grep "release-name"
+https://metacpan.org/release/Object-Accessor grep "release-name"
+https://metacpan.org/release/Perl4-CoreLibs grep "release-name"
+https://metacpan.org/release/Socket6 grep "release-name"
+https://metacpan.org/release/String-ShellQuote grep "release-name"
+https://metacpan.org/release/Sys-Hostname-Long grep "release-name"
+https://metacpan.org/release/Template-Toolkit grep "release-name"
+https://metacpan.org/release/TermReadKey grep "release-name"
+https://metacpan.org/release/Term-ReadLine-TTYtter grep "release-name"
+https://metacpan.org/release/Term-UI grep "release-name"
+https://metacpan.org/release/Test-Inter grep "release-name"
+https://metacpan.org/release/Test-Pod grep "release-name"
+https://metacpan.org/release/Text-Iconv grep "release-name"
+https://metacpan.org/release/Text-Patch grep "release-name"
+https://metacpan.org/release/TimeDate grep "release-name"
+https://metacpan.org/release/Tk grep "release-name"
+https://metacpan.org/release/Try-Tiny grep "release-name"
+https://metacpan.org/release/URI grep "release-name"
+https://metacpan.org/release/XML-LibXSLT grep "release-name"
+https://metacpan.org/release/XML-Simple grep "release-name"
+https://metacpan.org/release/XML-Twig grep "release-name"
+https://metacpan.org/release/YAML grep "release-name"
+https://metacpan.org/release/YAML-Syck grep "release-name"
+http://sourceforge.net/projects/boinctui/files grep "tar.gz/download"
+https://pypi.python.org/packages/source/a/amqp/
+https://pypi.python.org/packages/source/a/anyjson/
+https://pypi.python.org/packages/source/a/astroid/
+https://pypi.python.org/packages/source/b/backports.ssl_match_hostname/
+https://pypi.python.org/packages/source/B/Beaker/
+https://pypi.python.org/packages/source/b/boto/
+https://pypi.python.org/packages/source/b/bottle/
+https://pypi.python.org/packages/source/b/braintree/
+https://pypi.python.org/packages/source/c/certifi/
+https://pypi.python.org/packages/source/c/cffi/
+https://pypi.python.org/packages/source/c/characteristic/
+https://pypi.python.org/packages/source/c/chardet/
+https://pypi.python.org/packages/source/c/coverage/
+https://pypi.python.org/packages/source/c/cryptography/
+https://pypi.python.org/packages/source/c/cryptography-vectors/
+https://pypi.python.org/packages/source/c/cssselect/
+https://pypi.python.org/packages/source/d/defusedxml/
+https://pypi.python.org/packages/source/d/dnslib/
+https://pypi.python.org/packages/source/e/ecdsa/
+https://pypi.python.org/packages/source/f/flake8/
+https://pypi.python.org/packages/source/f/flickrapi/
+https://pypi.python.org/packages/source/g/gevent/
+https://pypi.python.org/packages/source/g/greenlet/
+https://pypi.python.org/packages/source/h/httplib2/
+https://pypi.python.org/packages/source/h/httpretty/
+https://pypi.python.org/packages/source/i/idna/
+https://pypi.python.org/packages/source/j/jieba/
+https://pypi.python.org/packages/source/l/logilab-common/
+https://pypi.python.org/packages/source/l/lxml/
+https://pypi.python.org/packages/source/M/Mako/
+https://pypi.python.org/packages/source/M/MarkupSafe/
+https://pypi.python.org/packages/source/m/matplotlib/
+https://pypi.python.org/packages/source/m/mccabe/
+https://pypi.python.org/packages/source/n/networkx/
+https://pypi.python.org/packages/source/o/oauth/
+https://pypi.python.org/packages/source/p/paramiko/
+https://pypi.python.org/packages/source/p/passlib/
+https://pypi.python.org/packages/source/P/Paste/
+https://pypi.python.org/packages/source/p/phonenumbers/
+https://pypi.python.org/packages/source/p/ply/
+https://pypi.python.org/packages/source/p/poster/
+https://pypi.python.org/packages/source/p/pretend/
+https://pypi.python.org/packages/source/p/py/
+https://pypi.python.org/packages/source/p/pyasn1-modules/
+https://pypi.python.org/packages/source/p/pycdio/
+https://pypi.python.org/packages/source/p/pycparser/
+https://pypi.python.org/packages/source/p/pycuda/
+https://pypi.python.org/packages/source/p/pycurl/
+https://pypi.python.org/packages/source/p/pyflakes/
+https://pypi.python.org/packages/source/p/pygeoip/
+https://pypi.python.org/packages/source/p/pylint/
+https://pypi.python.org/packages/source/p/pymongo/
+https://pypi.python.org/packages/source/P/PyOpenGL/
+https://pypi.python.org/packages/source/p/pyquery/
+https://pypi.python.org/packages/source/p/pytest/
+https://pypi.python.org/packages/source/p/python-Levenshtein/
+https://pypi.python.org/packages/source/p/python-openid/
+https://pypi.python.org/packages/source/p/pytools/
+https://pypi.python.org/packages/source/r/redis/
+https://pypi.python.org/packages/source/s/service_identity/
+https://pypi.python.org/packages/source/s/setuptools/
+https://pypi.python.org/packages/source/s/sh/
+https://pypi.python.org/packages/source/s/shadowsocks/
+https://pypi.python.org/packages/source/S/SOAPpy/
+https://pypi.python.org/packages/source/S/SQLAlchemy/
+https://pypi.python.org/packages/source/s/suds/
+https://pypi.python.org/packages/source/s/sure/
+https://pypi.python.org/packages/source/s/sympy/
+https://pypi.python.org/packages/source/t/tornado/
+https://pypi.python.org/packages/source/T/Twisted/
+https://pypi.python.org/packages/source/u/urllib3/
+https://pypi.python.org/packages/source/w/wstools/
+https://pypi.python.org/packages/source/z/zope.interface/
+https://www.archlinux.org/packages/extra/i686/nss/
+http://thomas.apestaart.org/download/morituri/ grep "bz2$"
+http://wps-community.org/bin/get_version_info.rb?c=get_address
+#@http://www.doesbuyvmhavestock.com/automation.raw grep "Storage"
+#http://www.nvidia.com/object/unix.html
+http://www.python.org/ftp/python/
+http://x264.fushizen.eu/builds/

@@ -1,0 +1,11 @@
+[
+    { "keys": ["alt+f4"], "command": "exit" },
+    { "keys": ["f4"], "command": "sublimelinter", "args": {"action": "lint"} },
+    { "keys": ["f2"], "command": "sublimelinter_goto_error", "args": {"direction": "next"} },
+    { "keys": ["f3"], "command": "sublimelinter_goto_error", "args": {"direction": "previous"} },
+    { "keys": ["f5"], "command": "build" },
+    { "keys": ["ctrl+q"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["ctrl+shift+q"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["ctrl+shift+r"], "command": "http_requester" },
+    { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} }
+]
