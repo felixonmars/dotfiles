@@ -1,0 +1,31 @@
+[user]
+	name = Felix Yan
+	email = felixonmars@gmail.com
+	signingkey = felixonmars@gmail.com
+[color]
+	ui = true
+[push]
+	default = simple
+[alias]
+	pushall = "!f(){ for i in `git remote`; do git push $i master; done; };f"
+	pullall = "!f(){ for i in `git remote`; do git pull $i master; done; };f"
+	a  = add
+	ai = add -i
+	b  = branch
+	c  = commit
+	ci = commit
+	cs = commit --signoff
+	cm = commit --amend
+	co = checkout
+	dc = difftool --cached
+	d  = difftool
+    fp = format-patch
+	lg = log --graph
+	l  = log
+	lp = log --graph --pretty=format:'%Cred%h%Credreset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	m  = mergetool
+	rb = rebase
+	t  = tag
+	ut = rm -r --cached
+[pull]
+	rebase = true
