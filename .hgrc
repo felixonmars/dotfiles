@@ -1,0 +1,9 @@
+[extensions]
+hgext.convert=
+mq =
+purge =
+progress =
+
+[ui]
+editor = vim
+username = Felix Yan <felixonmars@gmail.com>
