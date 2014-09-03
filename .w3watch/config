@@ -19,7 +19,6 @@
 #       prints its filtered output to stdout
 #
 
-
 http://algo.ing.unimo.it/people/paolo/disk_sched/patches/
 http://boinc.berkeley.edu/download_all.php grep "Recommend"
 #http://boinc.berkeley.edu/gitweb/?p=boinc.git;a=tags piep '"client_release_" in p | "ago" in p | "boinc " + p.split("ago")[1]'
