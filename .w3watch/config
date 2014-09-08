@@ -53,7 +53,7 @@ https://code.google.com/feeds/p/opencc/downloads/basic grep "id"
 https://code.google.com/feeds/p/open-gram/downloads/basic grep "id"
 https://code.google.com/feeds/p/ruijieclient/downloads/basic grep "id"
 https://developers.google.com/appengine/downloads grep "http://googleappengine.googlecode.com/files/"
-http://serf.googlecode.com/svn/src_releases/
+http://serf.googlecode.com/svn/src_releases/ grep -v Revision
 @https://github.com/allinurl/goaccess/tags grep "tar.gz"
 @https://github.com/amoffat/sh/tags grep "tar.gz"
 @https://github.com/apenwarr/sshuttle/tags grep "tar.gz"
