@@ -76,6 +76,7 @@ http://serf.googlecode.com/svn/src_releases/ grep -v Revision
 @https://github.com/joyent/node/tags grep "tar.gz"
 @https://github.com/kaio/ibus-table/tags grep "tar.gz"
 @https://github.com/libpinyin/libpinyin/tags grep "tar.gz"
+@https://github.com/LiuLang/bcloud/tags grep "tar.gz"
 @https://github.com/lotem/brise/tags grep "tar.gz"
 @https://github.com/lotem/ibus-rime/tags grep "tar.gz"
 @https://github.com/lotem/librime/tags grep "tar.gz"
