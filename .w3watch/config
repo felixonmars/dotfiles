@@ -219,6 +219,7 @@ https://pypi.python.org/packages/source/c/cssselect/
 https://pypi.python.org/packages/source/d/defusedxml/
 https://pypi.python.org/packages/source/d/dnslib/
 https://pypi.python.org/packages/source/e/ecdsa/
+https://pypi.python.org/packages/source/e/egenix-mx-base/
 https://pypi.python.org/packages/source/f/flake8/
 https://pypi.python.org/packages/source/f/flickrapi/
 https://pypi.python.org/packages/source/g/gevent/
@@ -226,8 +227,11 @@ https://pypi.python.org/packages/source/g/greenlet/
 https://pypi.python.org/packages/source/h/httplib2/
 https://pypi.python.org/packages/source/h/httpretty/
 https://pypi.python.org/packages/source/i/idna/
+https://pypi.python.org/packages/source/i/ipdb/
 https://pypi.python.org/packages/source/j/jieba/
 https://pypi.python.org/packages/source/k/keyring/
+https://pypi.python.org/packages/source/k/kombu/
+https://pypi.python.org/packages/source/l/librabbitmq/
 https://pypi.python.org/packages/source/l/logilab-common/
 https://pypi.python.org/packages/source/l/lxml/
 https://pypi.python.org/packages/source/M/Mako/
@@ -235,6 +239,7 @@ https://pypi.python.org/packages/source/M/MarkupSafe/
 https://pypi.python.org/packages/source/m/matplotlib/
 https://pypi.python.org/packages/source/m/mccabe/
 https://pypi.python.org/packages/source/n/networkx/
+https://pypi.python.org/packages/source/n/nose-cover3/
 https://pypi.python.org/packages/source/o/oauth/
 https://pypi.python.org/packages/source/p/paramiko/
 https://pypi.python.org/packages/source/p/passlib/
@@ -258,9 +263,13 @@ https://pypi.python.org/packages/source/P/PyOpenGL/
 https://pypi.python.org/packages/source/p/pyquery/
 https://pypi.python.org/packages/source/p/pytest/
 https://pypi.python.org/packages/source/p/python-Levenshtein/
+https://pypi.python.org/packages/source/p/python-mpd/
 https://pypi.python.org/packages/source/p/python-openid/
 https://pypi.python.org/packages/source/p/pytools/
 https://pypi.python.org/packages/source/r/redis/
+https://pypi.python.org/packages/source/r/repoze.lru/
+https://pypi.python.org/packages/source/R/Routes/
+https://pypi.python.org/packages/source/s/salsa20/
 https://pypi.python.org/packages/source/S/SecretStorage/
 https://pypi.python.org/packages/source/s/service_identity/
 https://pypi.python.org/packages/source/s/setuptools/
@@ -275,6 +284,8 @@ https://pypi.python.org/packages/source/t/tornado/
 https://pypi.python.org/packages/source/t/tox/
 https://pypi.python.org/packages/source/T/Twisted/
 https://pypi.python.org/packages/source/u/urllib3/
+https://pypi.python.org/packages/source/W/WebOb/
+https://pypi.python.org/packages/source/W/WebTest/
 https://pypi.python.org/packages/source/w/wstools/
 https://pypi.python.org/packages/source/z/zope.interface/
 https://www.archlinux.org/packages/extra/i686/nss/
