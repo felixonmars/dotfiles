@@ -131,6 +131,7 @@ http://serf.googlecode.com/svn/src_releases/ grep -v Revision
 @https://metacpan.org/release/File-RsyncP grep "release-name"
 @https://metacpan.org/release/File-Slurp-Tiny grep "release-name"
 @https://metacpan.org/release/Goo-Canvas grep "release-name"
+@https://metacpan.org/release/GraphViz grep "release-name"
 @https://metacpan.org/release/Gtk2-Ex-FormFactory grep "release-name"
 @https://metacpan.org/release/Gtk2-ImageView grep "release-name"
 @https://metacpan.org/release/Gtk2-Unique grep "release-name"
