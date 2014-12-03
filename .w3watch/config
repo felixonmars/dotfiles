@@ -99,6 +99,7 @@ http://serf.googlecode.com/svn/src_releases/ grep -v Revision
 @https://metacpan.org/release/Carp-Clan grep "release-name"
 @https://metacpan.org/release/Class-Inspector grep "release-name"
 @https://metacpan.org/release/common-sense grep "release-name"
+@https://metacpan.org/release/CPAN-Meta grep "release-name"
 @https://metacpan.org/release/CPANPLUS grep "release-name"
 @https://metacpan.org/release/Crypt-OpenSSL-DSA grep "release-name"
 @https://metacpan.org/release/Crypt-PasswdMD5 grep "release-name"
