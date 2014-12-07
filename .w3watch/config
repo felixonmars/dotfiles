@@ -85,7 +85,7 @@ http://serf.googlecode.com/svn/src_releases/ grep -v Revision
 @https://github.com/MythTV/mythtv/tags grep "tar.gz"
 @https://github.com/Nefelim4ag/systemd-swap/tags grep "tar.gz"
 @https://github.com/npm/npm/tags grep "tar.gz"
-@https://github.com/opendns/dnscrypt-proxy/tags grep "tar.gz"
+@https://github.com/jedisct1/dnscrypt-proxy/tags grep "tar.gz"
 @https://github.com/pycurl/pycurl/tags grep "tar.gz"
 @https://github.com/rcairo/rcairo/tags grep "tar.gz"
 @https://github.com/RDFLib/rdflib/tags grep "tar.gz"
