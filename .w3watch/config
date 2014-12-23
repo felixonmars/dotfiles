@@ -119,6 +119,7 @@ http://serf.googlecode.com/svn/src_releases/ grep -v Revision
 @https://metacpan.org/release/Error grep "release-name"
 @https://metacpan.org/release/Event-ExecFlow grep "release-name"
 @https://metacpan.org/release/EV grep "release-name"
+@https://metacpan.org/release/Exporter-Tiny grep "release-name"
 @https://metacpan.org/release/ExtUtils-Config grep "release-name"
 @https://metacpan.org/release/ExtUtils-Depends grep "release-name"
 @https://metacpan.org/release/ExtUtils-Helpers grep "release-name"
@@ -249,12 +250,14 @@ https://pypi.python.org/packages/source/M/Mako/
 https://pypi.python.org/packages/source/M/MarkupSafe/
 https://pypi.python.org/packages/source/m/matplotlib/
 https://pypi.python.org/packages/source/m/mccabe/
+https://pypi.python.org/packages/source/n/netlib/
 https://pypi.python.org/packages/source/n/networkx/
 https://pypi.python.org/packages/source/n/nose-cover3/
 https://pypi.python.org/packages/source/o/oauth/
 https://pypi.python.org/packages/source/p/paramiko/
 https://pypi.python.org/packages/source/p/passlib/
 https://pypi.python.org/packages/source/P/Paste/
+https://pypi.python.org/packages/source/p/pathod/
 https://pypi.python.org/packages/source/p/phonenumbers/
 https://pypi.python.org/packages/source/p/ply/
 https://pypi.python.org/packages/source/p/poster/
