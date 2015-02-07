@@ -27,6 +27,7 @@ http://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=python grep "CVE"
 http://download.fcitx-im.org/
 http://download.gimp.org/pub/gimp/help/ grep -v nightly
 http://download.kde.org/stable/applications/
+http://download.kde.org/stable/frameworks/
 http://download.newrelic.com/php_agent/release/ piep '"tar.gz" in p | "http" not in p | p.split()[0]'
 http://download.newrelic.com/python_agent/release/ piep '"tar.gz" in p | "http" not in p | p.split()[0]'
 http://download.newrelic.com/server_monitor/release/ piep '"tar.gz" in p | "http" not in p | p.split()[0]'
