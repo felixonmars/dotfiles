@@ -26,6 +26,7 @@ http://community.wps.cn/download/ grep "http.*tar.xz"
 http://cve.mitre.org/cgi-bin/cvekey.cgi?keyword=python grep "CVE"
 http://download.fcitx-im.org/
 http://download.gimp.org/pub/gimp/help/ grep -v nightly
+http://download.kde.org/stable/applications/
 http://download.newrelic.com/php_agent/release/ piep '"tar.gz" in p | "http" not in p | p.split()[0]'
 http://download.newrelic.com/python_agent/release/ piep '"tar.gz" in p | "http" not in p | p.split()[0]'
 http://download.newrelic.com/server_monitor/release/ piep '"tar.gz" in p | "http" not in p | p.split()[0]'
@@ -42,8 +43,11 @@ http://mirrors.jenkins-ci.org/war/
 http://natura.di.uminho.pt/download/sources/Dictionaries/aspell6/
 http://openlab.ring.gr.jp/skk/dic/
 http://openlab.ring.gr.jp/skk/tools/
+http://pkg-isocodes.alioth.debian.org/downloads/
 #http://pgp.mit.edu:11371/pks/lookup?op=vindex&fingerprint=on&exact=on&search=0xB5971F2C5C10A9A08C60030F786C63F330D7CB92
 #http://pkgbuild.com/git/aur-mirror.git/log/ piep '"updated on" in p | p.split("updated on")[1]'
+http://udisks.freedesktop.org/releases/
+http://www.cmake.org/download/ grep "Latest Release"
 https://bitbucket.org/libkkc/ibus-kkc/downloads grep "^http.*tar.[xg]z"
 https://bitbucket.org/libkkc/libkkc-data/downloads grep "^http.*tar.[xg]z"
 https://bitbucket.org/libkkc/libkkc/downloads grep "^http.*tar.[xg]z"
