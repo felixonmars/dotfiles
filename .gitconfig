@@ -1,7 +1,7 @@
 [user]
 	name = Felix Yan
-	email = felixonmars@gmail.com
-	signingkey = felixonmars@gmail.com
+	email = felixonmars@archlinux.org
+	signingkey = felixonmars@archlinux.org
 [color]
 	ui = true
 [push]
