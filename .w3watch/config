@@ -206,6 +206,7 @@ http://serf.googlecode.com/svn/src_releases/ grep -v Revision
 @https://metacpan.org/release/Tk grep "release-name"
 @https://metacpan.org/release/Try-Tiny grep "release-name"
 @https://metacpan.org/release/URI grep "release-name"
+@https://metacpan.org/release/XML-LibXML grep "release-name"
 @https://metacpan.org/release/XML-LibXSLT grep "release-name"
 @https://metacpan.org/release/XML-Simple grep "release-name"
 @https://metacpan.org/release/XML-Twig grep "release-name"
