@@ -215,106 +215,106 @@ http://serf.googlecode.com/svn/src_releases/ grep -v Revision
 @https://metacpan.org/release/YAML-Tiny grep "release-name"
 http://sourceforge.net/projects/boinctui/files grep "tar.gz/download"
 https://git.fedorahosted.org/cgit/isomd5sum.git/refs/ grep "tar.gz"
-https://pypi.python.org/simple/amqp/
-https://pypi.python.org/simple/anyjson/
-https://pypi.python.org/simple/astroid/
-https://pypi.python.org/simple/backports.ssl_match_hostname/
-https://pypi.python.org/simple/Beaker/
-https://pypi.python.org/simple/billiard/
-https://pypi.python.org/simple/boto/
-https://pypi.python.org/simple/bottle/
-https://pypi.python.org/simple/braintree/
-https://pypi.python.org/simple/celery/
-https://pypi.python.org/simple/certifi/
-https://pypi.python.org/simple/cffi/
-https://pypi.python.org/simple/characteristic/
-https://pypi.python.org/simple/chardet/
-https://pypi.python.org/simple/CouchDB/
-https://pypi.python.org/simple/coverage/
-https://pypi.python.org/simple/cryptography/
-https://pypi.python.org/simple/cryptography-vectors/
-https://pypi.python.org/simple/cssselect/
-https://pypi.python.org/simple/defusedxml/
-https://pypi.python.org/simple/dnslib/
-https://pypi.python.org/simple/ecdsa/
-https://pypi.python.org/simple/egenix-mx-base/
-https://pypi.python.org/simple/flake8/
-https://pypi.python.org/simple/flickrapi/
-https://pypi.python.org/simple/gevent/
-https://pypi.python.org/simple/greenlet/
-https://pypi.python.org/simple/h5py/
-https://pypi.python.org/simple/httplib2/
-https://pypi.python.org/simple/httpretty/
-https://pypi.python.org/simple/idna/
-https://pypi.python.org/simple/ipdb/
-https://pypi.python.org/simple/jieba/
-https://pypi.python.org/simple/keyring/
-https://pypi.python.org/simple/kombu/
-https://pypi.python.org/simple/librabbitmq/
-https://pypi.python.org/simple/logilab-common/
-https://pypi.python.org/simple/lxml/
-https://pypi.python.org/simple/Mako/
-https://pypi.python.org/simple/MarkupSafe/
-https://pypi.python.org/simple/matplotlib/
-https://pypi.python.org/simple/mccabe/
-https://pypi.python.org/simple/netlib/
-https://pypi.python.org/simple/networkx/
-https://pypi.python.org/simple/nose-cover3/
-https://pypi.python.org/simple/oauth/
-https://pypi.python.org/simple/paramiko/
-https://pypi.python.org/simple/passlib/
-https://pypi.python.org/simple/Paste/
-https://pypi.python.org/simple/pathlib/
-https://pypi.python.org/simple/pathod/
-https://pypi.python.org/simple/phonenumbers/
-https://pypi.python.org/simple/ply/
-https://pypi.python.org/simple/poster/
-https://pypi.python.org/simple/pretend/
-https://pypi.python.org/simple/py/
-https://pypi.python.org/simple/pyasn1-modules/
-https://pypi.python.org/simple/pycdio/
-https://pypi.python.org/simple/pycparser/
-https://pypi.python.org/simple/pycuda/
-https://pypi.python.org/simple/pycurl/
-https://pypi.python.org/simple/pydns/
-https://pypi.python.org/simple/pyflakes/
-https://pypi.python.org/simple/pygeoip/
-https://pypi.python.org/simple/pylint/
-https://pypi.python.org/simple/pymongo/
-https://pypi.python.org/simple/PyOpenGL/
-https://pypi.python.org/simple/pyquery/
-https://pypi.python.org/simple/pytest/
-https://pypi.python.org/simple/python-Levenshtein/
-https://pypi.python.org/simple/python-mpd/
-https://pypi.python.org/simple/python-openid/
-https://pypi.python.org/simple/pytools/
-https://pypi.python.org/simple/qiniu/
-https://pypi.python.org/simple/redis/
-https://pypi.python.org/simple/repoze.lru/
-https://pypi.python.org/simple/requests/
-https://pypi.python.org/simple/requests-oauthlib/
-https://pypi.python.org/simple/requests-toolbelt/
-https://pypi.python.org/simple/Routes/
-https://pypi.python.org/simple/salsa20/
-https://pypi.python.org/simple/SecretStorage/
-https://pypi.python.org/simple/service_identity/
-https://pypi.python.org/simple/setuptools/
-https://pypi.python.org/simple/sh/
-https://pypi.python.org/simple/shadowsocks/
-https://pypi.python.org/simple/SOAPpy/
-https://pypi.python.org/simple/SQLAlchemy/
-https://pypi.python.org/simple/suds/
-https://pypi.python.org/simple/sure/
-https://pypi.python.org/simple/sympy/
-https://pypi.python.org/simple/thefuck/
-https://pypi.python.org/simple/tornado/
-https://pypi.python.org/simple/tox/
-https://pypi.python.org/simple/Twisted/
-https://pypi.python.org/simple/urllib3/
-https://pypi.python.org/simple/WebOb/
-https://pypi.python.org/simple/WebTest/
-https://pypi.python.org/simple/wstools/
-https://pypi.python.org/simple/zope.interface/
+https://pypi.python.org/simple/amqp/ grep -v http
+https://pypi.python.org/simple/anyjson/ grep -v http
+https://pypi.python.org/simple/astroid/ grep -v http
+https://pypi.python.org/simple/backports.ssl_match_hostname/ grep -v http
+https://pypi.python.org/simple/Beaker/ grep -v http
+https://pypi.python.org/simple/billiard/ grep -v http
+https://pypi.python.org/simple/boto/ grep -v http
+https://pypi.python.org/simple/bottle/ grep -v http
+https://pypi.python.org/simple/braintree/ grep -v http
+https://pypi.python.org/simple/celery/ grep -v http
+https://pypi.python.org/simple/certifi/ grep -v http
+https://pypi.python.org/simple/cffi/ grep -v http
+https://pypi.python.org/simple/characteristic/ grep -v http
+https://pypi.python.org/simple/chardet/ grep -v http
+https://pypi.python.org/simple/CouchDB/ grep -v http
+https://pypi.python.org/simple/coverage/ grep -v http
+https://pypi.python.org/simple/cryptography/ grep -v http
+https://pypi.python.org/simple/cryptography-vectors/ grep -v http
+https://pypi.python.org/simple/cssselect/ grep -v http
+https://pypi.python.org/simple/defusedxml/ grep -v http
+https://pypi.python.org/simple/dnslib/ grep -v http
+https://pypi.python.org/simple/ecdsa/ grep -v http
+https://pypi.python.org/simple/egenix-mx-base/ grep -v http
+https://pypi.python.org/simple/flake8/ grep -v http
+https://pypi.python.org/simple/flickrapi/ grep -v http
+https://pypi.python.org/simple/gevent/ grep -v http
+https://pypi.python.org/simple/greenlet/ grep -v http
+https://pypi.python.org/simple/h5py/ grep -v http
+https://pypi.python.org/simple/httplib2/ grep -v http
+https://pypi.python.org/simple/httpretty/ grep -v http
+https://pypi.python.org/simple/idna/ grep -v http
+https://pypi.python.org/simple/ipdb/ grep -v http
+https://pypi.python.org/simple/jieba/ grep -v http
+https://pypi.python.org/simple/keyring/ grep -v http
+https://pypi.python.org/simple/kombu/ grep -v http
+https://pypi.python.org/simple/librabbitmq/ grep -v http
+https://pypi.python.org/simple/logilab-common/ grep -v http
+https://pypi.python.org/simple/lxml/ grep -v http
+https://pypi.python.org/simple/Mako/ grep -v http
+https://pypi.python.org/simple/MarkupSafe/ grep -v http
+https://pypi.python.org/simple/matplotlib/ grep -v http
+https://pypi.python.org/simple/mccabe/ grep -v http
+https://pypi.python.org/simple/netlib/ grep -v http
+https://pypi.python.org/simple/networkx/ grep -v http
+https://pypi.python.org/simple/nose-cover3/ grep -v http
+https://pypi.python.org/simple/oauth/ grep -v http
+https://pypi.python.org/simple/paramiko/ grep -v http
+https://pypi.python.org/simple/passlib/ grep -v http
+https://pypi.python.org/simple/Paste/ grep -v http
+https://pypi.python.org/simple/pathlib/ grep -v http
+https://pypi.python.org/simple/pathod/ grep -v http
+https://pypi.python.org/simple/phonenumbers/ grep -v http
+https://pypi.python.org/simple/ply/ grep -v http
+https://pypi.python.org/simple/poster/ grep -v http
+https://pypi.python.org/simple/pretend/ grep -v http
+https://pypi.python.org/simple/py/ grep -v http
+https://pypi.python.org/simple/pyasn1-modules/ grep -v http
+https://pypi.python.org/simple/pycdio/ grep -v http
+https://pypi.python.org/simple/pycparser/ grep -v http
+https://pypi.python.org/simple/pycuda/ grep -v http
+https://pypi.python.org/simple/pycurl/ grep -v http
+https://pypi.python.org/simple/pydns/ grep -v http
+https://pypi.python.org/simple/pyflakes/ grep -v http
+https://pypi.python.org/simple/pygeoip/ grep -v http
+https://pypi.python.org/simple/pylint/ grep -v http
+https://pypi.python.org/simple/pymongo/ grep -v http
+https://pypi.python.org/simple/PyOpenGL/ grep -v http
+https://pypi.python.org/simple/pyquery/ grep -v http
+https://pypi.python.org/simple/pytest/ grep -v http
+https://pypi.python.org/simple/python-Levenshtein/ grep -v http
+https://pypi.python.org/simple/python-mpd/ grep -v http
+https://pypi.python.org/simple/python-openid/ grep -v http
+https://pypi.python.org/simple/pytools/ grep -v http
+https://pypi.python.org/simple/qiniu/ grep -v http
+https://pypi.python.org/simple/redis/ grep -v http
+https://pypi.python.org/simple/repoze.lru/ grep -v http
+https://pypi.python.org/simple/requests/ grep -v http
+https://pypi.python.org/simple/requests-oauthlib/ grep -v http
+https://pypi.python.org/simple/requests-toolbelt/ grep -v http
+https://pypi.python.org/simple/Routes/ grep -v http
+https://pypi.python.org/simple/salsa20/ grep -v http
+https://pypi.python.org/simple/SecretStorage/ grep -v http
+https://pypi.python.org/simple/service_identity/ grep -v http
+https://pypi.python.org/simple/setuptools/ grep -v http
+https://pypi.python.org/simple/sh/ grep -v http
+https://pypi.python.org/simple/shadowsocks/ grep -v http
+https://pypi.python.org/simple/SOAPpy/ grep -v http
+https://pypi.python.org/simple/SQLAlchemy/ grep -v http
+https://pypi.python.org/simple/suds/ grep -v http
+https://pypi.python.org/simple/sure/ grep -v http
+https://pypi.python.org/simple/sympy/ grep -v http
+https://pypi.python.org/simple/thefuck/ grep -v http
+https://pypi.python.org/simple/tornado/ grep -v http
+https://pypi.python.org/simple/tox/ grep -v http
+https://pypi.python.org/simple/Twisted/ grep -v http
+https://pypi.python.org/simple/urllib3/ grep -v http
+https://pypi.python.org/simple/WebOb/ grep -v http
+https://pypi.python.org/simple/WebTest/ grep -v http
+https://pypi.python.org/simple/wstools/ grep -v http
+https://pypi.python.org/simple/zope.interface/ grep -v http
 http://thomas.apestaart.org/download/morituri/ grep "bz2$"
 http://wps-community.org/bin/get_version_info.rb?c=get_address
 #@http://www.doesbuyvmhavestock.com/automation.raw grep "Storage"
