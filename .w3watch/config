@@ -288,6 +288,7 @@ https://pypi.python.org/simple/python-Levenshtein/ grep -v http
 https://pypi.python.org/simple/python-mpd/ grep -v http
 https://pypi.python.org/simple/python-openid/ grep -v http
 https://pypi.python.org/simple/pytools/ grep -v http
+https://pypi.python.org/simple/pyx/ grep -v http
 https://pypi.python.org/simple/qiniu/ grep -v http
 https://pypi.python.org/simple/redis/ grep -v http
 https://pypi.python.org/simple/repoze.lru/ grep -v http
