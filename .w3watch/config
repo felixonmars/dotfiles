@@ -299,6 +299,7 @@ https://pypi.python.org/simple/requests-oauthlib/ grep -v http
 https://pypi.python.org/simple/requests-toolbelt/ grep -v http
 https://pypi.python.org/simple/Routes/ grep -v http
 https://pypi.python.org/simple/salsa20/ grep -v http
+https://pypi.python.org/simple/scrapy/ grep -v http
 https://pypi.python.org/simple/SecretStorage/ grep -v http
 https://pypi.python.org/simple/service_identity/ grep -v http
 https://pypi.python.org/simple/setuptools/ grep -v http
