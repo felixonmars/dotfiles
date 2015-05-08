@@ -284,6 +284,7 @@ https://pypi.python.org/simple/pymongo/ grep -v http
 https://pypi.python.org/simple/PyOpenGL/ grep -v http
 https://pypi.python.org/simple/pyquery/ grep -v http
 https://pypi.python.org/simple/pytest/ grep -v http
+https://pypi.python.org/simple/pytest-mock/ grep -v http
 https://pypi.python.org/simple/python-Levenshtein/ grep -v http
 https://pypi.python.org/simple/python-mpd/ grep -v http
 https://pypi.python.org/simple/python-openid/ grep -v http
