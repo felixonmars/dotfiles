@@ -314,6 +314,7 @@ https://pypi.python.org/simple/tornado/ grep -v http
 https://pypi.python.org/simple/tox/ grep -v http
 https://pypi.python.org/simple/Twisted/ grep -v http
 https://pypi.python.org/simple/urllib3/ grep -v http
+https://pypi.python.org/simple/w3lib/ grep -v http
 https://pypi.python.org/simple/WebOb/ grep -v http
 https://pypi.python.org/simple/WebTest/ grep -v http
 https://pypi.python.org/simple/wstools/ grep -v http
