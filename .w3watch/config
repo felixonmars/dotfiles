@@ -267,6 +267,7 @@ https://pypi.python.org/simple/Paste/ grep -v http
 https://pypi.python.org/simple/pathlib/ grep -v http
 https://pypi.python.org/simple/pathod/ grep -v http
 https://pypi.python.org/simple/phonenumbers/ grep -v http
+https://pypi.python.org/simple/Pint/ grep -v http
 https://pypi.python.org/simple/ply/ grep -v http
 https://pypi.python.org/simple/poster/ grep -v http
 https://pypi.python.org/simple/pretend/ grep -v http
