@@ -1,0 +1,11 @@
+# Just for Firefox & Thunderbird
+# https://bugzilla.mozilla.org/show_bug.cgi?id=70315
+
+include "/usr/share/themes/Orion/gtk-2.0/gtkrc"
+style "user-font"
+{
+    font_name="sans-serif"
+}
+widget_class "*" style "user-font"
+gtk-font-name="Oxygen-Sans Sans-Book 9"
+gtk-theme-name="Orion"
