@@ -246,6 +246,7 @@ https://pypi.python.org/simple/h5py/ grep -v http
 https://pypi.python.org/simple/httplib2/ grep -v http
 https://pypi.python.org/simple/httpretty/ grep -v http
 https://pypi.python.org/simple/idna/ grep -v http
+https://pypi.python.org/simple/ipaddress/ grep -v http
 https://pypi.python.org/simple/ipdb/ grep -v http
 https://pypi.python.org/simple/jieba/ grep -v http
 https://pypi.python.org/simple/keyring/ grep -v http
@@ -284,6 +285,7 @@ https://pypi.python.org/simple/pylint/ grep -v http
 https://pypi.python.org/simple/pymongo/ grep -v http
 https://pypi.python.org/simple/PyOpenGL/ grep -v http
 https://pypi.python.org/simple/pyquery/ grep -v http
+https://pypi.python.org/simple/pysrt/ grep -v http
 https://pypi.python.org/simple/pytest/ grep -v http
 https://pypi.python.org/simple/pytest-mock/ grep -v http
 https://pypi.python.org/simple/python-Levenshtein/ grep -v http
