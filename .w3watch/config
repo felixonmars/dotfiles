@@ -33,6 +33,7 @@ http://download.newrelic.com/python_agent/release/ piep '"tar.gz" in p | "http" 
 http://download.newrelic.com/server_monitor/release/ piep '"tar.gz" in p | "http" not in p | p.split()[0]'
 http://download.opensuse.org/repositories/home:/garloff:/storage/xUbuntu_12.04/ grep "ddrescue"
 http://fallabs.com/kyotocabinet/pkg/
+ftp://ftp.gnu.org/gnu/aspell/dict/en/
 http://ftp.meisei-u.ac.jp/mirror/apache/dist/subversion/
 http://gsdview.appspot.com/dart-archive/channels/stable/release/latest/linux_packages/debian_wheezy/
 http://ipafont.ipa.go.jp/ipafont/download.html
