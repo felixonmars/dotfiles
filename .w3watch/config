@@ -219,6 +219,7 @@ http://sourceforge.net/projects/boinctui/files grep "tar.gz/download"
 https://git.fedorahosted.org/cgit/isomd5sum.git/refs/ grep "tar.gz"
 https://pypi.python.org/simple/amqp/ grep -v http
 https://pypi.python.org/simple/anyjson/ grep -v http
+https://pypi.python.org/simple/appdirs/ grep -v http
 https://pypi.python.org/simple/astroid/ grep -v http
 https://pypi.python.org/simple/backports.ssl_match_hostname/ grep -v http
 https://pypi.python.org/simple/Beaker/ grep -v http
