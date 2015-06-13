@@ -72,6 +72,7 @@ http://serf.googlecode.com/svn/src_releases/ grep -v Revision
 @https://github.com/definite/ibus-table-chinese/tags grep "tar.gz"
 @https://github.com/docopt/docopt/tags grep "tar.gz"
 @https://github.com/facebook/tornado/tags grep "tar.gz"
+@https://github.com/ginuerzh/gost/tags grep "tar.gz"
 @https://github.com/goagent/goagent/tags grep "tar.gz"
 @https://github.com/ibus/ibus-anthy/tags grep "tar.gz"
 @https://github.com/ibus/ibus-m17n/tags grep "tar.gz"
