@@ -325,6 +325,7 @@ https://pypi.python.org/simple/w3lib/ grep -v http
 https://pypi.python.org/simple/WebOb/ grep -v http
 https://pypi.python.org/simple/WebTest/ grep -v http
 https://pypi.python.org/simple/wstools/ grep -v http
+https://pypi.python.org/simple/xcffib/ grep -v http
 https://pypi.python.org/simple/zope.interface/ grep -v http
 http://thomas.apestaart.org/download/morituri/ grep "bz2$"
 http://wps-community.org/bin/get_version_info.rb?c=get_address
