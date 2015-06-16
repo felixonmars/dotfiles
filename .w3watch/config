@@ -186,6 +186,7 @@ https://launchpad.net/ubuntu/precise/+source/php5/+changelog
 @https://metacpan.org/release/Net-OAuth grep "release-name"
 @https://metacpan.org/release/Net-Server grep "release-name"
 @https://metacpan.org/release/Object-Accessor grep "release-name"
+@https://metacpan.org/release/Package-Constants grep "release-name"
 @https://metacpan.org/release/PAR-Dist grep "release-name"
 @https://metacpan.org/release/Perl4-CoreLibs grep "release-name"
 @https://metacpan.org/release/Proc-ProcessTable grep "release-name"
