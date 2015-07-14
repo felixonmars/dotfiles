@@ -105,6 +105,7 @@ https://launchpad.net/ubuntu/precise/+source/php5/+changelog
 @https://metacpan.org/release/Archive-Zip grep "release-name"
 @https://metacpan.org/release/Async-Interrupt grep "release-name"
 @https://metacpan.org/release/Bit-Vector grep "release-name"
+@https://metacpan.org/release/Canary-Stability grep "release-name"
 @https://metacpan.org/release/Carp-Clan grep "release-name"
 @https://metacpan.org/release/Class-Inspector grep "release-name"
 @https://metacpan.org/release/common-sense grep "release-name"
