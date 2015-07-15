@@ -313,6 +313,7 @@ https://pypi.python.org/simple/service_identity/ grep -v http
 https://pypi.python.org/simple/setuptools/ grep -v http
 https://pypi.python.org/simple/sh/ grep -v http
 https://pypi.python.org/simple/shadowsocks/ grep -v http
+https://pypi.python.org/simple/Shapely/ grep -v http
 https://pypi.python.org/simple/SOAPpy/ grep -v http
 https://pypi.python.org/simple/SQLAlchemy/ grep -v http
 https://pypi.python.org/simple/suds/ grep -v http
