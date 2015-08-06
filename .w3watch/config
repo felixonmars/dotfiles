@@ -230,6 +230,7 @@ https://pypi.python.org/simple/billiard/ grep -v http
 https://pypi.python.org/simple/boto/ grep -v http
 https://pypi.python.org/simple/bottle/ grep -v http
 https://pypi.python.org/simple/braintree/ grep -v http
+https://pypi.python.org/simple/cairocffi/ grep -v http
 https://pypi.python.org/simple/celery/ grep -v http
 https://pypi.python.org/simple/certifi/ grep -v http
 https://pypi.python.org/simple/cffi/ grep -v http
