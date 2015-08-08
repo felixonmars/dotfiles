@@ -247,6 +247,7 @@ https://pypi.python.org/simple/ecdsa/ grep -v http
 https://pypi.python.org/simple/egenix-mx-base/ grep -v http
 https://pypi.python.org/simple/flake8/ grep -v http
 https://pypi.python.org/simple/flickrapi/ grep -v http
+https://pypi.python.org/simple/fs/ grep -v http
 https://pypi.python.org/simple/gevent/ grep -v http
 https://pypi.python.org/simple/greenlet/ grep -v http
 https://pypi.python.org/simple/h5py/ grep -v http
@@ -296,6 +297,7 @@ https://pypi.python.org/simple/pyquery/ grep -v http
 https://pypi.python.org/simple/pysrt/ grep -v http
 https://pypi.python.org/simple/pytest/ grep -v http
 https://pypi.python.org/simple/pytest-mock/ grep -v http
+https://pypi.python.org/simple/pytest-runner/ grep -v http
 https://pypi.python.org/simple/python-Levenshtein/ grep -v http
 https://pypi.python.org/simple/python-mpd/ grep -v http
 https://pypi.python.org/simple/python-openid/ grep -v http
@@ -314,6 +316,7 @@ https://pypi.python.org/simple/scrapy/ grep -v http
 https://pypi.python.org/simple/SecretStorage/ grep -v http
 https://pypi.python.org/simple/service_identity/ grep -v http
 https://pypi.python.org/simple/setuptools/ grep -v http
+https://pypi.python.org/simple/setuptools-scm/ grep -v http
 https://pypi.python.org/simple/sh/ grep -v http
 https://pypi.python.org/simple/shadowsocks/ grep -v http
 https://pypi.python.org/simple/Shapely/ grep -v http
