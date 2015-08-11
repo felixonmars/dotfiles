@@ -40,7 +40,6 @@ http://ipafont.ipa.go.jp/ipafont/download.html
 http://keyserver.ubuntu.com:11371/pks/lookup?search=0xB5971F2C5C10A9A08C60030F786C63F330D7CB92&op=vindex grep "sig"
 http://luke.dashjr.org/programs/bitcoin/files/bfgminer/
 http://matplotlib.org/downloads.html grep "tar.gz"
-http://mirror.racket-lang.org/installers/
 http://mirrors.jenkins-ci.org/war/
 http://natura.di.uminho.pt/download/sources/Dictionaries/aspell6/
 http://openlab.ring.gr.jp/skk/dic/
