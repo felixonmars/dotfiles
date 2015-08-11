@@ -95,6 +95,7 @@ http://serf.googlecode.com/svn/src_releases/ grep -v Revision
 @https://github.com/pycurl/pycurl/tags grep "tar.gz"
 @https://github.com/rcairo/rcairo/tags grep "tar.gz"
 @https://github.com/RDFLib/rdflib/tags grep "tar.gz"
+@https://github.com/sopel-irc/sopel/tags grep "tar.gz"
 @https://github.com/WizTeam/WizQTClient/tags grep "tar.gz"
 @https://github.com/xmikos/qopenvpn/tags grep "tar.gz"
 https://launchpad.net/ubuntu/precise/+source/php5/+changelog
@@ -225,6 +226,8 @@ https://pypi.python.org/simple/appdirs/ grep -v http
 https://pypi.python.org/simple/astroid/ grep -v http
 https://pypi.python.org/simple/backports.ssl_match_hostname/ grep -v http
 https://pypi.python.org/simple/Beaker/ grep -v http
+https://pypi.python.org/simple/betamax/ grep -v http
+https://pypi.python.org/simple/betamax-matchers/ grep -v http
 https://pypi.python.org/simple/billiard/ grep -v http
 https://pypi.python.org/simple/boto/ grep -v http
 https://pypi.python.org/simple/bottle/ grep -v http
@@ -278,6 +281,7 @@ https://pypi.python.org/simple/phonenumbers/ grep -v http
 https://pypi.python.org/simple/Pint/ grep -v http
 https://pypi.python.org/simple/ply/ grep -v http
 https://pypi.python.org/simple/poster/ grep -v http
+https://pypi.python.org/simple/praw/ grep -v http
 https://pypi.python.org/simple/pretend/ grep -v http
 https://pypi.python.org/simple/py/ grep -v http
 https://pypi.python.org/simple/pyasn1-modules/ grep -v http
@@ -328,6 +332,7 @@ https://pypi.python.org/simple/thefuck/ grep -v http
 https://pypi.python.org/simple/tornado/ grep -v http
 https://pypi.python.org/simple/tox/ grep -v http
 https://pypi.python.org/simple/Twisted/ grep -v http
+https://pypi.python.org/simple/update-checker/ grep -v http
 https://pypi.python.org/simple/urllib3/ grep -v http
 https://pypi.python.org/simple/w3lib/ grep -v http
 https://pypi.python.org/simple/WebOb/ grep -v http
