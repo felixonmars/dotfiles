@@ -117,6 +117,7 @@ https://launchpad.net/ubuntu/precise/+source/php5/+changelog
 @https://metacpan.org/release/Data-Random grep "release-name"
 @https://metacpan.org/release/Date-Calc grep "release-name"
 @https://metacpan.org/release/Date-Manip grep "release-name"
+@https://metacpan.org/release/DBD-mysql grep "release-name"
 @https://metacpan.org/release/DBD-SQLite grep "release-name"
 @https://metacpan.org/release/DBI grep "release-name"
 @https://metacpan.org/release/Devel-CheckCompiler grep "release-name"
