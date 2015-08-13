@@ -7,5 +7,5 @@ style "user-font"
     font_name="sans-serif"
 }
 widget_class "*" style "user-font"
-gtk-font-name="Oxygen-Sans Sans-Book 9"
+gtk-font-name="sans-serif 9"
 gtk-theme-name="Orion"
