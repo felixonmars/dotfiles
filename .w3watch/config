@@ -273,6 +273,7 @@ https://pypi.python.org/simple/netlib/ grep -v http
 https://pypi.python.org/simple/networkx/ grep -v http
 https://pypi.python.org/simple/nose-cover3/ grep -v http
 https://pypi.python.org/simple/oauth/ grep -v http
+https://pypi.python.org/simple/packaging/ grep -v http
 https://pypi.python.org/simple/paramiko/ grep -v http
 https://pypi.python.org/simple/passlib/ grep -v http
 https://pypi.python.org/simple/Paste/ grep -v http
