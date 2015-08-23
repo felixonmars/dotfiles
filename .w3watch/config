@@ -281,6 +281,7 @@ https://pypi.python.org/simple/pathlib/ grep -v http
 https://pypi.python.org/simple/pathod/ grep -v http
 https://pypi.python.org/simple/phonenumbers/ grep -v http
 https://pypi.python.org/simple/Pint/ grep -v http
+https://pypi.python.org/simple/pkginfo/ grep -v http
 https://pypi.python.org/simple/plop/ grep -v http
 https://pypi.python.org/simple/ply/ grep -v http
 https://pypi.python.org/simple/poster/ grep -v http
@@ -334,6 +335,7 @@ https://pypi.python.org/simple/sympy/ grep -v http
 https://pypi.python.org/simple/thefuck/ grep -v http
 https://pypi.python.org/simple/tornado/ grep -v http
 https://pypi.python.org/simple/tox/ grep -v http
+https://pypi.python.org/simple/twine/ grep -v http
 https://pypi.python.org/simple/Twisted/ grep -v http
 https://pypi.python.org/simple/update-checker/ grep -v http
 https://pypi.python.org/simple/urllib3/ grep -v http
