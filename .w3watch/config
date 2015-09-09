@@ -224,6 +224,7 @@ http://sourceforge.net/projects/boinctui/files grep "tar.gz/download"
 https://git.fedorahosted.org/cgit/isomd5sum.git/refs/ grep "tar.gz"
 https://pypi.python.org/simple/amqp/ grep -v http
 https://pypi.python.org/simple/anyjson/ grep -v http
+https://pypi.python.org/simple/apipkg/ grep -v http
 https://pypi.python.org/simple/appdirs/ grep -v http
 https://pypi.python.org/simple/astroid/ grep -v http
 https://pypi.python.org/simple/backports.ssl_match_hostname/ grep -v http
@@ -249,17 +250,20 @@ https://pypi.python.org/simple/defusedxml/ grep -v http
 https://pypi.python.org/simple/dnslib/ grep -v http
 https://pypi.python.org/simple/ecdsa/ grep -v http
 https://pypi.python.org/simple/egenix-mx-base/ grep -v http
+https://pypi.python.org/simple/execnet/ grep -v http
 https://pypi.python.org/simple/flake8/ grep -v http
 https://pypi.python.org/simple/flickrapi/ grep -v http
 https://pypi.python.org/simple/fs/ grep -v http
 https://pypi.python.org/simple/gevent/ grep -v http
 https://pypi.python.org/simple/greenlet/ grep -v http
 https://pypi.python.org/simple/h5py/ grep -v http
+https://pypi.python.org/simple/helper/ grep -v http
 https://pypi.python.org/simple/httplib2/ grep -v http
 https://pypi.python.org/simple/httpretty/ grep -v http
 https://pypi.python.org/simple/idna/ grep -v http
 https://pypi.python.org/simple/ipaddress/ grep -v http
 https://pypi.python.org/simple/ipdb/ grep -v http
+https://pypi.python.org/simple/jmespath/ grep -v http
 https://pypi.python.org/simple/jieba/ grep -v http
 https://pypi.python.org/simple/keyring/ grep -v http
 https://pypi.python.org/simple/kombu/ grep -v http
@@ -288,6 +292,7 @@ https://pypi.python.org/simple/ply/ grep -v http
 https://pypi.python.org/simple/poster/ grep -v http
 https://pypi.python.org/simple/praw/ grep -v http
 https://pypi.python.org/simple/pretend/ grep -v http
+https://pypi.python.org/simple/process-tests/ grep -v http
 https://pypi.python.org/simple/py/ grep -v http
 https://pypi.python.org/simple/pyasn1-modules/ grep -v http
 https://pypi.python.org/simple/pycdio/ grep -v http
@@ -304,8 +309,12 @@ https://pypi.python.org/simple/pyprof2calltree/ grep -v http
 https://pypi.python.org/simple/pyquery/ grep -v http
 https://pypi.python.org/simple/pysrt/ grep -v http
 https://pypi.python.org/simple/pytest/ grep -v http
+https://pypi.python.org/simple/pytest-cache/ grep -v http
+https://pypi.python.org/simple/pytest-capturelog/ grep -v http
+https://pypi.python.org/simple/pytest-cov/ grep -v http
 https://pypi.python.org/simple/pytest-mock/ grep -v http
 https://pypi.python.org/simple/pytest-runner/ grep -v http
+https://pypi.python.org/simple/pytest-xdist/ grep -v http
 https://pypi.python.org/simple/python-Levenshtein/ grep -v http
 https://pypi.python.org/simple/python-mpd/ grep -v http
 https://pypi.python.org/simple/python-openid/ grep -v http
@@ -343,6 +352,7 @@ https://pypi.python.org/simple/urllib3/ grep -v http
 https://pypi.python.org/simple/w3lib/ grep -v http
 https://pypi.python.org/simple/WebOb/ grep -v http
 https://pypi.python.org/simple/WebTest/ grep -v http
+https://pypi.python.org/simple/wheel/ grep -v http
 https://pypi.python.org/simple/wstools/ grep -v http
 https://pypi.python.org/simple/xcffib/ grep -v http
 https://pypi.python.org/simple/zope.interface/ grep -v http
