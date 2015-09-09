@@ -80,7 +80,7 @@ http://serf.googlecode.com/svn/src_releases/ grep -v Revision
 @https://github.com/ibus/ibus/tags grep "tar.gz"
 @https://github.com/jcrocholl/pep8/tags grep "tar.gz"
 @https://github.com/jedisct1/libsodium/tags grep "tar.gz"
-@https://github.com/joyent/node/tags grep "tar.gz"
+@https://github.com/nodejs/node/tags grep "tar.gz"
 @https://github.com/kaio/ibus-table/tags grep "tar.gz"
 @https://github.com/libpinyin/libpinyin/tags grep "tar.gz"
 @https://github.com/LiuLang/bcloud/tags grep "tar.gz"
