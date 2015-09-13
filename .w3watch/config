@@ -250,10 +250,12 @@ https://pypi.python.org/simple/defusedxml/ grep -v http
 https://pypi.python.org/simple/dnslib/ grep -v http
 https://pypi.python.org/simple/ecdsa/ grep -v http
 https://pypi.python.org/simple/egenix-mx-base/ grep -v http
+https://pypi.python.org/simple/exam/ grep -v http
 https://pypi.python.org/simple/execnet/ grep -v http
 https://pypi.python.org/simple/flake8/ grep -v http
 https://pypi.python.org/simple/flickrapi/ grep -v http
 https://pypi.python.org/simple/fs/ grep -v http
+https://pypi.python.org/simple/future/ grep -v http
 https://pypi.python.org/simple/gevent/ grep -v http
 https://pypi.python.org/simple/greenlet/ grep -v http
 https://pypi.python.org/simple/h5py/ grep -v http
@@ -268,6 +270,7 @@ https://pypi.python.org/simple/jieba/ grep -v http
 https://pypi.python.org/simple/keyring/ grep -v http
 https://pypi.python.org/simple/kombu/ grep -v http
 https://pypi.python.org/simple/librabbitmq/ grep -v http
+https://pypi.python.org/simple/logbook/ grep -v http
 https://pypi.python.org/simple/logilab-common/ grep -v http
 https://pypi.python.org/simple/lxml/ grep -v http
 https://pypi.python.org/simple/Mako/ grep -v http
@@ -312,6 +315,7 @@ https://pypi.python.org/simple/pytest/ grep -v http
 https://pypi.python.org/simple/pytest-cache/ grep -v http
 https://pypi.python.org/simple/pytest-capturelog/ grep -v http
 https://pypi.python.org/simple/pytest-cov/ grep -v http
+https://pypi.python.org/simple/pytest-django/ grep -v http
 https://pypi.python.org/simple/pytest-mock/ grep -v http
 https://pypi.python.org/simple/pytest-runner/ grep -v http
 https://pypi.python.org/simple/pytest-xdist/ grep -v http
@@ -321,6 +325,7 @@ https://pypi.python.org/simple/python-openid/ grep -v http
 https://pypi.python.org/simple/pytools/ grep -v http
 https://pypi.python.org/simple/pyx/ grep -v http
 https://pypi.python.org/simple/qiniu/ grep -v http
+https://pypi.python.org/simple/raven/ grep -v http
 https://pypi.python.org/simple/redis/ grep -v http
 https://pypi.python.org/simple/repoze.lru/ grep -v http
 https://pypi.python.org/simple/repoze.profile/ grep -v http
