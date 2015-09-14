@@ -228,6 +228,7 @@ https://pypi.python.org/simple/apipkg/ grep -v http
 https://pypi.python.org/simple/appdirs/ grep -v http
 https://pypi.python.org/simple/astroid/ grep -v http
 https://pypi.python.org/simple/backports.ssl_match_hostname/ grep -v http
+https://pypi.python.org/simple/bcrypt/ grep -v http
 https://pypi.python.org/simple/Beaker/ grep -v http
 https://pypi.python.org/simple/betamax/ grep -v http
 https://pypi.python.org/simple/betamax-matchers/ grep -v http
