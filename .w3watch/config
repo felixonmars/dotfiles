@@ -254,6 +254,7 @@ https://pypi.python.org/simple/egenix-mx-base/ grep -v http
 https://pypi.python.org/simple/exam/ grep -v http
 https://pypi.python.org/simple/execnet/ grep -v http
 https://pypi.python.org/simple/flake8/ grep -v http
+https://pypi.python.org/simple/flask-login/ grep -v http
 https://pypi.python.org/simple/flickrapi/ grep -v http
 https://pypi.python.org/simple/fs/ grep -v http
 https://pypi.python.org/simple/future/ grep -v http
@@ -288,6 +289,7 @@ https://pypi.python.org/simple/passlib/ grep -v http
 https://pypi.python.org/simple/Paste/ grep -v http
 https://pypi.python.org/simple/pathlib/ grep -v http
 https://pypi.python.org/simple/pathod/ grep -v http
+https://pypi.python.org/simple/peewee/ grep -v http
 https://pypi.python.org/simple/phonenumbers/ grep -v http
 https://pypi.python.org/simple/Pint/ grep -v http
 https://pypi.python.org/simple/pkginfo/ grep -v http
