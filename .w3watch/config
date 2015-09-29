@@ -322,6 +322,7 @@ https://pypi.python.org/simple/pygeoip/ grep -v http
 https://pypi.python.org/simple/pylint/ grep -v http
 https://pypi.python.org/simple/pymongo/ grep -v http
 https://pypi.python.org/simple/PyOpenGL/ grep -v http
+https://pypi.python.org/simple/pyperclip/ grep -v http
 https://pypi.python.org/simple/pyprof2calltree/ grep -v http
 https://pypi.python.org/simple/pyquery/ grep -v http
 https://pypi.python.org/simple/pysrt/ grep -v http
