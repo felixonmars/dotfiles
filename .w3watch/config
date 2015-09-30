@@ -108,6 +108,7 @@ http://serf.googlecode.com/svn/src_releases/ grep -v Revision
 @https://github.com/simsong/tcpflow/tags grep "tar.gz"
 @https://github.com/sopel-irc/sopel/tags grep "tar.gz"
 @https://github.com/tatsuhiro-t/aria2/tags grep "tar.gz"
+@https://github.com/TheRook/subbrute/tags grep "tar.gz"
 @https://github.com/WizTeam/WizQTClient/tags grep "tar.gz"
 @https://github.com/xmikos/qopenvpn/tags grep "tar.gz"
 https://launchpad.net/ubuntu/precise/+source/php5/+changelog
