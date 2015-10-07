@@ -107,6 +107,7 @@ http://serf.googlecode.com/svn/src_releases/ grep -v Revision
 @https://github.com/rcairo/rcairo/tags grep "tar.gz"
 @https://github.com/RDFLib/rdflib/tags grep "tar.gz"
 @https://github.com/simsong/tcpflow/tags grep "tar.gz"
+@https://github.com/soimort/you-get/tags grep "tar.gz"
 @https://github.com/sopel-irc/sopel/tags grep "tar.gz"
 @https://github.com/tatsuhiro-t/aria2/tags grep "tar.gz"
 @https://github.com/TheRook/subbrute/tags grep "tar.gz"
