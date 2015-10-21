@@ -195,6 +195,7 @@ https://launchpad.net/ubuntu/precise/+source/php5/+changelog
 @https://metacpan.org/release/Module-Build-Tiny grep "release-name"
 @https://metacpan.org/release/Module-Build-XSUtil grep "release-name"
 @https://metacpan.org/release/Module-Pluggable grep "release-name"
+@https://metacpan.org/release/Mouse grep "release-name"
 @https://metacpan.org/release/Mozilla-CA grep "release-name"
 @https://metacpan.org/release/MP3-Info grep "release-name"
 @https://metacpan.org/release/NetAddr-IP grep "release-name"
