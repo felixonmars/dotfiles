@@ -29,3 +29,5 @@
 	ut = rm -r --cached
 [pull]
 	rebase = true
+[gitreview]
+	username = felixonmars
