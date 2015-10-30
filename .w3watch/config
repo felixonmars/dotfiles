@@ -252,6 +252,7 @@ https://pypi.python.org/simple/amqp/ grep -v http
 https://pypi.python.org/simple/anyjson/ grep -v http
 https://pypi.python.org/simple/apipkg/ grep -v http
 https://pypi.python.org/simple/appdirs/ grep -v http
+https://pypi.python.org/simple/aspectlib/ grep -v http
 https://pypi.python.org/simple/astroid/ grep -v http
 https://pypi.python.org/simple/backports.ssl_match_hostname/ grep -v http
 https://pypi.python.org/simple/bcrypt/ grep -v http
@@ -263,6 +264,7 @@ https://pypi.python.org/simple/boto/ grep -v http
 https://pypi.python.org/simple/bottle/ grep -v http
 https://pypi.python.org/simple/braintree/ grep -v http
 https://pypi.python.org/simple/cairocffi/ grep -v http
+https://pypi.python.org/simple/cairosvg/ grep -v http
 https://pypi.python.org/simple/celery/ grep -v http
 https://pypi.python.org/simple/certifi/ grep -v http
 https://pypi.python.org/simple/cffi/ grep -v http
@@ -273,17 +275,21 @@ https://pypi.python.org/simple/coverage/ grep -v http
 https://pypi.python.org/simple/cryptography/ grep -v http
 https://pypi.python.org/simple/cryptography-vectors/ grep -v http
 https://pypi.python.org/simple/cssselect/ grep -v http
+https://pypi.python.org/simple/cycler/ grep -v http
 https://pypi.python.org/simple/defusedxml/ grep -v http
 https://pypi.python.org/simple/dnslib/ grep -v http
+https://pypi.python.org/simple/dockerpty/ grep -v http
 https://pypi.python.org/simple/ecdsa/ grep -v http
 https://pypi.python.org/simple/egenix-mx-base/ grep -v http
 https://pypi.python.org/simple/exam/ grep -v http
 https://pypi.python.org/simple/execnet/ grep -v http
+https://pypi.python.org/simple/expects/ grep -v http
 https://pypi.python.org/simple/fake-factory/ grep -v http
 https://pypi.python.org/simple/flake8/ grep -v http
 https://pypi.python.org/simple/flaky/ grep -v http
 https://pypi.python.org/simple/flask-login/ grep -v http
 https://pypi.python.org/simple/flickrapi/ grep -v http
+https://pypi.python.org/simple/freezegun/ grep -v http
 https://pypi.python.org/simple/fs/ grep -v http
 https://pypi.python.org/simple/future/ grep -v http
 https://pypi.python.org/simple/genty/ grep -v http
@@ -337,6 +343,7 @@ https://pypi.python.org/simple/pycuda/ grep -v http
 https://pypi.python.org/simple/pycurl/ grep -v http
 https://pypi.python.org/simple/pydns/ grep -v http
 https://pypi.python.org/simple/pyflakes/ grep -v http
+https://pypi.python.org/simple/pygal/ grep -v http
 https://pypi.python.org/simple/pygeoip/ grep -v http
 https://pypi.python.org/simple/pylint/ grep -v http
 https://pypi.python.org/simple/pymongo/ grep -v http
@@ -382,6 +389,7 @@ https://pypi.python.org/simple/suds/ grep -v http
 https://pypi.python.org/simple/sure/ grep -v http
 https://pypi.python.org/simple/sympy/ grep -v http
 https://pypi.python.org/simple/thefuck/ grep -v http
+https://pypi.python.org/simple/tinycss/ grep -v http
 https://pypi.python.org/simple/tornado/ grep -v http
 https://pypi.python.org/simple/tox/ grep -v http
 https://pypi.python.org/simple/twine/ grep -v http
@@ -391,6 +399,7 @@ https://pypi.python.org/simple/update-checker/ grep -v http
 https://pypi.python.org/simple/urllib3/ grep -v http
 https://pypi.python.org/simple/w3lib/ grep -v http
 https://pypi.python.org/simple/WebOb/ grep -v http
+https://pypi.python.org/simple/websocket-client/ grep -v http
 https://pypi.python.org/simple/WebTest/ grep -v http
 https://pypi.python.org/simple/wheel/ grep -v http
 https://pypi.python.org/simple/wstools/ grep -v http
