@@ -248,6 +248,7 @@ https://launchpad.net/ubuntu/precise/+source/php5/+changelog
 @https://metacpan.org/release/YAML-Tiny grep "release-name"
 http://sourceforge.net/projects/boinctui/files grep "tar.gz/download"
 https://git.fedorahosted.org/cgit/isomd5sum.git/refs/ grep "tar.gz"
+https://pypi.python.org/simple/acme/ grep -v httP
 https://pypi.python.org/simple/amqp/ grep -v http
 https://pypi.python.org/simple/anyjson/ grep -v http
 https://pypi.python.org/simple/apipkg/ grep -v http
@@ -284,7 +285,9 @@ https://pypi.python.org/simple/egenix-mx-base/ grep -v http
 https://pypi.python.org/simple/exam/ grep -v http
 https://pypi.python.org/simple/execnet/ grep -v http
 https://pypi.python.org/simple/expects/ grep -v http
+https://pypi.python.org/simple/extras/ grep -v http
 https://pypi.python.org/simple/fake-factory/ grep -v http
+https://pypi.python.org/simple/fixtures/ grep -v http
 https://pypi.python.org/simple/flake8/ grep -v http
 https://pypi.python.org/simple/flaky/ grep -v http
 https://pypi.python.org/simple/flask-login/ grep -v http
@@ -308,6 +311,7 @@ https://pypi.python.org/simple/jieba/ grep -v http
 https://pypi.python.org/simple/keyring/ grep -v http
 https://pypi.python.org/simple/kombu/ grep -v http
 https://pypi.python.org/simple/librabbitmq/ grep -v http
+https://pypi.python.org/simple/linecache2/ grep -v http
 https://pypi.python.org/simple/logbook/ grep -v http
 https://pypi.python.org/simple/logilab-common/ grep -v http
 https://pypi.python.org/simple/lxml/ grep -v http
@@ -326,6 +330,7 @@ https://pypi.python.org/simple/Paste/ grep -v http
 https://pypi.python.org/simple/pathlib/ grep -v http
 https://pypi.python.org/simple/pathod/ grep -v http
 https://pypi.python.org/simple/peewee/ grep -v http
+https://pypi.python.org/simple/persistent grep -v http
 https://pypi.python.org/simple/phonenumbers/ grep -v http
 https://pypi.python.org/simple/Pint/ grep -v http
 https://pypi.python.org/simple/pkginfo/ grep -v http
@@ -363,6 +368,7 @@ https://pypi.python.org/simple/pytest-xdist/ grep -v http
 https://pypi.python.org/simple/python-Levenshtein/ grep -v http
 https://pypi.python.org/simple/python-mpd/ grep -v http
 https://pypi.python.org/simple/python-openid/ grep -v http
+https://pypi.python.org/simple/python-subunit/ grep -v http
 https://pypi.python.org/simple/pytools/ grep -v http
 https://pypi.python.org/simple/pyx/ grep -v http
 https://pypi.python.org/simple/qiniu/ grep -v http
@@ -388,6 +394,8 @@ https://pypi.python.org/simple/SQLAlchemy/ grep -v http
 https://pypi.python.org/simple/suds/ grep -v http
 https://pypi.python.org/simple/sure/ grep -v http
 https://pypi.python.org/simple/sympy/ grep -v http
+https://pypi.python.org/simple/testscenarios/ grep -v http
+https://pypi.python.org/simple/testtools/ grep -v http
 https://pypi.python.org/simple/thefuck/ grep -v http
 https://pypi.python.org/simple/tinycss/ grep -v http
 https://pypi.python.org/simple/tornado/ grep -v http
@@ -404,8 +412,20 @@ https://pypi.python.org/simple/WebTest/ grep -v http
 https://pypi.python.org/simple/wheel/ grep -v http
 https://pypi.python.org/simple/wstools/ grep -v http
 https://pypi.python.org/simple/xcffib/ grep -v http
+https://pypi.python.org/simple/zope.component/ grep -v http
+https://pypi.python.org/simple/zope.configuration/ grep -v http
+https://pypi.python.org/simple/zope.copy/ grep -v http
 https://pypi.python.org/simple/zope.event/ grep -v http
+https://pypi.python.org/simple/zope.exceptions/ grep -v http
+https://pypi.python.org/simple/zope.hookable/ grep -v http
+https://pypi.python.org/simple/zope.i18nmessageid/ grep -v http
 https://pypi.python.org/simple/zope.interface/ grep -v http
+https://pypi.python.org/simple/zope.location/ grep -v http
+https://pypi.python.org/simple/zope.proxy/ grep -v http
+https://pypi.python.org/simple/zope.schema/ grep -v http
+https://pypi.python.org/simple/zope.security/ grep -v http
+https://pypi.python.org/simple/zope.testing/ grep -v http
+https://pypi.python.org/simple/zope.testrunner/ grep -v http
 http://thomas.apestaart.org/download/morituri/ grep "bz2$"
 http://wps-community.org/bin/get_version_info.rb?c=get_address
 #@http://www.doesbuyvmhavestock.com/automation.raw grep "Storage"
