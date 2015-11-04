@@ -39,7 +39,6 @@ http://gsdview.appspot.com/dart-archive/channels/stable/release/latest/linux_pac
 http://ipafont.ipa.go.jp/ipafont/download.html
 http://keyserver.ubuntu.com:11371/pks/lookup?search=0xB5971F2C5C10A9A08C60030F786C63F330D7CB92&op=vindex grep "sig"
 http://luke.dashjr.org/programs/bitcoin/files/bfgminer/
-http://matplotlib.org/downloads.html grep "tar.gz"
 http://mirrors.jenkins-ci.org/war/
 http://natura.di.uminho.pt/download/sources/Dictionaries/aspell6/
 http://openlab.ring.gr.jp/skk/dic/
@@ -60,12 +59,8 @@ https://code.google.com/feeds/p/ruijieclient/downloads/basic grep "id"
 https://developers.google.com/appengine/downloads grep "http://googleappengine.googlecode.com/files/"
 http://serf.googlecode.com/svn/src_releases/ grep -v Revision
 @https://github.com/allinurl/goaccess/tags grep "tar.gz"
-@https://github.com/amoffat/sh/tags grep "tar.gz"
 @https://github.com/apenwarr/sshuttle/tags grep "tar.gz"
 @https://github.com/ariya/phantomjs/tags grep "tar.gz"
-@https://github.com/bower/bower/tags grep "tar.gz"
-@https://github.com/celery/kombu/tags grep "tar.gz"
-@https://github.com/celery/librabbitmq/tags grep "tar.gz"
 @https://github.com/ckolivas/cgminer/tags grep "tar.gz"
 @https://github.com/clowwindy/ShadowVPN/tags grep "tar.gz"
 @https://github.com/definite/ibus-table-chinese/tags grep "tar.gz"
@@ -78,7 +73,6 @@ http://serf.googlecode.com/svn/src_releases/ grep -v Revision
 @https://github.com/ibus/ibus-pinyin/tags grep "tar.gz"
 @https://github.com/ibus/ibus-qt/tags grep "tar.gz"
 @https://github.com/ibus/ibus/tags grep "tar.gz"
-@https://github.com/jcrocholl/pep8/tags grep "tar.gz"
 @https://github.com/jedisct1/libsodium/tags grep "tar.gz"
 @https://github.com/kaio/ibus-table/tags grep "tar.gz"
 @https://github.com/libpinyin/libpinyin/tags grep "tar.gz"
@@ -91,7 +85,6 @@ http://serf.googlecode.com/svn/src_releases/ grep -v Revision
 @https://github.com/linuxdeepin/deepin-ui/tags grep "tar.gz"
 @https://github.com/linuxdeepin/go-dbus-generator/tags grep "tar.gz"
 @https://github.com/linuxdeepin/go-lib/tags grep "tar.gz"
-@https://github.com/LiuLang/bcloud/tags grep "tar.gz"
 @https://github.com/LMDB/lmdb/tags grep "tar.gz"
 @https://github.com/lotem/brise/tags grep "tar.gz"
 @https://github.com/lotem/ibus-rime/tags grep "tar.gz"
@@ -103,14 +96,12 @@ http://serf.googlecode.com/svn/src_releases/ grep -v Revision
 @https://github.com/Nefelim4ag/systemd-swap/tags grep "tar.gz"
 @https://github.com/nodejs/http-parser/tags grep "tar.gz"
 @https://github.com/nodejs/node/tags grep "tar.gz"
-@https://github.com/npm/npm/releases/latest grep "tar.gz"
 @https://github.com/jedisct1/dnscrypt-proxy/tags grep "tar.gz"
 @https://github.com/pycurl/pycurl/tags grep "tar.gz"
 @https://github.com/rcairo/rcairo/tags grep "tar.gz"
 @https://github.com/RDFLib/rdflib/tags grep "tar.gz"
 @https://github.com/simsong/tcpflow/tags grep "tar.gz"
 @https://github.com/soimort/you-get/tags grep "tar.gz"
-@https://github.com/sopel-irc/sopel/tags grep "tar.gz"
 @https://github.com/tatsuhiro-t/aria2/tags grep "tar.gz"
 @https://github.com/TheRook/subbrute/tags grep "tar.gz"
 @https://github.com/WizTeam/WizQTClient/tags grep "tar.gz"
