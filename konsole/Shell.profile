@@ -1,8 +1,8 @@
 [Appearance]
 AntiAliasFonts=false
 BoldIntense=false
-ColorScheme=120515-Tango Original
-Font=Terminus (TTF),9,-1,5,50,0,0,0,0,0
+ColorScheme=70575-Tango
+Font=Terminus,9,-1,5,50,0,0,0,0,0
 
 [Cursor Options]
 CursorShape=2
