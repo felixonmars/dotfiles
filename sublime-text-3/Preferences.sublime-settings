@@ -1,11 +1,11 @@
 {
-    "color_scheme": "Packages/User/Blackboard (SL).tmTheme",
-    "font_face": "Terminus",
-    "font_size": 9,
-    "ignored_packages":
-    [
-        "Vintage"
-    ],
-    "translate_tabs_to_spaces": true,
-    "update_check": false
+	"color_scheme": "Packages/User/Blackboard (SL).tmTheme",
+	"font_face": "Terminus",
+	"font_size": 9,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"translate_tabs_to_spaces": true,
+	"update_check": false
 }
