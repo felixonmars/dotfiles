@@ -8,14 +8,15 @@
 	default = simple
 [alias]
 	pushall = "!f(){ for i in `git remote`; do git push $i master; done; };f"
-	pullall = "!f(){ for i in `git remote`; do git pull $i master; done; };f"
+    pullall = "!f(){ for i in `git remote`; do git pull $i master; done; };f"
+    commit = commit -S
 	a  = add
 	ai = add -i
 	b  = branch
-	c  = commit
-	ci = commit
+	c  = commit -S
+	ci = commit -S
 	cs = commit --signoff
-	cm = commit --amend
+	cm = commit -S --amend
 	co = checkout
 	dc = difftool --cached
 	d  = difftool
