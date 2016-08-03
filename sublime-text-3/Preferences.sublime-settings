@@ -6,6 +6,10 @@
 	[
 		"Vintage"
 	],
+	"rulers":
+	[
+		100
+	],
 	"translate_tabs_to_spaces": true,
 	"update_check": false
 }
