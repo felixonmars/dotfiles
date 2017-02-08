@@ -1,0 +1,26 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "'Terminus','xos4 Terminus','Terminus (TTF)'",
+    "editor.fontSize": 12,
+    "editor.lineHeight": 12,
+    "editor.rulers": [100],
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.lineHeight": 1,
+    "terminal.integrated.scrollback": 50000,
+    "window.openFilesInNewWindow": "off",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": ["--ignore=E501"],
+    "files.associations": {"*.PKGBUILD": "bash"},
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/*.pyc": true,
+        "**/*.pyo": true,
+        "**/__pycache__": true
+    }
+}
