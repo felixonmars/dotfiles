@@ -21,6 +21,9 @@
         "**/.DS_Store": true,
         "**/*.pyc": true,
         "**/*.pyo": true,
-        "**/__pycache__": true
+        "**/__pycache__": true,
+        "**/source/*/libfelix": true,
+        "**/source/web/dist": true,
+        "**/vendor": true
     }
 }
