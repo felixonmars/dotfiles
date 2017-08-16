@@ -25,5 +25,10 @@
         "**/source/*/libfelix": true,
         "**/source/web/dist": true,
         "**/vendor": true
+    },
+    "workbench.colorTheme": "Blackboard",
+    "workbench.colorCustomizations": {
+        "editor.findMatchHighlightBackground": "#880000",
+        "editor.findMatchBackground": "#ff0000"
     }
 }
