@@ -4,12 +4,14 @@
 	"font_size": 9,
 	"ignored_packages":
 	[
+		"Package Control",
 		"Vintage"
 	],
 	"rulers":
 	[
 		100
 	],
+	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"update_check": false
 }
