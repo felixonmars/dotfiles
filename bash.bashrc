@@ -63,6 +63,8 @@ shopt -s histappend
 
 [ -r /usr/share/bash-completion/bash_completion   ] && . /usr/share/bash-completion/bash_completion
 
+[[ -s "/etc/profile.d/grc.bashrc" ]] && source /etc/profile.d/grc.bashrc
+
 alias netctl='sudo netctl'
 alias ll='ls -l'
 alias la='ls -a'
@@ -84,6 +86,9 @@ alias rd='froute del'
 alias io='sudo iotop -oP'
 alias got=git
 alias mtr='mtr -U30'
+alias ipa='ip -br -c a'
+alias ipl='ip -br -c l'
+alias srr='svn revert -R'
  
 alias such=git
 alias very=git
