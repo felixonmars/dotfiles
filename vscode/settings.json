@@ -30,5 +30,6 @@
     "workbench.colorCustomizations": {
         "editor.findMatchHighlightBackground": "#880000",
         "editor.findMatchBackground": "#ff0000"
-    }
+    },
+    "window.zoomLevel": 0
 }
