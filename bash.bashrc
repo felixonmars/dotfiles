@@ -120,6 +120,9 @@ export -f p
 #source /usr/share/doc/pkgfile/command-not-found.bash
 #source /usr/share/doc/find-the-command/ftc.bash noprompt
 
+source /usr/share/fzf/key-bindings.bash
+source /usr/share/fzf/completion.bash
+
 [[ -r "/usr/share/z/z.sh" ]] && source /usr/share/z/z.sh
 
 export HISTSIZE=50000
