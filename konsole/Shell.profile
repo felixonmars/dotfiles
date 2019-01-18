@@ -3,6 +3,7 @@ AntiAliasFonts=true
 BoldIntense=false
 ColorScheme=70575-Tango
 Font=Consolas,8,-1,5,50,0,0,0,0,0
+UseFontLineChararacters=true
 
 [Cursor Options]
 CursorShape=2
