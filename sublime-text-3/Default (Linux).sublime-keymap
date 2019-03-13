@@ -7,5 +7,14 @@
     { "keys": ["ctrl+q"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
     { "keys": ["ctrl+shift+q"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
     { "keys": ["ctrl+shift+r"], "command": "http_requester" },
-    { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} }
+    { "keys": ["alt+m"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
+    { "keys": ["ctrl+f1"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+    {
+        "keys": ["ctrl+space"],
+        "command": "noop",
+        "context":
+        [
+            { "key": "lsp.signature_help", "operator": "equal", "operand": 0}
+        ]
+    }
 ]
