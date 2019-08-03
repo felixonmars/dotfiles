@@ -72,6 +72,7 @@ alias lla='ls -la'
 alias lh='ll -h'
 alias df='df -h'
 alias ..='cd ..'
+alias ...='cd ../..'
 alias u='git pull'
 alias l=ls
 alias sd='sdcv -u 朗道汉英字典5.0 -u 朗道英汉字典5.0'
