@@ -1,3 +1,6 @@
+window:
+    startup_mode: Maximized
+
 font:
     offset:
         y: -2
@@ -7,7 +10,6 @@ colors:
   primary:
     foreground: '0xeeeeec'
   
-  # Normal colors
   normal:
      black:   '0x2e3436'
      red:     '0xcc0000'
@@ -18,7 +20,6 @@ colors:
      cyan:    '0x06989a'
      white:   '0xd3d7cf'
 
-  # Bright colors
   bright:
      black:   '0x2e3436'
      red:     '0xef2929'
