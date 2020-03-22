@@ -60,6 +60,7 @@ esac
 PROMPT_COMMAND="_EXIT_CODE=\$?; ${PROMPT_COMMAND:-:} ; history -a"
 
 shopt -s histappend
+bind -r '\et'
 
 [ -r /usr/share/bash-completion/bash_completion   ] && . /usr/share/bash-completion/bash_completion
 
