@@ -8,5 +8,7 @@
     "python.linting.flake8Args": ["--ignore=E501"],
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
-    "workbench.colorTheme": "Panda Syntax"
+    "workbench.colorTheme": "Panda Syntax",
+    "editor.insertSpaces": false,
+    "window.zoomLevel": 0
 }
