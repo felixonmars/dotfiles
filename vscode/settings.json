@@ -5,10 +5,11 @@
     "window.openFilesInNewWindow": "off",
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
-    "python.linting.flake8Args": ["--ignore=E501"],
-    "files.trimTrailingWhitespace": true,
+    "python.linting.flake8Args": [
+        "--ignore=E501"
+    ],
     "files.insertFinalNewline": true,
     "workbench.colorTheme": "Panda Syntax",
-    "editor.insertSpaces": false,
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
+    "python.pythonPath": "/usr/bin/python3"
 }
