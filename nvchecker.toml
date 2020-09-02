@@ -1,0 +1,5925 @@
+[__config__]
+oldver = "old_ver.json"
+newver = "new_ver.json"
+keyfile = "keyfile.toml"
+
+[abstract-deque]
+source = "hackage"
+
+[abstract-par]
+source = "hackage"
+
+[adjunctions]
+source = "hackage"
+
+[aeson]
+source = "hackage"
+
+[aeson-better-errors]
+source = "hackage"
+
+[aeson-compat]
+source = "hackage"
+
+[aeson-diff]
+source = "hackage"
+
+[aeson-pretty]
+source = "hackage"
+
+[aeson-qq]
+source = "hackage"
+
+[aeson-yaml]
+source = "hackage"
+
+[Agda]
+source = "hackage"
+
+[alex]
+source = "hackage"
+
+[annotated-wl-pprint]
+source = "hackage"
+
+[ansi-terminal]
+source = "hackage"
+
+[ansi-wl-pprint]
+source = "hackage"
+
+[ap-normalize]
+source = "hackage"
+
+[appar]
+source = "hackage"
+
+[asn1-encoding]
+source = "hackage"
+
+[asn1-parse]
+source = "hackage"
+
+[asn1-types]
+source = "hackage"
+
+[assoc]
+source = "hackage"
+
+[async]
+source = "hackage"
+
+[atomic-write]
+source = "hackage"
+
+[attoparsec]
+source = "hackage"
+
+[attoparsec-iso8601]
+source = "hackage"
+
+[authenticate]
+source = "hackage"
+
+[authenticate-oauth]
+source = "hackage"
+
+[auto-update]
+source = "hackage"
+
+[aws]
+source = "hackage"
+
+[base-compat]
+source = "hackage"
+
+[base-compat-batteries]
+source = "hackage"
+
+[base-noprelude]
+source = "hackage"
+
+[base-orphans]
+source = "hackage"
+
+[base-prelude]
+source = "hackage"
+
+[base-unicode-symbols]
+source = "hackage"
+
+[base16-bytestring]
+source = "hackage"
+
+[base64-bytestring]
+source = "hackage"
+
+[basement]
+source = "hackage"
+
+[bencode]
+source = "hackage"
+
+[bifunctors]
+source = "hackage"
+
+[bimap]
+source = "hackage"
+
+[binary-conduit]
+source = "hackage"
+
+[binary-instances]
+source = "hackage"
+
+[binary-orphans]
+source = "hackage"
+
+[binary-parser]
+source = "hackage"
+
+[binary-tagged]
+source = "hackage"
+
+[bitarray]
+source = "hackage"
+
+[bitwise]
+source = "hackage"
+
+[blaze-builder]
+source = "hackage"
+
+[blaze-html]
+source = "hackage"
+
+[blaze-markup]
+source = "hackage"
+
+[bloomfilter]
+source = "hackage"
+
+[bower-json]
+source = "hackage"
+
+[boxes]
+source = "hackage"
+
+[brick]
+source = "hackage"
+
+[broadcast-chan]
+source = "hackage"
+
+[bsb-http-chunked]
+source = "hackage"
+
+[bug]
+source = "hackage"
+
+[bv-sized]
+source = "hackage"
+
+[byteable]
+source = "hackage"
+
+[byteorder]
+source = "hackage"
+
+[bytestring-show]
+source = "hackage"
+
+[bytestring-strict-builder]
+source = "hackage"
+
+[bytestring-tree-builder]
+source = "hackage"
+
+[bz2]
+source = "hackage"
+
+[bzlib]
+source = "hackage"
+
+[c2hs]
+source = "hackage"
+
+[cabal-doctest]
+source = "hackage"
+
+[cabal-install]
+source = "hackage"
+
+[cairo]
+source = "hackage"
+
+[call-stack]
+source = "hackage"
+
+[case-insensitive]
+source = "hackage"
+
+[cassava]
+source = "hackage"
+
+[cassava-megaparsec]
+source = "hackage"
+
+[cborg]
+source = "hackage"
+
+[cborg-json]
+source = "hackage"
+
+[cereal]
+source = "hackage"
+
+[cgrep]
+source = "hackage"
+
+[charset]
+source = "hackage"
+
+[ChasingBottoms]
+source = "hackage"
+
+[cheapskate]
+source = "hackage"
+
+[checkers]
+source = "hackage"
+
+[chell]
+source = "hackage"
+
+[chell-quickcheck]
+source = "hackage"
+
+[chunked-data]
+source = "hackage"
+
+[cipher-aes]
+source = "hackage"
+
+[cipher-aes128]
+source = "hackage"
+
+[clash-prelude]
+source = "hackage"
+
+[clientsession]
+source = "hackage"
+
+[clock]
+source = "hackage"
+
+[cmark-gfm]
+source = "hackage"
+
+[cmdargs]
+source = "hackage"
+
+[code-page]
+source = "hackage"
+
+[colour]
+source = "hackage"
+
+[colourista]
+source = "hackage"
+
+[commonmark]
+source = "hackage"
+
+[commonmark-extensions]
+source = "hackage"
+
+[commonmark-pandoc]
+source = "hackage"
+
+[comonad]
+source = "hackage"
+
+[concise]
+source = "hackage"
+
+[concurrent-output]
+source = "hackage"
+
+[concurrent-supply]
+source = "hackage"
+
+[conduit]
+source = "hackage"
+
+[conduit-combinators]
+source = "hackage"
+
+[conduit-extra]
+source = "hackage"
+
+[config-ini]
+source = "hackage"
+
+[configurator]
+source = "hackage"
+
+[configurator-pg]
+source = "hackage"
+
+[connection]
+source = "hackage"
+
+[constraints]
+source = "hackage"
+
+[contravariant]
+source = "hackage"
+
+[contravariant-extras]
+source = "hackage"
+
+[control-monad-free]
+source = "hackage"
+
+[conversion]
+source = "hackage"
+
+[conversion-bytestring]
+source = "hackage"
+
+[conversion-text]
+source = "hackage"
+
+[cookie]
+source = "hackage"
+
+[cpphs]
+source = "hackage"
+
+[cprng-aes]
+source = "hackage"
+
+[crackNum]
+source = "hackage"
+
+[critbit]
+source = "hackage"
+
+[criterion]
+source = "hackage"
+
+[criterion-measurement]
+source = "hackage"
+
+[crypto-api]
+source = "hackage"
+
+[crypto-api-tests]
+source = "hackage"
+
+[crypto-cipher-types]
+source = "hackage"
+
+[crypto-numbers]
+source = "hackage"
+
+[crypto-pubkey]
+source = "hackage"
+
+[crypto-pubkey-types]
+source = "hackage"
+
+[crypto-random]
+source = "hackage"
+
+[cryptohash]
+source = "hackage"
+
+[cryptohash-conduit]
+source = "hackage"
+
+[cryptohash-cryptoapi]
+source = "hackage"
+
+[cryptohash-md5]
+source = "hackage"
+
+[cryptohash-sha1]
+source = "hackage"
+
+[cryptohash-sha256]
+source = "hackage"
+
+[cryptol]
+source = "hackage"
+
+[cryptonite]
+source = "hackage"
+
+[cryptonite-conduit]
+source = "hackage"
+
+[css-text]
+source = "hackage"
+
+[csv]
+source = "hackage"
+
+[darcs]
+source = "hackage"
+
+[data-accessor]
+source = "hackage"
+
+[data-accessor-template]
+source = "hackage"
+
+[data-accessor-transformers]
+source = "hackage"
+
+[data-binary-ieee754]
+source = "hackage"
+
+[data-bword]
+source = "hackage"
+
+[data-checked]
+source = "hackage"
+
+[data-clist]
+source = "hackage"
+
+[data-default]
+source = "hackage"
+
+[data-default-class]
+source = "hackage"
+
+[data-default-instances-base]
+source = "hackage"
+
+[data-default-instances-containers]
+source = "hackage"
+
+[data-default-instances-dlist]
+source = "hackage"
+
+[data-default-instances-old-locale]
+source = "hackage"
+
+[data-dword]
+source = "hackage"
+
+[data-endian]
+source = "hackage"
+
+[data-fix]
+source = "hackage"
+
+[data-hash]
+source = "hackage"
+
+[data-ordlist]
+source = "hackage"
+
+[data-serializer]
+source = "hackage"
+
+[data-textual]
+source = "hackage"
+
+[dataenc]
+source = "hackage"
+
+[date-cache]
+source = "hackage"
+
+[DAV]
+source = "hackage"
+
+[dbus]
+source = "hackage"
+
+[dbus-hslogger]
+source = "hackage"
+
+[dec]
+source = "hackage"
+
+[Decimal]
+source = "hackage"
+
+[deepseq-generics]
+source = "hackage"
+
+[deferred-folds]
+source = "hackage"
+
+[dense-linear-algebra]
+source = "hackage"
+
+[deriving-compat]
+source = "hackage"
+
+[descriptive]
+source = "hackage"
+
+[dhall]
+source = "hackage"
+
+[dhall-bash]
+source = "hackage"
+
+[dhall-json]
+source = "hackage"
+
+[dhall-to-cabal]
+source = "hackage"
+
+[Diff]
+source = "hackage"
+
+[digest]
+source = "hackage"
+
+[disk-free-space]
+source = "hackage"
+
+[distributive]
+source = "hackage"
+
+[djinn-ghc]
+source = "hackage"
+
+[djinn-lib]
+source = "hackage"
+
+[dlist]
+source = "hackage"
+
+[dns]
+source = "hackage"
+
+[doclayout]
+source = "hackage"
+
+[docopt]
+source = "hackage"
+
+[doctemplates]
+source = "hackage"
+
+[doctest]
+source = "hackage"
+
+[dotgen]
+source = "hackage"
+
+[double-conversion]
+source = "hackage"
+
+[DRBG]
+source = "hackage"
+
+[dyre]
+source = "hackage"
+
+[easy-file]
+source = "hackage"
+
+[easytest]
+source = "hackage"
+
+[ed25519]
+source = "hackage"
+
+[EdisonAPI]
+source = "hackage"
+
+[EdisonCore]
+source = "hackage"
+
+[edit-distance]
+source = "hackage"
+
+[edit-distance-vector]
+source = "hackage"
+
+[either]
+source = "hackage"
+
+[email-validate]
+source = "hackage"
+
+[emojis]
+source = "hackage"
+
+[enclosed-exceptions]
+source = "hackage"
+
+[entropy]
+source = "hackage"
+
+[equivalence]
+source = "hackage"
+
+[erf]
+source = "hackage"
+
+[errors]
+source = "hackage"
+
+[esqueleto]
+source = "hackage"
+
+[exceptions]
+source = "hackage"
+
+[executable-path]
+source = "hackage"
+
+[expiring-cache-map]
+source = "hackage"
+
+[extensible-exceptions]
+source = "hackage"
+
+[extra]
+source = "hackage"
+
+[fail]
+source = "hackage"
+
+[fast-logger]
+source = "hackage"
+
+[fclabels]
+source = "hackage"
+
+[fdo-notify]
+source = "hackage"
+
+[feed]
+source = "hackage"
+
+[fgl]
+source = "hackage"
+
+[file-embed]
+source = "hackage"
+
+[filelock]
+source = "hackage"
+
+[filemanip]
+source = "hackage"
+
+[filepath-bytestring]
+source = "hackage"
+
+[filepattern]
+source = "hackage"
+
+[filtrable]
+source = "hackage"
+
+[FindBin]
+source = "hackage"
+
+[fingertree]
+source = "hackage"
+
+[first-class-families]
+source = "hackage"
+
+[FloatingHex]
+source = "hackage"
+
+[fmlist]
+source = "hackage"
+
+[foldl]
+source = "hackage"
+
+[foundation]
+source = "hackage"
+
+[free]
+source = "hackage"
+
+[fsnotify]
+source = "hackage"
+
+[gauge]
+source = "hackage"
+
+[generic-data]
+source = "hackage"
+
+[generic-deriving]
+source = "hackage"
+
+[generic-lens-core]
+source = "hackage"
+
+[generic-lens]
+source = "hackage"
+
+[generic-random]
+source = "hackage"
+
+[generic-trie]
+source = "hackage"
+
+[generics-sop]
+source = "hackage"
+
+[geniplate-mirror]
+source = "hackage"
+
+[genvalidity]
+source = "hackage"
+
+[genvalidity-hspec]
+source = "hackage"
+
+[genvalidity-property]
+source = "hackage"
+
+[getopt-generics]
+source = "hackage"
+
+[ghc-lib-parser-ex]
+source = "hackage"
+
+[ghc-mod]
+source = "hackage"
+
+[ghc-paths]
+source = "hackage"
+
+[ghc-tcplugins-extra]
+source = "hackage"
+
+[ghc-typelits-extra]
+source = "hackage"
+
+[ghc-typelits-knownnat]
+source = "hackage"
+
+[ghc-typelits-natnormalise]
+source = "hackage"
+
+[git-annex]
+source = "hackage"
+
+[git-lfs]
+source = "hackage"
+
+[git-repair]
+source = "hackage"
+
+[githash]
+source = "hackage"
+
+[gitrev]
+source = "hackage"
+
+[glib]
+source = "hackage"
+
+[Glob]
+source = "hackage"
+
+[gnuidn]
+source = "hackage"
+
+[gnutls]
+source = "hackage"
+
+[GraphSCC]
+source = "hackage"
+
+[graphviz]
+source = "hackage"
+
+[gsasl]
+source = "hackage"
+
+[gtk2hs-buildtools]
+source = "hackage"
+
+[gtk3]
+source = "hackage"
+
+[hackage-security]
+source = "hackage"
+
+[haddock-library]
+source = "hackage"
+
+[hakyll]
+source = "hackage"
+
+[half]
+source = "hackage"
+
+[haskell-gi]
+source = "hackage"
+
+[haskell-gi-base]
+source = "hackage"
+
+[haskell-gi-overloading]
+source = "hackage"
+
+[haskell-persistent]
+source = "hackage"
+hackage = "persistent"
+
+[haskell-src-exts]
+source = "hackage"
+
+[haskell-src-exts-util]
+source = "hackage"
+
+[haskell-src-meta]
+source = "hackage"
+
+[happy]
+source = "hackage"
+
+[hashable]
+source = "hackage"
+
+[hashable-time]
+source = "hackage"
+
+[hashtables]
+source = "hackage"
+
+[hasktags]
+source = "hackage"
+
+[hasql]
+source = "hackage"
+
+[hasql-pool]
+source = "hackage"
+
+[hasql-transaction]
+source = "hackage"
+
+[hastache]
+source = "hackage"
+
+[heaps]
+source = "hackage"
+
+[hedgehog]
+source = "hackage"
+
+[here]
+source = "hackage"
+
+[heredoc]
+source = "hackage"
+
+[hex]
+source = "hackage"
+
+[hi-file-parser]
+source = "hackage"
+
+[hindent]
+source = "hackage"
+
+[hinotify]
+source = "hackage"
+
+[hint]
+source = "hackage"
+
+[hjsmin]
+source = "hackage"
+
+[hjsonpointer]
+source = "hackage"
+
+[hledger]
+source = "hackage"
+
+[hledger-lib]
+source = "hackage"
+
+[hledger-ui]
+source = "hackage"
+
+[hledger-web]
+source = "hackage"
+
+[hlint]
+source = "hackage"
+
+[hoogle]
+source = "hackage"
+
+[hOpenPGP]
+source = "hackage"
+
+[hopenpgp-tools]
+source = "hackage"
+
+[hostname]
+source = "hackage"
+
+[hourglass]
+source = "hackage"
+
+[haskell-hpack]
+source = "hackage"
+hackage = "hpack"
+
+[haskell-lexer]
+source = "hackage"
+
+[hs-bibutils]
+source = "hackage"
+
+[hscolour]
+source = "hackage"
+
+[hslogger]
+source = "hackage"
+
+[hslua]
+source = "hackage"
+
+[hslua-module-system]
+source = "hackage"
+
+[hslua-module-text]
+source = "hackage"
+
+[HsOpenSSL]
+source = "hackage"
+
+[hspec]
+source = "hackage"
+
+[hspec-contrib]
+source = "hackage"
+
+[hspec-core]
+source = "hackage"
+
+[hspec-discover]
+source = "hackage"
+
+[hspec-expectations]
+source = "hackage"
+
+[hspec-golden]
+source = "hackage"
+
+[hspec-hedgehog]
+source = "hackage"
+
+[hspec-megaparsec]
+source = "hackage"
+
+[hspec-meta]
+source = "hackage"
+
+[hspec-smallcheck]
+source = "hackage"
+
+[hspec-wai]
+source = "hackage"
+
+[hspec-wai-json]
+source = "hackage"
+
+[HsYAML]
+source = "hackage"
+
+[HsYAML-aeson]
+source = "hackage"
+
+[html]
+source = "hackage"
+
+[html-conduit]
+source = "hackage"
+
+[HTTP]
+source = "hackage"
+
+[http-api-data]
+source = "hackage"
+
+[http-client]
+source = "hackage"
+
+[http-client-restricted]
+source = "hackage"
+
+[http-client-tls]
+source = "hackage"
+
+[http-common]
+source = "hackage"
+
+[http-conduit]
+source = "hackage"
+
+[http-date]
+source = "hackage"
+
+[http-download]
+source = "hackage"
+
+[http-media]
+source = "hackage"
+
+[http-streams]
+source = "hackage"
+
+[http-types]
+source = "hackage"
+
+[http2]
+source = "hackage"
+
+[httpd-shed]
+source = "hackage"
+
+[HUnit]
+source = "hackage"
+
+[hxt]
+source = "hackage"
+
+[hxt-charproperties]
+source = "hackage"
+
+[hxt-regex-xmlschema]
+source = "hackage"
+
+[hxt-unicode]
+source = "hackage"
+
+[idris]
+source = "hackage"
+
+[ieee754]
+source = "hackage"
+
+[IfElse]
+source = "hackage"
+
+[incremental-parser]
+source = "hackage"
+
+[indexed-profunctors]
+source = "hackage"
+
+[infer-license]
+source = "hackage"
+
+[ini]
+source = "hackage"
+
+[insert-ordered-containers]
+source = "hackage"
+
+[inspection-testing]
+source = "hackage"
+
+[integer-logarithms]
+source = "hackage"
+
+[interpolate]
+source = "hackage"
+
+[interpolatedstring-perl6]
+source = "hackage"
+
+[invariant]
+source = "hackage"
+
+[io-storage]
+source = "hackage"
+
+[io-streams]
+source = "hackage"
+
+[io-streams-haproxy]
+source = "hackage"
+
+[iproute]
+source = "hackage"
+
+[ipynb]
+source = "hackage"
+
+[ixset-typed]
+source = "hackage"
+
+[jira-wiki-markup]
+source = "hackage"
+
+[jose]
+source = "hackage"
+
+[js-dgtable]
+source = "hackage"
+
+[js-flot]
+source = "hackage"
+
+[js-jquery]
+source = "hackage"
+
+[json]
+source = "hackage"
+
+[json-ast]
+source = "hackage"
+
+[JuicyPixels]
+source = "hackage"
+
+[kan-extensions]
+source = "hackage"
+
+[keys]
+source = "hackage"
+
+[knob]
+source = "hackage"
+
+[language-c]
+source = "hackage"
+
+[language-haskell-extract]
+source = "hackage"
+
+[language-javascript]
+source = "hackage"
+
+[language-python]
+source = "hackage"
+
+[leancheck]
+source = "hackage"
+
+[lens]
+source = "hackage"
+
+[lens-action]
+source = "hackage"
+
+[lens-aeson]
+source = "hackage"
+
+[lens-family-core]
+source = "hackage"
+
+[libBF]
+source = "hackage"
+
+[libffi]
+source = "hackage"
+
+[libmpd]
+source = "hackage"
+
+[libxml]
+source = "hackage"
+
+[libxml-sax]
+source = "hackage"
+
+[libyaml]
+source = "hackage"
+
+[lifted-async]
+source = "hackage"
+
+[lifted-base]
+source = "hackage"
+
+[ListLike]
+source = "hackage"
+
+[loch-th]
+source = "hackage"
+
+[logging-facade]
+source = "hackage"
+
+[logict]
+source = "hackage"
+
+[loop]
+source = "hackage"
+
+[lrucache]
+source = "hackage"
+
+[lucid]
+source = "hackage"
+
+[lukko]
+source = "hackage"
+
+[magic]
+source = "hackage"
+
+[managed]
+source = "hackage"
+
+[markdown-unlit]
+source = "hackage"
+
+[math-functions]
+source = "hackage"
+
+[megaparsec]
+source = "hackage"
+
+[memory]
+source = "hackage"
+
+[MemoTrie]
+source = "hackage"
+
+[microlens]
+source = "hackage"
+
+[microlens-aeson]
+source = "hackage"
+
+[microlens-ghc]
+source = "hackage"
+
+[microlens-mtl]
+source = "hackage"
+
+[microlens-platform]
+source = "hackage"
+
+[microlens-th]
+source = "hackage"
+
+[microstache]
+source = "hackage"
+
+[mime-mail]
+source = "hackage"
+
+[mime-types]
+source = "hackage"
+
+[mintty]
+source = "hackage"
+
+[mmap]
+source = "hackage"
+
+[mmorph]
+source = "hackage"
+
+[mockery]
+source = "hackage"
+
+[monad-control]
+source = "hackage"
+
+[monad-journal]
+source = "hackage"
+
+[monad-logger]
+source = "hackage"
+
+[monad-loops]
+source = "hackage"
+
+[monad-par]
+source = "hackage"
+
+[monad-par-extras]
+source = "hackage"
+
+[monad-time]
+source = "hackage"
+
+[monad-unlift]
+source = "hackage"
+
+[monadLib]
+source = "hackage"
+
+[monadplus]
+source = "hackage"
+
+[MonadRandom]
+source = "hackage"
+
+[monads-tf]
+source = "hackage"
+
+[mono-traversable]
+source = "hackage"
+
+[monoid-subclasses]
+source = "hackage"
+
+[mountpoints]
+source = "hackage"
+
+[murmur-hash]
+source = "hackage"
+
+[mustache]
+source = "hackage"
+
+[mwc-random]
+source = "hackage"
+
+[nanospec]
+source = "hackage"
+
+[natural-transformation]
+source = "hackage"
+
+[neat-interpolation]
+source = "hackage"
+
+[netlink]
+source = "hackage"
+
+[nettle]
+source = "hackage"
+
+[network]
+source = "hackage"
+
+[network-bsd]
+source = "hackage"
+
+[network-byte-order]
+source = "hackage"
+
+[network-info]
+source = "hackage"
+
+[network-ip]
+source = "hackage"
+
+[network-multicast]
+source = "hackage"
+
+[network-protocol-xmpp]
+source = "hackage"
+
+[network-uri]
+source = "hackage"
+
+[newtype]
+source = "hackage"
+
+[newtype-generics]
+source = "hackage"
+
+[non-negative]
+source = "hackage"
+
+[nonce]
+source = "hackage"
+
+[old-locale]
+source = "hackage"
+
+[old-time]
+source = "hackage"
+
+[one-liner]
+source = "hackage"
+
+[Only]
+source = "hackage"
+
+[open-browser]
+source = "hackage"
+
+[openpgp-asciiarmor]
+source = "hackage"
+
+[openssl-streams]
+source = "hackage"
+
+[optics-core]
+source = "hackage"
+
+[optics-extra]
+source = "hackage"
+
+[optics-th]
+source = "hackage"
+
+[optional-args]
+source = "hackage"
+
+[options]
+source = "hackage"
+
+[optparse-applicative]
+source = "hackage"
+
+[optparse-generic]
+source = "hackage"
+
+[optparse-simple]
+source = "hackage"
+
+[ordered-containers]
+source = "hackage"
+
+[pandoc]
+source = "hackage"
+
+[pandoc-citeproc]
+source = "hackage"
+
+[pandoc-crossref]
+source = "hackage"
+
+[pandoc-types]
+source = "hackage"
+
+[pango]
+source = "hackage"
+
+[panic]
+source = "hackage"
+
+[pantry]
+source = "hackage"
+
+[parallel]
+source = "hackage"
+
+[parameterized-utils]
+source = "hackage"
+
+[parser-combinators]
+source = "hackage"
+
+[parsers]
+source = "hackage"
+
+[path]
+source = "hackage"
+
+[path-io]
+source = "hackage"
+
+[path-pieces]
+source = "hackage"
+
+[patience]
+source = "hackage"
+
+[pattern-arrows]
+source = "hackage"
+
+[pcre-heavy]
+source = "hackage"
+
+[pcre-light]
+source = "hackage"
+
+[pem]
+source = "hackage"
+
+[persistent-qq]
+source = "hackage"
+
+[persistent-sqlite]
+source = "hackage"
+
+[persistent-template]
+source = "hackage"
+
+[persistent-test]
+source = "hackage"
+
+[pgp-wordlist]
+source = "hackage"
+
+[pid1]
+source = "hackage"
+
+[pipes]
+source = "hackage"
+
+[pipes-http]
+source = "hackage"
+
+[placeholders]
+source = "hackage"
+
+[pointed]
+source = "hackage"
+
+[polyparse]
+source = "hackage"
+
+[postgresql-binary]
+source = "hackage"
+
+[postgresql-libpq]
+source = "hackage"
+
+[postgrest]
+source = "hackage"
+
+[prelude-extras]
+source = "hackage"
+
+[presburger]
+source = "hackage"
+
+[pretty-hex]
+source = "hackage"
+
+[pretty-show]
+source = "hackage"
+
+[pretty-simple]
+source = "hackage"
+
+[prettyclass]
+source = "hackage"
+
+[prettyprinter]
+source = "hackage"
+
+[prettyprinter-ansi-terminal]
+source = "hackage"
+
+[prettyprinter-convert-ansi-wl-pprint]
+source = "hackage"
+
+[primes]
+source = "hackage"
+
+[primitive]
+source = "hackage"
+
+[process-extras]
+source = "hackage"
+
+[profunctors]
+source = "hackage"
+
+[project-template]
+source = "hackage"
+
+[protolude]
+source = "hackage"
+
+[psqueues]
+source = "hackage"
+
+[pureMD5]
+source = "hackage"
+
+[QuickCheck]
+source = "hackage"
+
+[quickcheck-assertions]
+source = "hackage"
+
+[quickcheck-classes-base]
+source = "hackage"
+
+[quickcheck-instances]
+source = "hackage"
+
+[quickcheck-io]
+source = "hackage"
+
+[random]
+source = "hackage"
+
+[Ranged-sets]
+source = "hackage"
+
+[rank2classes]
+source = "hackage"
+
+[raw-strings-qq]
+source = "hackage"
+
+[readable]
+source = "hackage"
+
+[rebase]
+source = "hackage"
+
+[recursion-schemes]
+source = "hackage"
+
+[reducers]
+source = "hackage"
+
+[refact]
+source = "hackage"
+
+[reflection]
+source = "hackage"
+
+[regex-applicative]
+source = "hackage"
+
+[regex-applicative-text]
+source = "hackage"
+
+[regex-base]
+source = "hackage"
+
+[regex-compat]
+source = "hackage"
+
+[regex-compat-tdfa]
+source = "hackage"
+
+[regex-pcre]
+source = "hackage"
+
+[regex-posix]
+source = "hackage"
+
+[regex-tdfa]
+source = "hackage"
+
+[reinterpret-cast]
+source = "hackage"
+
+[relude]
+source = "hackage"
+
+[repline]
+source = "hackage"
+
+[rerebase]
+source = "hackage"
+
+[resource-pool]
+source = "hackage"
+
+[resourcet]
+source = "hackage"
+
+[retry]
+source = "hackage"
+
+[rio]
+source = "hackage"
+
+[rio-orphans]
+source = "hackage"
+
+[rio-prettyprint]
+source = "hackage"
+
+[rfc5051]
+source = "hackage"
+
+[roman-numerals]
+source = "hackage"
+
+[rope-utf16-splay]
+source = "hackage"
+
+[RSA]
+source = "hackage"
+
+[safe]
+source = "hackage"
+
+[safe-exceptions]
+source = "hackage"
+
+[safecopy]
+source = "hackage"
+
+[SafeSemaphore]
+source = "hackage"
+
+[sandi]
+source = "hackage"
+
+[sbv]
+source = "hackage"
+
+[scientific]
+source = "hackage"
+
+[securemem]
+source = "hackage"
+
+[selective]
+source = "hackage"
+
+[semigroupoids]
+source = "hackage"
+
+[serialise]
+source = "hackage"
+
+[servant]
+source = "hackage"
+
+[servant-server]
+source = "hackage"
+
+[servant-swagger]
+source = "hackage"
+
+[setenv]
+source = "hackage"
+
+[setlocale]
+source = "hackage"
+
+[SHA]
+source = "hackage"
+
+[shake]
+source = "hackage"
+
+[shakespeare]
+source = "hackage"
+
+[shell-escape]
+source = "hackage"
+
+[ShellCheck]
+source = "hackage"
+
+[shellmet]
+source = "hackage"
+
+[shelly]
+source = "hackage"
+
+[should-not-typecheck]
+source = "hackage"
+
+[show-combinators]
+source = "hackage"
+
+[silently]
+source = "hackage"
+
+[simple-reflect]
+source = "hackage"
+
+[simple-sendfile]
+source = "hackage"
+
+[simple-smt]
+source = "hackage"
+
+[singleton-bool]
+source = "hackage"
+
+[singletons]
+source = "hackage"
+
+[skein]
+source = "hackage"
+
+[skylighting]
+source = "hackage"
+
+[skylighting-core]
+source = "hackage"
+
+[smallcheck]
+source = "hackage"
+
+[smtLib]
+source = "hackage"
+
+[snap-core]
+source = "hackage"
+
+[snap-server]
+source = "hackage"
+
+[socks]
+source = "hackage"
+
+[sop-core]
+source = "hackage"
+
+[sorted-list]
+source = "hackage"
+
+[sourcemap]
+source = "hackage"
+
+[spdx]
+source = "hackage"
+
+[special-values]
+source = "hackage"
+
+[split]
+source = "hackage"
+
+[splitmix]
+source = "hackage"
+
+[spoon]
+source = "hackage"
+
+[stack]
+source = "hackage"
+
+[StateVar]
+source = "hackage"
+
+[statistics]
+source = "hackage"
+
+[stm-chans]
+source = "hackage"
+
+[STMonadTrans]
+source = "hackage"
+
+[storable-complex]
+source = "hackage"
+
+[storable-record]
+source = "hackage"
+
+[storable-tuple]
+source = "hackage"
+
+[storablevector]
+source = "hackage"
+
+[store]
+source = "hackage"
+
+[store-core]
+source = "hackage"
+
+[streaming-commons]
+source = "hackage"
+
+[strict]
+source = "hackage"
+
+[string-conversions]
+source = "hackage"
+
+[string-qq]
+source = "hackage"
+
+[stringbuilder]
+source = "hackage"
+
+[stringsearch]
+source = "hackage"
+
+[structured]
+source = "hackage"
+
+[stylish-haskell]
+source = "hackage"
+
+[success]
+source = "hackage"
+
+[summoner]
+source = "hackage"
+
+[summoner-tui]
+source = "hackage"
+
+[swagger2]
+source = "hackage"
+
+[syb]
+source = "hackage"
+
+[system-fileio]
+source = "hackage"
+
+[system-filepath]
+source = "hackage"
+
+[tabular]
+source = "hackage"
+
+[tagged]
+source = "hackage"
+
+[tagsoup]
+source = "hackage"
+
+[tagstream-conduit]
+source = "hackage"
+
+[tar]
+source = "hackage"
+
+[tar-conduit]
+source = "hackage"
+
+[tasty]
+source = "hackage"
+
+[tasty-ant-xml]
+source = "hackage"
+
+[tasty-discover]
+source = "hackage"
+
+[tasty-expected-failure]
+source = "hackage"
+
+[tasty-golden]
+source = "hackage"
+
+[tasty-hedgehog]
+source = "hackage"
+
+[tasty-hspec]
+source = "hackage"
+
+[tasty-hunit]
+source = "hackage"
+
+[tasty-lua]
+source = "hackage"
+
+[tasty-quickcheck]
+source = "hackage"
+
+[tasty-rerun]
+source = "hackage"
+
+[tasty-silver]
+source = "hackage"
+
+[tasty-smallcheck]
+source = "hackage"
+
+[tasty-th]
+source = "hackage"
+
+[template-haskell-compat-v0208]
+source = "hackage"
+
+[temporary]
+source = "hackage"
+
+[terminal-size]
+source = "hackage"
+
+[test-framework]
+source = "hackage"
+
+[test-framework-hunit]
+source = "hackage"
+
+[test-framework-leancheck]
+source = "hackage"
+
+[test-framework-quickcheck2]
+source = "hackage"
+
+[test-framework-smallcheck]
+source = "hackage"
+
+[test-framework-th]
+source = "hackage"
+
+[texmath]
+source = "hackage"
+
+[text-binary]
+source = "hackage"
+
+[text-builder]
+source = "hackage"
+
+[text-conversions]
+source = "hackage"
+
+[text-format]
+source = "hackage"
+
+[text-latin1]
+source = "hackage"
+
+[text-manipulate]
+source = "hackage"
+
+[text-metrics]
+source = "hackage"
+
+[text-printer]
+source = "hackage"
+
+[text-short]
+source = "hackage"
+
+[text-show]
+source = "hackage"
+
+[text-zipper]
+source = "hackage"
+
+[tf-random]
+source = "hackage"
+
+[th-abstraction]
+source = "hackage"
+
+[th-desugar]
+source = "hackage"
+
+[th-expand-syns]
+source = "hackage"
+
+[th-lift]
+source = "hackage"
+
+[th-lift-instances]
+source = "hackage"
+
+[th-orphans]
+source = "hackage"
+
+[th-reify-many]
+source = "hackage"
+
+[th-utilities]
+source = "hackage"
+
+[these]
+source = "hackage"
+
+[threads]
+source = "hackage"
+
+[time-compat]
+source = "hackage"
+
+[time-locale-compat]
+source = "hackage"
+
+[time-manager]
+source = "hackage"
+
+[timeit]
+source = "hackage"
+
+[tls]
+source = "hackage"
+
+[tls-session-manager]
+source = "hackage"
+
+[tomland]
+source = "hackage"
+
+[torrent]
+source = "hackage"
+
+[transformers-base]
+source = "hackage"
+
+[transformers-compat]
+source = "hackage"
+
+[tree-diff]
+source = "hackage"
+
+[trifecta]
+source = "hackage"
+
+[tuple-th]
+source = "hackage"
+
+[turtle]
+source = "hackage"
+
+[type-equality]
+source = "hackage"
+
+[type-errors]
+source = "hackage"
+
+[type-hint]
+source = "hackage"
+
+[typed-process]
+source = "hackage"
+
+[tzdata]
+source = "hackage"
+
+[uglymemo]
+source = "hackage"
+
+[unbounded-delays]
+source = "hackage"
+
+[unexceptionalio]
+source = "hackage"
+
+[unicode-show]
+source = "hackage"
+
+[unicode-transforms]
+source = "hackage"
+
+[uniplate]
+source = "hackage"
+
+[unix-compat]
+source = "hackage"
+
+[unix-time]
+source = "hackage"
+
+[Unixutils]
+source = "hackage"
+
+[unliftio]
+source = "hackage"
+
+[unliftio-core]
+source = "hackage"
+
+[unordered-containers]
+source = "hackage"
+
+[unsafe]
+source = "hackage"
+
+[uri-bytestring]
+source = "hackage"
+
+[uri-encode]
+source = "hackage"
+
+[utf8-string]
+source = "hackage"
+
+[utility-ht]
+source = "hackage"
+
+[uuid]
+source = "hackage"
+
+[uuid-types]
+source = "hackage"
+
+[validation-selective]
+source = "hackage"
+
+[validity]
+source = "hackage"
+
+[vault]
+source = "hackage"
+
+[vector]
+source = "hackage"
+
+[vector-algorithms]
+source = "hackage"
+
+[vector-binary-instances]
+source = "hackage"
+
+[vector-builder]
+source = "hackage"
+
+[vector-instances]
+source = "hackage"
+
+[vector-th-unbox]
+source = "hackage"
+
+[versions]
+source = "hackage"
+
+[void]
+source = "hackage"
+
+[vty]
+source = "hackage"
+
+[wai]
+source = "hackage"
+
+[wai-app-static]
+source = "hackage"
+
+[wai-conduit]
+source = "hackage"
+
+[wai-cors]
+source = "hackage"
+
+[wai-extra]
+source = "hackage"
+
+[wai-handler-launch]
+source = "hackage"
+
+[wai-logger]
+source = "hackage"
+
+[wai-middleware-static]
+source = "hackage"
+
+[wai-websockets]
+source = "hackage"
+
+[warp]
+source = "hackage"
+
+[warp-tls]
+source = "hackage"
+
+[wcwidth]
+source = "hackage"
+
+[websockets]
+source = "hackage"
+
+[weigh]
+source = "hackage"
+
+[what4]
+source = "hackage"
+
+[with-location]
+source = "hackage"
+
+[wizards]
+source = "hackage"
+
+[wl-pprint-annotated]
+source = "hackage"
+
+[wl-pprint-extras]
+source = "hackage"
+
+[wl-pprint-terminfo]
+source = "hackage"
+
+[wl-pprint-text]
+source = "hackage"
+
+[word-wrap]
+source = "hackage"
+
+[word8]
+source = "hackage"
+
+[wreq]
+source = "hackage"
+
+[X11]
+source = "hackage"
+
+[X11-xft]
+source = "hackage"
+
+[x509]
+source = "hackage"
+
+[x509-store]
+source = "hackage"
+
+[x509-system]
+source = "hackage"
+
+[x509-validation]
+source = "hackage"
+
+[xcb-types]
+source = "hackage"
+
+[xdg-basedir]
+source = "hackage"
+
+[xml]
+source = "hackage"
+
+[xml-conduit]
+source = "hackage"
+
+[xml-hamlet]
+source = "hackage"
+
+[xml-types]
+source = "hackage"
+
+[xss-sanitize]
+source = "hackage"
+
+[yaml]
+source = "hackage"
+
+[yesod]
+source = "hackage"
+
+[yesod-auth]
+source = "hackage"
+
+[yesod-core]
+source = "hackage"
+
+[yesod-default]
+source = "hackage"
+
+[yesod-form]
+source = "hackage"
+
+[yesod-persistent]
+source = "hackage"
+
+[yesod-static]
+source = "hackage"
+
+[yesod-test]
+source = "hackage"
+
+[zenc]
+source = "hackage"
+
+[zip-archive]
+source = "hackage"
+
+[zlib]
+source = "hackage"
+
+[zlib-bindings]
+source = "hackage"
+
+[acorn]
+source = "npm"
+
+[babel-cli]
+source = "npm"
+
+[bash-language-server]
+source = "npm"
+
+[blinksocks]
+source = "npm"
+
+[bower]
+source = "npm"
+
+[browserify]
+source = "npm"
+
+[check_api]
+source = "npm"
+
+[coffeescript]
+source = "npm"
+
+[cordova]
+source = "npm"
+
+[emojione]
+source = "npm"
+
+[eslint]
+source = "npm"
+
+[grunt-cli]
+source = "npm"
+
+[gulp]
+source = "npm"
+
+[jake]
+source = "npm"
+
+[marked]
+source = "npm"
+
+[marked-man]
+source = "npm"
+
+[material-design-icons]
+source = "npm"
+
+[npm]
+source = "npm"
+
+[npm-check-updates]
+source = "npm"
+
+[phonegap]
+source = "npm"
+
+[pm2]
+source = "npm"
+
+[semver]
+source = "npm"
+
+[stylus]
+source = "npm"
+
+[ts-node]
+source = "npm"
+
+[typescript]
+source = "npm"
+
+[uglify-js]
+source = "npm"
+
+[Acme-Alien-DontPanic]
+source = "cpan"
+
+[Alien-Base-ModuleBuild]
+source = "cpan"
+
+[Alien-Build]
+source = "cpan"
+
+[Alien-cmake3]
+source = "cpan"
+
+[Alien-Libxml2]
+source = "cpan"
+
+[AnyEvent]
+source = "cpan"
+
+[AppConfig]
+source = "cpan"
+
+[Archive-Extract]
+source = "cpan"
+
+[Archive-Zip]
+source = "cpan"
+
+[Async-Interrupt]
+source = "cpan"
+
+[B-Keywords]
+source = "cpan"
+
+[Bit-Vector]
+source = "cpan"
+
+[Canary-Stability]
+source = "cpan"
+
+[Carp-Clan]
+source = "cpan"
+
+[CGI-FormBuilder]
+source = "cpan"
+
+[Class-Inspector]
+source = "cpan"
+
+[Class-Load-XS]
+source = "cpan"
+
+[Class-Tiny]
+source = "cpan"
+
+[common-sense]
+source = "cpan"
+
+[CPAN-Meta]
+source = "cpan"
+
+[CPAN-Meta-Check]
+source = "cpan"
+
+[CPANPLUS]
+source = "cpan"
+
+[Crypt-OpenSSL-DSA]
+source = "cpan"
+
+[Crypt-PasswdMD5]
+source = "cpan"
+
+[Cwd-Guard]
+source = "cpan"
+
+[Data-Munge]
+source = "cpan"
+
+[Data-OptList]
+source = "cpan"
+
+[Data-Random]
+source = "cpan"
+
+[Date-Calc]
+source = "cpan"
+
+[Date-Manip]
+source = "cpan"
+
+[DBD-mysql]
+source = "cpan"
+
+[DBD-SQLite]
+source = "cpan"
+
+[DBI]
+source = "cpan"
+
+[Devel-CheckCompiler]
+source = "cpan"
+
+[Devel-CheckLib]
+source = "cpan"
+
+[Devel-GlobalDestruction]
+source = "cpan"
+
+[Digest-BubbleBabble]
+source = "cpan"
+
+[Digest-HMAC]
+source = "cpan"
+
+[Digest-Nilsimsa]
+source = "cpan"
+
+[Digest-SHA1]
+source = "cpan"
+
+[Dist-CheckConflicts]
+source = "cpan"
+
+[Email-Date-Format]
+source = "cpan"
+
+[Encode-Locale]
+source = "cpan"
+
+[Env-ShellWords]
+source = "cpan"
+
+[Error]
+source = "cpan"
+
+[Event-ExecFlow]
+source = "cpan"
+
+[EV]
+source = "cpan"
+
+[Exporter-Tiny]
+source = "cpan"
+
+[ExtUtils-Config]
+source = "cpan"
+
+[ExtUtils-CppGuess]
+source = "cpan"
+
+[ExtUtils-Depends]
+source = "cpan"
+
+[ExtUtils-Helpers]
+source = "cpan"
+
+[ExtUtils-InstallPaths]
+source = "cpan"
+
+[ExtUtils-PkgConfig]
+source = "cpan"
+
+[FFI-CheckLib]
+source = "cpan"
+
+[File-BaseDir]
+source = "cpan"
+
+[File-Copy-Recursive]
+source = "cpan"
+
+[File-Copy-Recursive-Reduced]
+source = "cpan"
+
+[File-DesktopEntry]
+source = "cpan"
+
+[File-Find-Rule-Perl]
+source = "cpan"
+
+[File-HomeDir]
+source = "cpan"
+
+[File-Listing]
+source = "cpan"
+
+[File-MimeInfo]
+source = "cpan"
+
+[File-ReadBackwards]
+source = "cpan"
+
+[File-RsyncP]
+source = "cpan"
+
+[File-ShareDir-ProjectDistDir]
+source = "cpan"
+
+[File-Slurp-Tiny]
+source = "cpan"
+
+[Goo-Canvas]
+source = "cpan"
+
+[GraphViz]
+source = "cpan"
+
+[Gtk2-Ex-FormFactory]
+source = "cpan"
+
+[Gtk2-ImageView]
+source = "cpan"
+
+[Gtk2-Unique]
+source = "cpan"
+
+[Guard]
+source = "cpan"
+
+[Hook-LexWrap]
+source = "cpan"
+
+[HTML-Parser]
+source = "cpan"
+
+[HTML-Tagset]
+source = "cpan"
+
+[HTML-Template]
+source = "cpan"
+
+[HTTP-Cookies]
+source = "cpan"
+
+[HTTP-Date]
+source = "cpan"
+
+[HTTP-Message]
+source = "cpan"
+
+[HTTP-Negotiate]
+source = "cpan"
+
+[Importer]
+source = "cpan"
+
+[Inline-C]
+source = "cpan"
+
+[Inline-CPP]
+source = "cpan"
+
+[Inline-Filters]
+source = "cpan"
+
+[IO-CaptureOutput]
+source = "cpan"
+
+[IO-Dirent]
+source = "cpan"
+
+[IO-HTML]
+source = "cpan"
+
+[IPC-System-Simple]
+source = "cpan"
+
+[libintl-perl]
+source = "cpan"
+
+[libwww-perl]
+source = "cpan"
+
+[Lingua-EN-Inflect]
+source = "cpan"
+
+[List-MoreUtils]
+source = "cpan"
+
+[List-MoreUtils-XS]
+source = "cpan"
+
+[Log-Log4perl]
+source = "cpan"
+
+[Log-Message]
+source = "cpan"
+
+[Log-Message-Simple]
+source = "cpan"
+
+[LWP-Protocol-https]
+source = "cpan"
+
+[Mail-SPF]
+source = "cpan"
+
+[MailTools]
+source = "cpan"
+
+[MIME-Base32]
+source = "cpan"
+
+[MIME-Lite]
+source = "cpan"
+
+[MIME-Types]
+source = "cpan"
+
+[Module-Build]
+source = "cpan"
+
+[Module-Build-Tiny]
+source = "cpan"
+
+[Module-Build-XSUtil]
+source = "cpan"
+
+[Module-Install]
+source = "cpan"
+
+[Module-Pluggable]
+source = "cpan"
+
+[Module-ScanDeps]
+source = "cpan"
+
+[Mouse]
+source = "cpan"
+
+[Mozilla-CA]
+source = "cpan"
+
+[MP3-Info]
+source = "cpan"
+
+[namespace-autoclean]
+source = "cpan"
+
+[NetAddr-IP]
+source = "cpan"
+
+[Net-CIDR-Lite]
+source = "cpan"
+
+[Net-DNS]
+source = "cpan"
+
+[Net-DNS-Resolver-Programmable]
+source = "cpan"
+
+[Net-DNS-SEC]
+source = "cpan"
+
+[Net-Dropbox-API]
+source = "cpan"
+
+[Net-HTTP]
+source = "cpan"
+
+[Net-IDN-Encode]
+source = "cpan"
+
+[Net-IP]
+source = "cpan"
+
+[Net-LibIDN2]
+source = "cpan"
+
+[Net-OAuth]
+source = "cpan"
+
+[Net-Server]
+source = "cpan"
+
+[Object-Accessor]
+source = "cpan"
+
+[Package-Constants]
+source = "cpan"
+
+[Package-DeprecationManager]
+source = "cpan"
+
+[Package-Stash]
+source = "cpan"
+
+[Package-Stash-XS]
+source = "cpan"
+
+[PAR-Dist]
+source = "cpan"
+
+[Params-Util]
+source = "cpan"
+
+[Path-FindDev]
+source = "cpan"
+
+[Path-IsDev]
+source = "cpan"
+
+[Perl-Critic]
+source = "cpan"
+
+[Perl-MinimumVersion]
+source = "cpan"
+
+[Perl4-CoreLibs]
+source = "cpan"
+
+[PkgConfig]
+source = "cpan"
+
+[PkgConfig-LibPkgConf]
+source = "cpan"
+
+[Pod-Parser]
+source = "cpan"
+
+[Pod-Spell]
+source = "cpan"
+
+[PPI]
+source = "cpan"
+
+[PPIx-QuoteLike]
+source = "cpan"
+
+[PPIx-Regexp]
+source = "cpan"
+
+[PPIx-Utilities]
+source = "cpan"
+
+[Probe-Perl]
+source = "cpan"
+
+[Proc-ProcessTable]
+source = "cpan"
+
+[Proc-Simple]
+source = "cpan"
+
+[Return-MultiLevel]
+source = "cpan"
+
+[Scope-Guard]
+source = "cpan"
+
+[Shell-Config-Generate]
+source = "cpan"
+
+[Shell-Guess]
+source = "cpan"
+
+[Socket6]
+source = "cpan"
+
+[String-Format]
+source = "cpan"
+
+[String-ShellQuote]
+source = "cpan"
+
+[Sub-Exporter]
+source = "cpan"
+
+[Sub-Exporter-Progressive]
+source = "cpan"
+
+[Sub-Identify]
+source = "cpan"
+
+[Sub-Info]
+source = "cpan"
+
+[Sub-Name]
+source = "cpan"
+
+[SUPER]
+source = "cpan"
+
+[Sys-Hostname-Long]
+source = "cpan"
+
+[Sys-Virt]
+source = "cpan"
+
+[Task-Weaken]
+source = "cpan"
+
+[Template-Toolkit]
+source = "cpan"
+
+[TermReadKey]
+source = "cpan"
+
+[Term-ReadLine-TTYtter]
+source = "cpan"
+
+[Term-Table]
+source = "cpan"
+
+[Term-UI]
+source = "cpan"
+
+[Test-Exit]
+source = "cpan"
+
+[Test-Fatal]
+source = "cpan"
+
+[Test-File]
+source = "cpan"
+
+[Test-Inter]
+source = "cpan"
+
+[Test-LeakTrace]
+source = "cpan"
+
+[Test-MinimumVersion]
+source = "cpan"
+
+[Test-MockModule]
+source = "cpan"
+
+[Test-MockTime]
+source = "cpan"
+
+[Test-More-UTF8]
+source = "cpan"
+
+[Test-Needs]
+source = "cpan"
+
+[Test-Object]
+source = "cpan"
+
+[Test-Output]
+source = "cpan"
+
+[Test-Pod]
+source = "cpan"
+
+[Test-Requires]
+source = "cpan"
+
+[Test-Script]
+source = "cpan"
+
+[Test-Simple]
+source = "cpan"
+
+[Test-SubCalls]
+source = "cpan"
+
+[Test-utf8]
+source = "cpan"
+
+[Test-YAML]
+source = "cpan"
+
+[Test2-Suite]
+source = "cpan"
+
+[Text-Iconv]
+source = "cpan"
+
+[Text-Patch]
+source = "cpan"
+
+[Text-Template]
+source = "cpan"
+
+[TimeDate]
+source = "cpan"
+
+[Tk]
+source = "cpan"
+
+[Try-Tiny]
+source = "cpan"
+
+[URI]
+source = "cpan"
+
+[XML-LibXML]
+source = "cpan"
+
+[XML-LibXML-PrettyPrint]
+source = "cpan"
+
+[XML-LibXSLT]
+source = "cpan"
+
+[XML-Simple]
+source = "cpan"
+
+[XML-Twig]
+source = "cpan"
+
+[YAML]
+source = "cpan"
+
+[YAML-Syck]
+source = "cpan"
+
+[YAML-Tiny]
+source = "cpan"
+
+[acme]
+source = "pypi"
+
+[aioresponses]
+source = "pypi"
+
+[amqp]
+source = "pypi"
+
+[aniso8601]
+source = "pypi"
+
+[anyjson]
+source = "pypi"
+
+[apipkg]
+source = "pypi"
+
+[apispec]
+source = "pypi"
+
+[apispec-webframeworks]
+source = "pypi"
+
+[appdirs]
+source = "pypi"
+
+[argh]
+source = "pypi"
+
+[Arpeggio]
+source = "pypi"
+
+[asn1crypto]
+source = "pypi"
+
+[aspectlib]
+source = "pypi"
+
+[astroid]
+source = "pypi"
+
+[asynctest]
+source = "pypi"
+
+[attrs]
+source = "pypi"
+
+[Automat]
+source = "pypi"
+
+[autopep8]
+source = "pypi"
+
+[awkward]
+source = "pypi"
+
+["backports.functools_lru_cache"]
+source = "pypi"
+
+["backports.ssl_match_hostname"]
+source = "pypi"
+
+[backports_abc]
+source = "pypi"
+
+[baron]
+source = "pypi"
+
+[basictracer]
+source = "pypi"
+
+[bcloud]
+source = "pypi"
+
+[bcrypt]
+source = "pypi"
+
+[Beaker]
+source = "pypi"
+
+[beautifulsoup4]
+source = "pypi"
+
+[betamax]
+source = "pypi"
+
+[betamax-matchers]
+source = "pypi"
+
+[betamax-serializers]
+source = "pypi"
+
+[billiard]
+source = "pypi"
+
+[biscuits]
+source = "pypi"
+
+[BitVector]
+source = "pypi"
+
+[blockdiag]
+source = "pypi"
+
+[boto]
+source = "pypi"
+
+[bottle]
+source = "pypi"
+
+[braintree]
+source = "pypi"
+
+[brotlipy]
+source = "pypi"
+
+[BTrees]
+source = "pypi"
+
+[cached-property]
+source = "pypi"
+
+[cachetools]
+source = "pypi"
+
+[cairocffi]
+source = "pypi"
+
+[cairosvg]
+source = "pypi"
+
+[case]
+source = "pypi"
+
+[celery]
+source = "pypi"
+
+[Cerberus]
+source = "pypi"
+
+[certbot]
+source = "pypi"
+
+[certbot-apache]
+source = "pypi"
+
+[certbot-dns-cloudflare]
+source = "pypi"
+
+[certbot-dns-cloudxns]
+source = "pypi"
+
+[certbot-dns-digitalocean]
+source = "pypi"
+
+[certbot-dns-dnsimple]
+source = "pypi"
+
+[certbot-dns-dnsmadeeasy]
+source = "pypi"
+
+[certbot-dns-gehirn]
+source = "pypi"
+
+[certbot-dns-google]
+source = "pypi"
+
+[certbot-dns-linode]
+source = "pypi"
+
+[certbot-dns-luadns]
+source = "pypi"
+
+[certbot-dns-nsone]
+source = "pypi"
+
+[certbot-dns-ovh]
+source = "pypi"
+
+[certbot-dns-rfc2136]
+source = "pypi"
+
+[certbot-dns-route53]
+source = "pypi"
+
+[certbot-dns-sakuracloud]
+source = "pypi"
+
+[certbot-nginx]
+source = "pypi"
+
+[certifi]
+source = "pypi"
+
+[cffi]
+source = "pypi"
+
+[Chameleon]
+source = "pypi"
+
+[characteristic]
+source = "pypi"
+
+[chardet]
+source = "pypi"
+
+[CJKwrap]
+source = "pypi"
+
+[click-default-group]
+source = "pypi"
+
+[cliff]
+source = "pypi"
+
+[cloudflare]
+source = "pypi"
+
+[cmd2]
+source = "pypi"
+
+[cogapp]
+source = "pypi"
+
+[colander]
+source = "pypi"
+
+[colorama]
+source = "pypi"
+
+[commentjson]
+source = "pypi"
+
+[ConfigArgParse]
+source = "pypi"
+
+[configparser]
+source = "pypi"
+
+[constantly]
+source = "pypi"
+
+[construct]
+source = "pypi"
+
+[contextlib2]
+source = "pypi"
+
+[cookies]
+source = "pypi"
+
+[CouchDB]
+source = "pypi"
+
+[coverage]
+source = "pypi"
+
+[cppy]
+source = "pypi"
+
+[cram]
+source = "pypi"
+
+[crayons]
+source = "pypi"
+
+[cryptography]
+source = "pypi"
+
+[cryptography-vectors]
+source = "pypi"
+
+[cssselect]
+source = "pypi"
+
+[cssselect2]
+source = "pypi"
+
+[csv23]
+source = "pypi"
+
+[cycler]
+source = "pypi"
+
+[cymem]
+source = "pypi"
+
+[d2to1]
+source = "pypi"
+
+[daiquiri]
+source = "pypi"
+
+[ddt]
+source = "pypi"
+
+[debtcollector]
+source = "pypi"
+
+[defusedxml]
+source = "pypi"
+
+[deprecated]
+source = "pypi"
+
+[deprecation]
+source = "pypi"
+
+[dns-lexicon]
+source = "pypi"
+
+[dnslib]
+source = "pypi"
+
+["dogpile.cache"]
+source = "pypi"
+
+[dominate]
+source = "pypi"
+
+[doublex]
+source = "pypi"
+
+[doublex-expects]
+source = "pypi"
+
+[dpcontracts]
+source = "pypi"
+
+[ecdsa]
+source = "pypi"
+
+[editdistance]
+source = "pypi"
+
+[EditorConfig]
+source = "pypi"
+
+[egenix-mx-base]
+source = "pypi"
+
+[elasticsearch]
+source = "pypi"
+
+[elementpath]
+source = "pypi"
+
+[email-validator]
+source = "pypi"
+
+[exam]
+source = "pypi"
+
+[execnet]
+source = "pypi"
+
+[expects]
+source = "pypi"
+
+[extras]
+source = "pypi"
+
+[factory_boy]
+source = "pypi"
+
+[faker]
+source = "pypi"
+
+[fastpbkdf2]
+source = "pypi"
+
+[fields]
+source = "pypi"
+
+[python-filelock]
+source = "pypi"
+pypi = "filelock"
+
+[first]
+source = "pypi"
+
+[fixtures]
+source = "pypi"
+
+[flake8]
+source = "pypi"
+
+[flake8-blind-except]
+source = "pypi"
+
+[flake8-debugger]
+source = "pypi"
+
+[flaky]
+source = "pypi"
+
+[flasgger]
+source = "pypi"
+
+[flask-appconfig]
+source = "pypi"
+
+[flask-bootstrap]
+source = "pypi"
+
+[Flask-Caching]
+source = "pypi"
+
+[Flask-Dance]
+source = "pypi"
+
+[Flask-Debug]
+source = "pypi"
+
+[Flask-JWT]
+source = "pypi"
+
+[flask-login]
+source = "pypi"
+
+[flask-nav]
+source = "pypi"
+
+[Flask-RESTful]
+source = "pypi"
+
+[Flask-Sphinx-Themes]
+source = "pypi"
+
+[flex]
+source = "pypi"
+
+[flexmock]
+source = "pypi"
+
+[flickrapi]
+source = "pypi"
+
+[flup]
+source = "pypi"
+
+[freezegun]
+source = "pypi"
+
+[fs]
+source = "pypi"
+
+[func-timeout]
+source = "pypi"
+
+[funcparserlib]
+source = "pypi"
+
+[funcy]
+source = "pypi"
+
+[future]
+source = "pypi"
+
+[gcp-devrel-py-tools]
+source = "pypi"
+
+[gdspy]
+source = "pypi"
+
+[genty]
+source = "pypi"
+
+[geocoder]
+source = "pypi"
+
+[geoip2]
+source = "pypi"
+
+[gevent]
+source = "pypi"
+
+[google-auth]
+source = "pypi"
+
+[google-auth-httplib2]
+source = "pypi"
+
+[greenlet]
+source = "pypi"
+
+[gunicorn]
+source = "pypi"
+
+[h11]
+source = "pypi"
+
+[h2]
+source = "pypi"
+
+[hacking]
+source = "pypi"
+
+[harparser]
+source = "pypi"
+
+[helper]
+source = "pypi"
+
+[hpack]
+source = "pypi"
+
+[httpbin]
+source = "pypi"
+
+[httplib2]
+source = "pypi"
+
+[httpretty]
+source = "pypi"
+
+[hunter]
+source = "pypi"
+
+[hyperframe]
+source = "pypi"
+
+[hyperlink]
+source = "pypi"
+
+[hypothesis]
+source = "pypi"
+
+[hypothesis-auto]
+source = "pypi"
+
+[hypothesis-fspaths]
+source = "pypi"
+
+[hypothesmith]
+source = "pypi"
+
+[identify]
+source = "pypi"
+
+[idna]
+source = "pypi"
+
+[importlib-metadata]
+source = "pypi"
+
+[importlib_resources]
+source = "pypi"
+
+[incremental]
+source = "pypi"
+
+[inflection]
+source = "pypi"
+
+[invoke]
+source = "pypi"
+
+[iocapture]
+source = "pypi"
+
+[ioflo]
+source = "pypi"
+
+[ipaddress]
+source = "pypi"
+
+[ipdb]
+source = "pypi"
+
+[isort]
+source = "pypi"
+
+[itemadapter]
+source = "pypi"
+
+[itemloaders]
+source = "pypi"
+
+[jaeger-client]
+source = "pypi"
+
+["jaraco.envs"]
+source = "pypi"
+
+[jeepney]
+source = "pypi"
+
+[jmespath]
+source = "pypi"
+
+[jieba]
+source = "pypi"
+
+[josepy]
+source = "pypi"
+
+[Js2Py]
+source = "pypi"
+
+[jsbeautifier]
+source = "pypi"
+
+[jsonlines]
+source = "pypi"
+
+[jsonpatch]
+source = "pypi"
+
+[jsonpickle]
+source = "pypi"
+
+[jsonpointer]
+source = "pypi"
+
+[jsonschema]
+source = "pypi"
+
+[kaitaistruct]
+source = "pypi"
+
+["keyrings.alt"]
+source = "pypi"
+
+[keystoneauth1]
+source = "pypi"
+
+[kivy]
+source = "pypi"
+
+[kiwisolver]
+source = "pypi"
+
+[kombu]
+source = "pypi"
+
+[lark-parser]
+source = "pypi"
+
+[lazy]
+source = "pypi"
+
+[lazy-object-proxy]
+source = "pypi"
+
+[ldap3]
+source = "pypi"
+
+[letshelp-certbot]
+source = "pypi"
+
+[libnacl]
+source = "pypi"
+
+[librabbitmq]
+source = "pypi"
+
+[linecache2]
+source = "pypi"
+
+[localzone]
+source = "pypi"
+
+[logbook]
+source = "pypi"
+
+[logilab-common]
+source = "pypi"
+
+[lxml]
+source = "pypi"
+
+[m2r]
+source = "pypi"
+
+[Mako]
+source = "pypi"
+
+[mamba]
+source = "pypi"
+
+[manuel]
+source = "pypi"
+
+[MarkupSafe]
+source = "pypi"
+
+[marshmallow]
+source = "pypi"
+
+[matplotlib]
+source = "pypi"
+
+[maxminddb]
+source = "pypi"
+
+[mccabe]
+source = "pypi"
+
+[memory_profiler]
+source = "pypi"
+
+[mimerender]
+source = "pypi"
+
+[mitmproxy]
+source = "pypi"
+
+[mocket]
+source = "pypi"
+
+[mockito]
+source = "pypi"
+
+[mongoengine]
+source = "pypi"
+
+[mongomock]
+source = "pypi"
+
+[monotonic]
+source = "pypi"
+
+[mox3]
+source = "pypi"
+
+[mtrpacket]
+source = "pypi"
+
+[munch]
+source = "pypi"
+
+[netifaces]
+source = "pypi"
+
+[networkx]
+source = "pypi"
+
+[nodeenv]
+source = "pypi"
+
+[nose-cover3]
+source = "pypi"
+
+[nose-exclude]
+source = "pypi"
+
+[nose-fixes]
+source = "pypi"
+
+[nose-show-skipped]
+source = "pypi"
+
+[nosexcover]
+source = "pypi"
+
+[numpy]
+source = "pypi"
+
+[numpydoc]
+source = "pypi"
+
+[oauth]
+source = "pypi"
+
+[objgraph]
+source = "pypi"
+
+[openapi-spec-validator]
+source = "pypi"
+
+[openmdao]
+source = "pypi"
+
+[openstacksdk]
+source = "pypi"
+
+[opentracing]
+source = "pypi"
+
+[ordered-set]
+source = "pypi"
+
+[os-client-config]
+source = "pypi"
+
+[os-service-types]
+source = "pypi"
+
+[osc-lib]
+source = "pypi"
+
+[oslosphinx]
+source = "pypi"
+
+[oslotest]
+source = "pypi"
+
+["oslo.concurrency"]
+source = "pypi"
+
+["oslo.config"]
+source = "pypi"
+
+["oslo.context"]
+source = "pypi"
+
+["oslo.db"]
+source = "pypi"
+
+["oslo.i18n"]
+source = "pypi"
+
+["oslo.log"]
+source = "pypi"
+
+["oslo.serialization"]
+source = "pypi"
+
+["oslo.utils"]
+source = "pypi"
+
+[osprofiler]
+source = "pypi"
+
+[packaging]
+source = "pypi"
+
+[parameterized]
+source = "pypi"
+
+[paramiko]
+source = "pypi"
+
+[parsedatetime]
+source = "pypi"
+
+[parsel]
+source = "pypi"
+
+[parver]
+source = "pypi"
+
+[passlib]
+source = "pypi"
+
+[Paste]
+source = "pypi"
+
+[PasteDeploy]
+source = "pypi"
+
+[python-path]
+source = "pypi"
+pypi = "path"
+
+[pathlib]
+source = "pypi"
+
+[pathlib2]
+source = "pypi"
+
+[pathtools]
+source = "pypi"
+
+[Paver]
+source = "pypi"
+
+[pbr]
+source = "pypi"
+
+[pdoc]
+source = "pypi"
+
+[peewee]
+source = "pypi"
+
+[pep517]
+source = "pypi"
+
+[phonenumbers]
+source = "pypi"
+
+[pifpaf]
+source = "pypi"
+
+[pigar]
+source = "pypi"
+
+[Pint]
+source = "pypi"
+
+[pip-shims]
+source = "pypi"
+
+[pipenv-to-requirements]
+source = "pypi"
+
+[pipreqs]
+source = "pypi"
+
+[pkginfo]
+source = "pypi"
+
+[plette]
+source = "pypi"
+
+[plop]
+source = "pypi"
+
+[pluggy]
+source = "pypi"
+
+[ply]
+source = "pypi"
+
+[pook]
+source = "pypi"
+
+[positional]
+source = "pypi"
+
+[poster]
+source = "pypi"
+
+[prance]
+source = "pypi"
+
+[praw]
+source = "pypi"
+
+[prawcore]
+source = "pypi"
+
+[pretend]
+source = "pypi"
+
+[PrettyTable]
+source = "pypi"
+
+[priority]
+source = "pypi"
+
+[process-tests]
+source = "pypi"
+
+[Protego]
+source = "pypi"
+
+[PTable]
+source = "pypi"
+
+[pudb]
+source = "pypi"
+
+[purl]
+source = "pypi"
+
+[py]
+source = "pypi"
+
+[py-cpuinfo]
+source = "pypi"
+
+[pyaml]
+source = "pypi"
+
+[pyasn1]
+source = "pypi"
+
+[pyasn1-modules]
+source = "pypi"
+
+[pycdio]
+source = "pypi"
+
+[pycodestyle]
+source = "pypi"
+
+[PyContracts]
+source = "pypi"
+
+[pycparser]
+source = "pypi"
+
+[pycryptodome]
+source = "pypi"
+
+[pycuda]
+source = "pypi"
+
+[pycurl]
+source = "pypi"
+
+[PyDispatcher]
+source = "pypi"
+
+[pydns]
+source = "pypi"
+
+[pyDOE2]
+source = "pypi"
+
+[pydot]
+source = "pypi"
+
+[pyflakes]
+source = "pypi"
+
+[pyftpdlib]
+source = "pypi"
+
+[pygal]
+source = "pypi"
+
+[pygeoip]
+source = "pypi"
+
+[PyGithub]
+source = "pypi"
+
+[PyHamcrest]
+source = "pypi"
+
+[PyICU]
+source = "pypi"
+
+[pyjsparser]
+source = "pypi"
+
+[pyjwt]
+source = "pypi"
+
+[pykerberos]
+source = "pypi"
+
+[pylint]
+source = "pypi"
+
+[pylons-sphinx-themes]
+source = "pypi"
+
+[pymongo]
+source = "pypi"
+
+[PyNamecheap]
+source = "pypi"
+
+[PyOpenGL]
+source = "pypi"
+
+[pyOpenSSL]
+source = "pypi"
+
+[pypandoc]
+source = "pypi"
+
+[pyparsing]
+source = "pypi"
+
+[pyperclip]
+source = "pypi"
+
+[pyprof2calltree]
+source = "pypi"
+
+[pyquery]
+source = "pypi"
+
+[pyRFC3339]
+source = "pypi"
+
+[pyrsistent]
+source = "pypi"
+
+[pysendfile]
+source = "pypi"
+
+[PySimpleSOAP]
+source = "pypi"
+
+[PySocks]
+source = "pypi"
+
+[pysqlite]
+source = "pypi"
+
+[pysrt]
+source = "pypi"
+
+[PyStemmer]
+source = "pypi"
+
+[pytddmon]
+source = "pypi"
+
+[pyte]
+source = "pypi"
+
+[pytest]
+source = "pypi"
+
+[pytest-asyncio]
+source = "pypi"
+
+[pytest-benchmark]
+source = "pypi"
+
+[pytest-black]
+source = "pypi"
+
+[pytest-cache]
+source = "pypi"
+
+[pytest-capturelog]
+source = "pypi"
+
+[pytest-cov]
+source = "pypi"
+
+[pytest-django]
+source = "pypi"
+
+[pytest-fixture-config]
+source = "pypi"
+
+[pytest-flake8]
+source = "pypi"
+
+[pytest-forked]
+source = "pypi"
+
+[pytest-httpbin]
+source = "pypi"
+
+[pytest-isort]
+source = "pypi"
+
+[pytest-localserver]
+source = "pypi"
+
+[pytest-mock]
+source = "pypi"
+
+[pytest-pylint]
+source = "pypi"
+
+[pytest-randomly]
+source = "pypi"
+
+[pytest-relaxed]
+source = "pypi"
+
+[pytest-runner]
+source = "pypi"
+
+[pytest-shutil]
+source = "pypi"
+
+[pytest-sugar]
+source = "pypi"
+
+[pytest-timeout]
+source = "pypi"
+
+[pytest-tornado]
+source = "pypi"
+
+[pytest-twisted]
+source = "pypi"
+
+[pytest-virtualenv]
+source = "pypi"
+
+[pytest-xdist]
+source = "pypi"
+
+[python-augeas]
+source = "pypi"
+
+[python-binary-memcached]
+source = "pypi"
+
+[python-cinderclient]
+source = "pypi"
+
+[python-designateclient]
+source = "pypi"
+
+[python-digitalocean]
+source = "pypi"
+
+[python-glanceclient]
+source = "pypi"
+
+[python-heatclient]
+source = "pypi"
+
+[python-http-parser]
+source = "pypi"
+pypi = "http-parser"
+
+[python-jose]
+source = "pypi"
+
+[python-json-logger]
+source = "pypi"
+
+[python-keystoneclient]
+source = "pypi"
+
+[python-Levenshtein]
+source = "pypi"
+
+[python-magnumclient]
+source = "pypi"
+
+[python-mimeparse]
+source = "pypi"
+
+[python-mpd]
+source = "pypi"
+
+[python-neutronclient]
+source = "pypi"
+
+[python-novaclient]
+source = "pypi"
+
+[python-openid]
+source = "pypi"
+
+[python-openstackclient]
+source = "pypi"
+
+[python-persistent]
+source = "pypi"
+pypi = "persistent"
+
+[python-rapidjson]
+source = "pypi"
+
+[python-split]
+source = "pypi"
+pypi = "split"
+
+[python-subunit]
+source = "pypi"
+
+[python-swiftclient]
+source = "pypi"
+
+[pythondialog]
+source = "pypi"
+
+[pytools]
+source = "pypi"
+
+[pyx]
+source = "pypi"
+
+[pyxenstore]
+source = "pypi"
+
+[qiniu]
+source = "pypi"
+
+[queuelib]
+source = "pypi"
+
+[raet]
+source = "pypi"
+
+[ratelim]
+source = "pypi"
+
+[raven]
+source = "pypi"
+
+[rdflib]
+source = "pypi"
+
+[rdflib-jsonld]
+source = "pypi"
+
+[readme_renderer]
+source = "pypi"
+
+[redbaron]
+source = "pypi"
+
+[redis]
+source = "pypi"
+
+[rednose]
+source = "pypi"
+
+[rencode]
+source = "pypi"
+
+["repoze.lru"]
+source = "pypi"
+
+["repoze.profile"]
+source = "pypi"
+
+[requests]
+source = "pypi"
+
+[requests-kerberos]
+source = "pypi"
+
+[requests-mock]
+source = "pypi"
+
+[requests-oauthlib]
+source = "pypi"
+
+[requests-toolbelt]
+source = "pypi"
+
+[requestsexceptions]
+source = "pypi"
+
+[requirementslib]
+source = "pypi"
+
+[responses]
+source = "pypi"
+
+[restkit]
+source = "pypi"
+
+[resolvelib]
+source = "pypi"
+
+[rfc3986]
+source = "pypi"
+
+[rfc3987]
+source = "pypi"
+
+[Routes]
+source = "pypi"
+
+[rply]
+source = "pypi"
+
+[Rtree]
+source = "pypi"
+
+["ruamel.yaml"]
+source = "pypi"
+
+["ruamel.yaml.clib"]
+source = "pypi"
+
+[salsa20]
+source = "pypi"
+
+[scandir]
+source = "pypi"
+
+[SchemDraw]
+source = "pypi"
+
+[scrapy]
+source = "pypi"
+
+[scripttest]
+source = "pypi"
+
+[SecretStorage]
+source = "pypi"
+
+[semantic_version]
+source = "pypi"
+
+[sentinels]
+source = "pypi"
+
+[seqdiag]
+source = "pypi"
+
+[python-semver]
+source = "pypi"
+pypi = "semver"
+
+[service_identity]
+source = "pypi"
+
+[setuptools]
+source = "pypi"
+
+[setuptools-git]
+source = "pypi"
+
+[setuptools-markdown]
+source = "pypi"
+
+[setuptools-scm]
+source = "pypi"
+
+[sh]
+source = "pypi"
+
+[shadowsocks]
+source = "pypi"
+
+[Shapely]
+source = "pypi"
+
+[simplejson]
+source = "pypi"
+
+[six]
+source = "pypi"
+
+[snakefood]
+source = "pypi"
+
+[snowballstemmer]
+source = "pypi"
+
+[SOAPpy]
+source = "pypi"
+
+[socketpool]
+source = "pypi"
+
+[SoftLayer]
+source = "pypi"
+
+[sopel]
+source = "pypi"
+
+[sortedcontainers]
+source = "pypi"
+
+[soupsieve]
+source = "pypi"
+
+[SPARQLWrapper]
+source = "pypi"
+
+[sphinxcontrib-autoprogram]
+source = "pypi"
+
+[sphinxcontrib-seqdiag]
+source = "pypi"
+
+[SQLAlchemy]
+source = "pypi"
+
+[sqlalchemy-migrate]
+source = "pypi"
+
+[sqlitedict]
+source = "pypi"
+
+[stestr]
+source = "pypi"
+
+[strict-rfc3339]
+source = "pypi"
+
+[structlog]
+source = "pypi"
+
+[subunit2sql]
+source = "pypi"
+
+[suds]
+source = "pypi"
+
+[sure]
+source = "pypi"
+
+[sybil]
+source = "pypi"
+
+[sympy]
+source = "pypi"
+
+[sysv_ipc]
+source = "pypi"
+
+[tenacity]
+source = "pypi"
+
+[termstyle]
+source = "pypi"
+
+[testfixtures]
+source = "pypi"
+
+[testflo]
+source = "pypi"
+
+[testrepository]
+source = "pypi"
+
+[testresources]
+source = "pypi"
+
+[testscenarios]
+source = "pypi"
+
+[testtools]
+source = "pypi"
+
+[text-unidecode]
+source = "pypi"
+
+[texttable]
+source = "pypi"
+
+[thefuck]
+source = "pypi"
+
+[threadloop]
+source = "pypi"
+
+[tinycss2]
+source = "pypi"
+
+[tldextract]
+source = "pypi"
+
+[tomlkit]
+source = "pypi"
+
+[toposort]
+source = "pypi"
+
+[tornado]
+source = "pypi"
+
+[towncrier]
+source = "pypi"
+
+[tox]
+source = "pypi"
+
+[tqdm]
+source = "pypi"
+
+[transaction]
+source = "pypi"
+
+[treq]
+source = "pypi"
+
+[twine]
+source = "pypi"
+
+[Twisted]
+source = "pypi"
+
+[txaio]
+source = "pypi"
+
+[uhashring]
+source = "pypi"
+
+[ukpostcodeparser]
+source = "pypi"
+
+[uncertainties]
+source = "pypi"
+
+[unicodecsv]
+source = "pypi"
+
+[unittest-mixins]
+source = "pypi"
+
+[unittest-xml-reporting]
+source = "pypi"
+
+[update-checker]
+source = "pypi"
+
+[urllib3]
+source = "pypi"
+
+[URLObject]
+source = "pypi"
+
+[validate_email]
+source = "pypi"
+
+[validators]
+source = "pypi"
+
+[vcrpy]
+source = "pypi"
+
+[vcversioner]
+source = "pypi"
+
+[venusian]
+source = "pypi"
+
+[vine]
+source = "pypi"
+
+[virtualenv]
+source = "pypi"
+
+[visitor]
+source = "pypi"
+
+[vistir]
+source = "pypi"
+
+[voluptuous]
+source = "pypi"
+
+[w3lib]
+source = "pypi"
+
+[waitress]
+source = "pypi"
+
+[Wand]
+source = "pypi"
+
+[warlock]
+source = "pypi"
+
+[watchdog]
+source = "pypi"
+
+[webcolors]
+source = "pypi"
+
+[WebOb]
+source = "pypi"
+
+[websocket-client]
+source = "pypi"
+
+[WebTest]
+source = "pypi"
+
+[whatever]
+source = "pypi"
+
+[wheel]
+source = "pypi"
+
+[whelk]
+source = "pypi"
+
+[whitenoise]
+source = "pypi"
+
+[whoosh]
+source = "pypi"
+
+[wrapt]
+source = "pypi"
+
+[wsaccel]
+source = "pypi"
+
+[WSGIProxy2]
+source = "pypi"
+
+[wsproto]
+source = "pypi"
+
+[wstools]
+source = "pypi"
+
+[xattr]
+source = "pypi"
+
+[xcffib]
+source = "pypi"
+
+[xmlschema]
+source = "pypi"
+
+[xmlsec]
+source = "pypi"
+
+[xpybutil]
+source = "pypi"
+
+[yapf]
+source = "pypi"
+
+[yarg]
+source = "pypi"
+
+[yaspin]
+source = "pypi"
+
+[you-get]
+source = "pypi"
+
+[ZConfig]
+source = "pypi"
+
+[zeep]
+source = "pypi"
+
+[zipp]
+source = "pypi"
+
+["zope.annotation"]
+source = "pypi"
+
+["zope.component"]
+source = "pypi"
+
+["zope.configuration"]
+source = "pypi"
+
+["zope.copy"]
+source = "pypi"
+
+["zope.deferredimport"]
+source = "pypi"
+
+["zope.deprecation"]
+source = "pypi"
+
+["zope.event"]
+source = "pypi"
+
+["zope.exceptions"]
+source = "pypi"
+
+["zope.hookable"]
+source = "pypi"
+
+["zope.i18nmessageid"]
+source = "pypi"
+
+["zope.interface"]
+source = "pypi"
+
+["zope.location"]
+source = "pypi"
+
+["zope.proxy"]
+source = "pypi"
+
+["zope.schema"]
+source = "pypi"
+
+["zope.security"]
+source = "pypi"
+
+["zope.testing"]
+source = "pypi"
+
+["zope.testrunner"]
+source = "pypi"
+
+[ruby-addressable]
+source = "gems"
+gems = "addressable"
+
+[ruby-bundler]
+source = "github"
+github = "bundler/bundler"
+use_max_tag = true
+ignored = "v2.0.0.pre.3 v2.0.0.pre.2 v2.0.0.pre.1"
+
+[ruby-cairo]
+source = "gems"
+gems = "cairo"
+
+[ruby-faraday]
+source = "gems"
+gems = "faraday"
+
+[ruby-faraday-middleware]
+source = "gems"
+gems = "faraday_middleware"
+
+[ruby-ffi]
+source = "gems"
+gems = "ffi"
+
+[ruby-multi_json]
+source = "gems"
+gems = "multi_json"
+
+[ruby-multipart-post]
+source = "gems"
+gems = "multipart-post"
+
+[ruby-power_assert]
+source = "gems"
+gems = "power_assert"
+
+[ruby-public_suffix]
+source = "gems"
+gems = "public_suffix"
+
+[ruby-test-unit]
+source = "gems"
+gems = "test-unit"
+
+[blur-effect]
+source = "github"
+github = "sonald/blur-effect"
+use_max_tag = true
+
+[deepin-account-faces]
+source = "github"
+github = "linuxdeepin/dde-account-faces"
+use_max_tag = true
+
+[deepin-album]
+source = "github"
+github = "linuxdeepin/deepin-album"
+use_max_tag = true
+
+[deepin-anything]
+source = "github"
+github = "linuxdeepin/deepin-anything"
+use_max_tag = true
+
+[deepin-api]
+source = "github"
+github = "linuxdeepin/dde-api"
+use_max_tag = true
+ignored = "2014.2 202008250003"
+
+[deepin-boot-maker]
+source = "github"
+github = "linuxdeepin/deepin-boot-maker"
+use_max_tag = true
+
+[deepin-calculator]
+source = "github"
+github = "linuxdeepin/deepin-calculator"
+use_max_tag = true
+
+[deepin-calendar]
+source = "github"
+github = "linuxdeepin/dde-calendar"
+use_max_tag = true
+
+[deepin-clipboard]
+source = "github"
+github = "linuxdeepin/dde-clipboard"
+use_max_tag = true
+
+[deepin-clone]
+source = "github"
+github = "linuxdeepin/deepin-clone"
+use_max_tag = true
+
+[deepin-cogl]
+source = "github"
+github = "linuxdeepin/deepin-cogl"
+use_max_tag = true
+
+[deepin-compressor]
+source = "github"
+github = "linuxdeepin/deepin-compressor"
+use_max_tag = true
+
+[deepin-control-center]
+source = "github"
+github = "linuxdeepin/dde-control-center"
+use_max_tag = true
+ignored = "2014.2.3 2014.2.1 2014.2"
+
+[deepin-daemon]
+source = "github"
+github = "linuxdeepin/dde-daemon"
+use_max_tag = true
+ignored = "2014.2.2 2014.2.1 2014.2 5.1000.1"
+
+[deepin-dbus-factory]
+source = "github"
+github = "linuxdeepin/dbus-factory"
+use_max_tag = true
+ignored = "2014.2.1 2014.2"
+
+[deepin-dbus-generator]
+source = "github"
+github = "linuxdeepin/go-dbus-generator"
+use_max_tag = true
+
+[deepin-desktop-base]
+source = "github"
+github = "linuxdeepin/deepin-desktop-base"
+use_max_tag = true
+
+[deepin-desktop-schemas]
+source = "github"
+github = "linuxdeepin/deepin-desktop-schemas"
+use_max_tag = true
+
+[deepin-dock]
+source = "github"
+github = "linuxdeepin/dde-dock"
+use_max_tag = true
+
+[deepin-editor]
+source = "github"
+github = "linuxdeepin/deepin-editor"
+use_max_tag = true
+
+[deepin-file-manager]
+source = "github"
+github = "linuxdeepin/dde-file-manager"
+use_max_tag = true
+
+[deepin-gettext-tools]
+source = "github"
+github = "linuxdeepin/deepin-gettext-tools"
+use_max_tag = true
+
+[deepin-gir-generator]
+source = "github"
+github = "linuxdeepin/go-gir-generator"
+use_max_tag = true
+
+[deepin-gtk-theme]
+source = "github"
+github = "linuxdeepin/deepin-gtk-theme"
+use_max_tag = true
+
+[deepin-help]
+source = "github"
+github = "linuxdeepin/dde-help"
+use_max_tag = true
+
+[deepin-icon-theme]
+source = "github"
+github = "linuxdeepin/deepin-icon-theme"
+use_max_tag = true
+ignored = "2014.2"
+
+[deepin-image-viewer]
+source = "github"
+github = "linuxdeepin/deepin-image-viewer"
+use_max_tag = true
+
+[deepin-kwin]
+source = "github"
+github = "linuxdeepin/dde-kwin"
+use_max_tag = true
+
+[deepin-launcher]
+source = "github"
+github = "linuxdeepin/dde-launcher"
+use_max_tag = true
+
+[deepin-go-dbus-factory]
+source = "github"
+github = "linuxdeepin/go-dbus-factory"
+use_max_tag = true
+
+[deepin-go-lib]
+source = "github"
+github = "linuxdeepin/go-lib"
+use_max_tag = true
+ignored = "2014.2.2 2014.2.1 2014.2"
+
+[deepin-go-x11-client]
+source = "github"
+github = "linuxdeepin/go-x11-client"
+use_max_tag = true
+
+[deepin-manual]
+source = "github"
+github = "linuxdeepin/deepin-manual"
+use_max_tag = true
+
+[deepin-menu]
+source = "github"
+github = "linuxdeepin/deepin-menu"
+use_max_tag = true
+ignored = "2014.2.3 2014.2"
+
+[deepin-metacity]
+source = "github"
+github = "linuxdeepin/deepin-metacity"
+use_max_tag = true
+
+[deepin-movie]
+source = "github"
+github = "linuxdeepin/deepin-movie-reborn"
+use_max_tag = true
+ignored = "2014.2.3 2014.2.1 2014.2"
+
+[deepin-music]
+source = "github"
+github = "linuxdeepin/deepin-music"
+use_max_tag = true
+ignored = "2014.3 2014.2 2.90.0"
+
+[deepin-mutter]
+source = "github"
+github = "linuxdeepin/deepin-mutter"
+use_max_tag = true
+
+[deepin-nautilus-properties]
+source = "github"
+github = "linuxdeepin/deepin-nautilus-properties"
+use_max_tag = true
+
+[deepin-network-utils]
+source = "github"
+github = "linuxdeepin/dde-network-utils"
+use_max_tag = true
+
+[deepin-notifications]
+source = "github"
+github = "linuxdeepin/deepin-notifications"
+use_max_tag = true
+ignored = "2014.2.3 2014.2.1 2014.2 2.90.0"
+
+[deepin-picker]
+source = "github"
+github = "linuxdeepin/deepin-picker"
+use_max_tag = true
+
+[deepin-polkit-agent]
+source = "github"
+github = "linuxdeepin/dde-polkit-agent"
+use_max_tag = true
+
+[deepin-printer]
+source = "github"
+github = "linuxdeepin/dde-printer"
+use_max_tag = true
+
+[deepin-qml-widgets]
+source = "github"
+github = "linuxdeepin/deepin-qml-widgets"
+use_max_tag = true
+ignored = "2014.2.3 2014.2.1 2014.2"
+
+[deepin-qt-dbus-factory]
+source = "github"
+github = "linuxdeepin/dde-qt-dbus-factory"
+use_max_tag = true
+
+[deepin-qt5dxcb-plugin]
+source = "github"
+github = "linuxdeepin/qt5dxcb-plugin"
+use_max_tag = true
+
+[deepin-qt5integration]
+source = "github"
+github = "linuxdeepin/qt5integration"
+use_max_tag = true
+
+[deepin-reader]
+source = "github"
+github = "linuxdeepin/deepin-reader"
+use_max_tag = true
+
+[deepin-screen-recorder]
+source = "github"
+github = "linuxdeepin/deepin-screen-recorder"
+use_max_tag = true
+
+[deepin-screenshot]
+source = "github"
+github = "linuxdeepin/deepin-screenshot"
+use_max_tag = true
+ignored = "2014.2.3 2014.2 2014rc"
+
+[deepin-session-shell]
+source = "github"
+github = "linuxdeepin/dde-session-shell"
+use_max_tag = true
+
+[deepin-session-ui]
+source = "github"
+github = "linuxdeepin/dde-session-ui"
+use_max_tag = true
+
+[deepin-shortcut-viewer]
+source = "github"
+github = "linuxdeepin/deepin-shortcut-viewer"
+use_max_tag = true
+
+[deepin-social-sharing]
+source = "github"
+github = "linuxdeepin/deepin-social-sharing"
+use_max_tag = true
+ignored = "2014.2.3"
+
+[deepin-sound-theme]
+source = "github"
+github = "linuxdeepin/deepin-sound-theme"
+use_max_tag = true
+
+[deepin-system-monitor]
+source = "github"
+github = "linuxdeepin/deepin-system-monitor"
+use_max_tag = true
+
+[deepin-terminal]
+source = "github"
+github = "linuxdeepin/deepin-terminal"
+use_max_tag = true
+ignored = "2014.2"
+
+[deepin-voice-note]
+source = "github"
+github = "linuxdeepin/deepin-voice-note"
+use_max_tag = true
+
+[deepin-wallpapers]
+source = "github"
+github = "linuxdeepin/deepin-wallpapers"
+use_max_tag = true
+
+[deepin-wm]
+source = "github"
+github = "linuxdeepin/deepin-wm"
+use_max_tag = true
+
+[deepin-wm-switcher]
+source = "github"
+github = "linuxdeepin/deepin-wm-switcher"
+use_max_tag = true
+
+[disomaster]
+source = "github"
+github = "linuxdeepin/disomaster"
+use_max_tag = true
+
+[dtkcore]
+source = "github"
+github = "linuxdeepin/dtkcore"
+use_max_tag = true
+
+[dtkgui]
+source = "github"
+github = "linuxdeepin/dtkgui"
+use_max_tag = true
+
+[dtkwidget]
+source = "github"
+github = "linuxdeepin/dtkwidget"
+use_max_tag = true
+
+[dtkwm]
+source = "github"
+github = "linuxdeepin/dtkwm"
+use_max_tag = true
+
+[qtav]
+source = "github"
+github = "wang-bin/QtAV"
+use_max_tag = true
+
+[startdde]
+source = "github"
+github = "linuxdeepin/startdde"
+use_max_tag = true
+ignored = "2014.2"
+
+[udisks2-qt5]
+source = "github"
+github = "linuxdeepin/udisks2-qt5"
+use_max_tag = true
+
+[fcitx]
+source = "github"
+github = "fcitx/fcitx"
+use_max_tag = true
+
+[fcitx-anthy]
+source = "github"
+github = "fcitx/fcitx-anthy"
+use_max_tag = true
+
+[fcitx-chewing]
+source = "github"
+github = "fcitx/fcitx-chewing"
+use_max_tag = true
+
+[fcitx-cloudpinyin]
+source = "github"
+github = "fcitx/fcitx-cloudpinyin"
+use_max_tag = true
+
+[fcitx-configtool]
+source = "github"
+github = "fcitx/fcitx-configtool"
+use_max_tag = true
+
+[fcitx-fbterm]
+source = "github"
+github = "fcitx/fcitx-fbterm"
+use_max_tag = true
+
+[fcitx-googlepinyin]
+source = "github"
+github = "fcitx/fcitx-googlepinyin"
+use_max_tag = true
+
+[fcitx-hangul]
+source = "github"
+github = "fcitx/fcitx-hangul"
+use_max_tag = true
+
+[fcitx-kkc]
+source = "github"
+github = "fcitx/fcitx-kkc"
+use_max_tag = true
+
+[fcitx-libpinyin]
+source = "github"
+github = "fcitx/fcitx-libpinyin"
+use_max_tag = true
+
+[fcitx-m17n]
+source = "github"
+github = "fcitx/fcitx-m17n"
+use_max_tag = true
+
+[fcitx-qt5]
+source = "github"
+github = "fcitx/fcitx-qt5"
+use_max_tag = true
+
+[fcitx-rime]
+source = "github"
+github = "fcitx/fcitx-rime"
+use_max_tag = true
+
+[fcitx-sayura]
+source = "github"
+github = "fcitx/fcitx-sayura"
+use_max_tag = true
+
+[fcitx-skk]
+source = "github"
+github = "fcitx/fcitx-skk"
+use_max_tag = true
+
+[fcitx-sunpinyin]
+source = "github"
+github = "fcitx/fcitx-sunpinyin"
+use_max_tag = true
+
+[fcitx-table-extra]
+source = "github"
+github = "fcitx/fcitx-table-extra"
+use_max_tag = true
+
+[fcitx-table-other]
+source = "github"
+github = "fcitx/fcitx-table-other"
+use_max_tag = true
+
+[fcitx-ui-light]
+source = "github"
+github = "fcitx/fcitx-ui-light"
+use_max_tag = true
+
+[fcitx-unikey]
+source = "github"
+github = "fcitx/fcitx-unikey"
+use_max_tag = true
+
+[kcm-fcitx]
+source = "github"
+github = "fcitx/kcm-fcitx"
+use_max_tag = true
+
+[fcitx5]
+source = "github"
+github = "fcitx/fcitx5"
+
+[fcitx5-anthy]
+source = "github"
+github = "fcitx/fcitx5-anthy"
+
+[fcitx5-chewing]
+source = "github"
+github = "fcitx/fcitx5-chewing"
+
+[fcitx5-chinese-addons]
+source = "github"
+github = "fcitx/fcitx5-chinese-addons"
+
+[fcitx5-configtool]
+source = "github"
+github = "fcitx/fcitx5-configtool"
+
+[fcitx5-gtk]
+source = "github"
+github = "fcitx/fcitx5-gtk"
+
+[fcitx5-hangul]
+source = "github"
+github = "fcitx/fcitx5-hangul"
+
+[fcitx5-lua]
+source = "github"
+github = "fcitx/fcitx5-lua"
+
+[fcitx5-qt]
+source = "github"
+github = "fcitx/fcitx5-qt"
+
+[fcitx5-rime]
+source = "github"
+github = "fcitx/fcitx5-rime"
+
+[fcitx5-skk]
+source = "github"
+github = "fcitx/fcitx5-skk"
+
+[fcitx5-unikey]
+source = "github"
+github = "fcitx/fcitx5-unikey"
+
+[libime]
+source = "github"
+github = "fcitx/libime"
+
+[xcb-imdkit]
+source = "github"
+github = "fcitx/xcb-imdkit"
+
+[ibus]
+source = "github"
+github = "ibus/ibus"
+use_latest_release = true
+
+[ibus-anthy]
+source = "github"
+github = "ibus/ibus-anthy"
+use_max_tag = true
+
+[ibus-kkc]
+source = "github"
+github = "ueno/ibus-kkc"
+use_max_tag = true
+
+[ibus-m17n]
+source = "github"
+github = "ibus/ibus-m17n"
+use_max_tag = true
+
+[ibus-pinyin]
+source = "github"
+github = "ibus/ibus-pinyin"
+use_max_tag = true
+
+[ibus-qt]
+source = "github"
+github = "ibus/ibus-qt"
+use_max_tag = true
+
+[ibus-rime]
+source = "github"
+github = "rime/ibus-rime"
+use_max_tag = true
+
+[ibus-table]
+source = "github"
+github = "kaio/ibus-table"
+use_max_tag = true
+
+[ibus-table-chinese]
+source = "github"
+github = "definite/ibus-table-chinese"
+use_max_tag = true
+
+[mlite]
+source = "gitlab"
+gitlab = "mer-core/mlite"
+host = "git.merproject.org"
+use_max_tag = true
+
+[fingerterm]
+source = "gitlab"
+gitlab = "mer-core/fingerterm"
+host = "git.merproject.org"
+use_max_tag = true
+
+[rime-bopomofo]
+source = "github"
+github = "rime/rime-bopomofo"
+
+[rime-cangjie]
+source = "github"
+github = "rime/rime-cangjie"
+
+[rime-cantonese]
+source = "github"
+github = "rime/rime-cantonese"
+
+[rime-double-pinyin]
+source = "github"
+github = "rime/rime-double-pinyin"
+
+[rime-essay]
+source = "github"
+github = "rime/rime-essay"
+
+[rime-loengfan]
+source = "github"
+github = "CanCLID/rime-loengfan"
+
+[rime-luna-pinyin]
+source = "github"
+github = "rime/rime-luna-pinyin"
+
+[rime-pinyin-simp]
+source = "github"
+github = "rime/rime-pinyin-simp"
+
+[rime-prelude]
+source = "github"
+github = "rime/rime-prelude"
+
+[rime-quick]
+source = "github"
+github = "rime/rime-quick"
+
+[rime-stroke]
+source = "github"
+github = "rime/rime-stroke"
+
+[rime-terra-pinyin]
+source = "github"
+github = "rime/rime-terra-pinyin"
+
+[rime-wubi]
+source = "github"
+github = "rime/rime-wubi"
+
+[kylin-nm]
+source = "github"
+github = "ukui/kylin-nm"
+use_max_tag = true
+
+[ukwm]
+source = "github"
+github = "ukui/ukwm"
+use_max_tag = true
+
+[peony]
+source = "github"
+github = "ukui/peony"
+use_max_tag = true
+
+[ukui-menus]
+source = "github"
+github = "ukui/ukui-menus"
+use_max_tag = true
+
+[ukui-panel]
+source = "github"
+github = "ukui/ukui-panel"
+use_max_tag = true
+
+[ukui-window-switch]
+source = "github"
+github = "ukui/ukui-window-switch"
+use_max_tag = true
+
+[ukui-settings-daemon]
+source = "github"
+github = "ukui/ukui-settings-daemon"
+use_max_tag = true
+
+[ukui-media]
+source = "github"
+github = "ukui/ukui-media"
+use_max_tag = true
+
+[ukui-greeter]
+source = "github"
+github = "ukui/ukui-greeter"
+use_max_tag = true
+
+[ukui-biometric-auth]
+source = "github"
+github = "ukui/ukui-biometric-auth"
+use_max_tag = true
+
+[ukui-session-manager]
+source = "github"
+github = "ukui/ukui-session-manager"
+use_max_tag = true
+
+[ukui-themes]
+source = "github"
+github = "ukui/ukui-themes"
+use_max_tag = true
+
+[ukui-control-center]
+source = "github"
+github = "ukui/ukui-control-center"
+use_max_tag = true
+
+[ukui-menu]
+source = "github"
+github = "ukui/ukui-menu"
+use_max_tag = true
+
+[ukui-sidebar]
+source = "github"
+github = "ukui/ukui-sidebar"
+use_max_tag = true
+
+[qt5-ukui-platformtheme]
+source = "github"
+github = "ukui/qt5-ukui-platformtheme"
+use_max_tag = true
+
+[ammonite]
+source = "github"
+github = "lihaoyi/ammonite"
+use_max_tag = true
+
+[aria2]
+source = "github"
+github = "tatsuhiro-t/aria2"
+use_max_tag = true
+
+[bats]
+source = "github"
+github = "sstephenson/bats"
+use_max_tag = true
+
+[bats-assert]
+source = "github"
+github = "ztombol/bats-assert"
+use_max_tag = true
+
+[bats-support]
+source = "github"
+github = "ztombol/bats-support"
+use_max_tag = true
+
+[brise]
+source = "github"
+github = "rime/brise"
+use_max_tag = true
+
+[btfs]
+source = "github"
+github = "johang/btfs"
+use_max_tag = true
+
+[catimg]
+source = "github"
+github = "posva/catimg"
+use_max_tag = true
+
+[cldr-emoji-annotation]
+source = "github"
+github = "fujiwarat/cldr-emoji-annotation"
+use_max_tag = true
+ignored = "30.0.3"
+
+[cmake-fedora]
+source = "pagure"
+pagure = "cmake-fedora"
+
+[debootstrap]
+source = "gitlab"
+gitlab = "installer-team/debootstrap"
+host = "salsa.debian.org"
+use_max_tag = true
+
+[diff-so-fancy]
+source = "github"
+github = "so-fancy/diff-so-fancy"
+use_max_tag = true
+
+[docker-machine]
+source = "github"
+github = "docker/machine"
+use_max_tag = true
+
+[freebasic]
+source = "github"
+github = "freebasic/fbc"
+use_max_tag = true
+
+[glider]
+source = "github"
+github = "nadoo/glider"
+use_max_tag = true
+
+[glog]
+source = "github"
+github = "google/glog"
+use_max_tag = true
+
+[goaccess]
+source = "github"
+github = "allinurl/goaccess"
+use_max_tag = true
+
+[gost]
+source = "github"
+github = "ginuerzh/gost"
+use_max_tag = true
+
+[http-parser]
+source = "github"
+github = "nodejs/http-parser"
+use_max_tag = true
+
+[jenkins]
+source = "github"
+github = "jenkinsci/jenkins"
+use_max_tag = true
+ignored = "unified-annotation-indexer prototype-1.7 prototype-1.5.1.1 split-from-core remoting-3.13 remoting-3.12\nremoting-3.11 remoting-3.10.2 remoting-3.10.1 remoting-3.10 remoting-3.9 remoting-3.8 remoting-3.7\nremoting-3.6 remoting-3.5 remoting-3.4.1 remoting-3.4 remoting-3.3 remoting-3.2 remoting-3.1 remoting-3.0\nremoting-2.62.6 remoting-2.62.5 remoting-2.62.4 remoting-2.62.3 remoting-2.62.2 remoting-2.62.1\nremoting-2.62 remoting-2.61 remoting-2.60.2 remoting-test-client-1.1 remoting-test-client-1.0\nremoting-2.60.1 remoting-2.60 remoting-2.59.2 remoting-2.59.1 remoting-2.59 remoting-2.58 remoting-2.57\nremoting-2.56 remoting-2.55 remoting-2.54 remoting-2.53.5 remoting-2.53.4 remoting-2.53.3 remoting-2.53.2\nremoting-2.53.1 remoting-2.53 remoting-2.52 remoting-2.51 remoting-2.50 remoting-2.49 remoting-2.48\nremoting-2.47 remoting-2.46"
+
+[kcptun]
+source = "github"
+github = "xtaci/kcptun"
+use_max_tag = true
+
+[libblockdev]
+source = "github"
+github = "rhinstaller/libblockdev"
+use_max_tag = true
+ignored = "libblockdev-0.7-1 libblockdev-0.8-1 libblockdev-0.9-1 libblockdev-0.10-1 libblockdev-0.11-1 libblockdev-0.12-1\nlibblockdev-0.13-1 libblockdev-1.0-1 libblockdev-1.1-1 libblockdev-1.2-1 libblockdev-1.3-1\nlibblockdev-1.4-1 libblockdev-1.5-1 libblockdev-1.6-1 libblockdev-1.7-1 libblockdev-1.8-1\nlibblockdev-1.9-1 libblockdev-2.0-1 libblockdev-2.1-1 libblockdev-2.2-1 libblockdev-2.3-1\nlibblockdev-2.4-1 libblockdev-2.5-1 libblockdev-2.6-1 libblockdev-2.7-1 libblockdev-2.8-1\nlibblockdev-2.9-1 libblockdev-2.10-1 libblockdev-2.11-1 libblockdev-2.12-1"
+
+[libbson]
+source = "github"
+github = "mongodb/libbson"
+use_max_tag = true
+
+[libglvnd]
+source = "github"
+github = "NVIDIA/libglvnd"
+use_max_tag = true
+
+[libkkc]
+source = "github"
+github = "ueno/libkkc"
+use_max_tag = true
+
+[mongo-c-driver]
+source = "github"
+github = "mongodb/mongo-c-driver"
+use_max_tag = true
+ignored = "v0.2 v0.3 v0.3.1 v0.4 v0.5 v0.5.1 v0.5.2 v0.6 v0.7 v0.7.1 v0.8 v0.8.1\ndebian/1.3.5-1 debian/1.4.1-1 debian/1.4.2-1 debian/1.5.0-1 debian/1.5.3-1 debian/1.5.4-1 debian/1.6.1-1 debian/1.6.3-1 debian/1.7.0-1 debian/1.8.0-1\ndebian/1.8.1-1 debian/1.9.0+dfsg-1 debian/1.9.2+dfsg-1 debian/1.9.3+dfsg-1\ndebian/1.9.3+dfsg-2 debian/1.9.4+dfsg-1 debian/1.9.4+dfsg-2 debian/1.9.5+dfsg-1"
+
+[libpapyros]
+source = "github"
+github = "papyros/libpapyros"
+use_max_tag = true
+
+[libpinyin]
+source = "github"
+github = "libpinyin/libpinyin"
+use_max_tag = true
+
+[libQtShadowsocks]
+source = "github"
+github = "shadowsocks/libQtShadowsocks"
+use_max_tag = true
+
+[librime]
+source = "github"
+github = "rime/librime"
+use_max_tag = true
+
+[libsodium]
+source = "github"
+github = "jedisct1/libsodium"
+use_max_tag = true
+
+[libuv]
+source = "github"
+github = "libuv/libuv"
+use_max_tag = true
+
+[lmdb]
+source = "github"
+github = "LMDB/lmdb"
+use_max_tag = true
+ignored = "master.old"
+
+[manpages-zh]
+source = "github"
+github = "man-pages-zh/manpages-zh"
+use_max_tag = true
+
+[marsyas]
+source = "github"
+github = "marsyas/marsyas"
+use_max_tag = true
+
+[minisign]
+source = "github"
+github = "jedisct1/minisign"
+use_max_tag = true
+
+[ndctl]
+source = "github"
+github = "pmem/ndctl"
+use_max_tag = true
+
+[node]
+source = "github"
+github = "nodejs/node"
+use_max_tag = true
+
+[opencc]
+source = "github"
+github = "BYVoid/OpenCC"
+use_max_tag = true
+
+[papirus-icon-theme]
+source = "github"
+github = "PapirusDevelopmentTeam/papirus-icon-theme"
+use_max_tag = true
+
+[papyros-files]
+source = "github"
+github = "papyros/files-app"
+use_max_tag = true
+
+[papyros-terminal]
+source = "github"
+github = "papyros/terminal-app"
+use_max_tag = true
+
+[pony-stable]
+source = "github"
+github = "ponylang/pony-stable"
+use_max_tag = true
+
+[ponyc]
+source = "github"
+github = "ponylang/ponyc"
+use_max_tag = true
+
+[progress]
+source = "github"
+github = "Xfennec/progress"
+use_max_tag = true
+
+[proxychains-ng]
+source = "github"
+github = "rofl0r/proxychains-ng"
+use_max_tag = true
+
+[qml-material]
+source = "github"
+github = "papyros/qml-material"
+use_max_tag = true
+
+[qopenvpn]
+source = "github"
+github = "xmikos/qopenvpn"
+use_max_tag = true
+
+[rclone]
+source = "github"
+github = "ncw/rclone"
+use_max_tag = true
+
+[reaver]
+source = "github"
+github = "t6x/reaver-wps-fork-t6x"
+use_max_tag = true
+
+[shadowsocks-libev]
+source = "github"
+github = "shadowsocks/shadowsocks-libev"
+use_max_tag = true
+
+[shadowsocks-qt5]
+source = "github"
+github = "shadowsocks/shadowsocks-qt5"
+use_max_tag = true
+
+[simple-obfs]
+source = "github"
+github = "shadowsocks/simple-obfs"
+use_max_tag = true
+
+[smartdns]
+source = "github"
+github = "pymumu/smartdns"
+use_max_tag = true
+
+[sshuttle]
+source = "github"
+github = "sshuttle/sshuttle"
+use_max_tag = true
+
+[subbrute]
+source = "github"
+github = "TheRook/subbrute"
+use_max_tag = true
+
+[systemd-swap]
+source = "github"
+github = "Nefelim4ag/systemd-swap"
+use_max_tag = true
+
+[tamarin-prover]
+source = "github"
+github = "tamarin-prover/tamarin-prover"
+use_max_tag = true
+
+[tcpflow]
+source = "github"
+github = "simsong/tcpflow"
+use_max_tag = true
+
+[v2ray]
+source = "github"
+github = "v2ray/v2ray-core"
+use_max_tag = true
+
+[v2ray-domain-list-community]
+source = "github"
+github = "v2ray/domain-list-community"
+use_max_tag = true
+
+[v2ray-geoip]
+source = "github"
+github = "v2ray/geoip"
+use_max_tag = true
+
+[winetricks]
+source = "github"
+github = "Winetricks/winetricks"
+use_max_tag = true
+
+[zerotier-one]
+source = "github"
+github = "zerotier/ZeroTierOne"
+use_max_tag = true
