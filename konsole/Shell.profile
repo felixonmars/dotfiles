@@ -9,7 +9,7 @@ UseFontLineChararacters=true
 CursorShape=2
 
 [General]
-Command=/usr/local/bin/tmuxstart
+Command=
 Name=Shell
 Parent=FALLBACK/
 
