@@ -4932,7 +4932,7 @@ strip_release = true
 
 [deepin-account-faces]
 source = "apt"
-apt = "dde-account-faces"
+pkg = "dde-account-faces"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
@@ -4945,14 +4945,14 @@ strip_release = true
 
 [deepin-anything]
 source = "apt"
-apt = "deepin-anything-libs"
+source_pkg = "deepin-anything"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
 [deepin-api]
 source = "apt"
-apt = "dde-api"
+pkg = "dde-api"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
@@ -4971,14 +4971,14 @@ strip_release = true
 
 [deepin-calendar]
 source = "apt"
-apt = "dde-calendar"
+pkg = "dde-calendar"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
 [deepin-clipboard]
 source = "apt"
-apt = "dde-clipboard"
+pkg = "dde-clipboard"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
@@ -5002,14 +5002,14 @@ strip_release = true
 
 [deepin-control-center]
 source = "apt"
-apt = "dde-control-center"
+pkg = "dde-control-center"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
 [deepin-daemon]
 source = "apt"
-apt = "dde-daemon"
+pkg = "dde-daemon"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
@@ -5028,7 +5028,7 @@ strip_release = true
 
 [deepin-dock]
 source = "apt"
-apt = "dde-dock"
+pkg = "dde-dock"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
@@ -5041,7 +5041,7 @@ strip_release = true
 
 [deepin-file-manager]
 source = "apt"
-apt = "dde-file-manager"
+pkg = "dde-file-manager"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
@@ -5054,7 +5054,7 @@ strip_release = true
 
 [golang-deepin-gir]
 source = "apt"
-apt = "golang-gir-generator"
+pkg = "golang-gir-generator"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
@@ -5079,35 +5079,35 @@ strip_release = true
 
 [deepin-kwin]
 source = "apt"
-apt = "dde-kwin"
+pkg = "dde-kwin"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
 [deepin-launcher]
 source = "apt"
-apt = "dde-launcher"
+pkg = "dde-launcher"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
 [golang-github-linuxdeepin-go-dbus-factory]
 source = "apt"
-apt = "golang-github-linuxdeepin-go-dbus-factory-dev"
+source_pkg = "golang-github-linuxdeepin-go-dbus-factory"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
 [golang-deepin-lib]
 source = "apt"
-apt = "golang-dlib-dev"
+source_pkg = "go-dlib"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
 [golang-github-linuxdeepin-go-x11-client]
 source = "apt"
-apt = "golang-github-linuxdeepin-go-x11-client-dev"
+source_pkg = "golang-github-linuxdeepin-go-x11-client"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
@@ -5142,7 +5142,7 @@ use_max_tag = true
 
 [deepin-network-utils]
 source = "apt"
-apt = "libdde-network-utils"
+source_pkg = "dde-network-utils"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
@@ -5161,35 +5161,35 @@ strip_release = true
 
 [deepin-polkit-agent]
 source = "apt"
-apt = "dde-polkit-agent"
+pkg = "dde-polkit-agent"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
 [deepin-printer]
 source = "apt"
-apt = "dde-printer"
+pkg = "dde-printer"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
 [deepin-qt-dbus-factory]
 source = "apt"
-apt = "libdframeworkdbus2"
+source_pkg = "dde-qt-dbus-factory"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
 [deepin-qt5platform-plugins]
 source = "apt"
-apt = "dde-qt5xcb-plugin"
+source_pkg = "dde-qt5platform-plugins"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
 [deepin-qt5integration]
 source = "apt"
-apt = "dde-qt5integration"
+pkg = "dde-qt5integration"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
@@ -5214,14 +5214,14 @@ strip_release = true
 
 [deepin-session-shell]
 source = "apt"
-apt = "dde-session-shell"
+pkg = "dde-session-shell"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
 [deepin-session-ui]
 source = "apt"
-apt = "dde-session-ui"
+pkg = "dde-session-ui"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
@@ -5274,35 +5274,35 @@ use_max_tag = true
 
 [disomaster]
 source = "apt"
-apt = "libdisomaster"
+source_pkg = "disomaster"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
 [dtkcore]
 source = "apt"
-apt = "libdtkcore5"
+source_pkg = "dtkcore"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
 [dtkgui]
 source = "apt"
-apt = "libdtkgui5"
+pkg = "libdtkgui5"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
 [dtkwidget]
 source = "apt"
-apt = "libdtkwidget5"
+source_pkg = "dtkwidget"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
 [dtkwm]
 source = "apt"
-apt = "libdtkwm2"
+source_pkg = "dtkwm"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
@@ -5320,7 +5320,7 @@ strip_release = true
 
 [udisks2-qt5]
 source = "apt"
-apt = "libudisks2-qt5"
+source_pkg = "udisks2-qt5"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
