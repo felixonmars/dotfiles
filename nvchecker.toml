@@ -2,6 +2,7 @@
 oldver = "old_ver.json"
 newver = "new_ver.json"
 keyfile = "keyfile.toml"
+max_concurrency = 100
 
 [abstract-deque]
 source = "hackage"
@@ -39,6 +40,9 @@ source = "hackage"
 [alex]
 source = "hackage"
 
+[algebraic-graphs]
+source = "hackage"
+
 [annotated-wl-pprint]
 source = "hackage"
 
@@ -67,6 +71,9 @@ source = "hackage"
 source = "hackage"
 
 [async]
+source = "hackage"
+
+[atomic-primops]
 source = "hackage"
 
 [atomic-write]
@@ -813,6 +820,9 @@ source = "hackage"
 [gtk3]
 source = "hackage"
 
+[hackage-db]
+source = "hackage"
+
 [hackage-security]
 source = "hackage"
 
@@ -832,6 +842,9 @@ source = "hackage"
 source = "hackage"
 
 [haskell-gi-overloading]
+source = "hackage"
+
+[haskell-lsp-types]
 source = "hackage"
 
 [haskell-persistent]
@@ -1295,6 +1308,9 @@ source = "hackage"
 [mockery]
 source = "hackage"
 
+[modern-uri]
+source = "hackage"
+
 [monad-control]
 source = "hackage"
 
@@ -1538,6 +1554,9 @@ source = "hackage"
 [polyparse]
 source = "hackage"
 
+[polysemy]
+source = "hackage"
+
 [postgresql-binary]
 source = "hackage"
 
@@ -1674,6 +1693,9 @@ source = "hackage"
 source = "hackage"
 
 [repline]
+source = "hackage"
+
+[req]
 source = "hackage"
 
 [rerebase]
@@ -2132,6 +2154,9 @@ source = "hackage"
 [type-errors]
 source = "hackage"
 
+[type-errors-pretty]
+source = "hackage"
+
 [type-hint]
 source = "hackage"
 
@@ -2142,6 +2167,9 @@ source = "hackage"
 source = "hackage"
 
 [uglymemo]
+source = "hackage"
+
+[unagi-chan]
 source = "hackage"
 
 [unbounded-delays]
@@ -3086,6 +3114,12 @@ source = "pypi"
 [aniso8601]
 source = "pypi"
 
+[ansicolors]
+source = "pypi"
+
+[ansiwrap]
+source = "pypi"
+
 [anyjson]
 source = "pypi"
 
@@ -3111,6 +3145,9 @@ source = "pypi"
 source = "pypi"
 
 [aspectlib]
+source = "pypi"
+
+[asteval]
 source = "pypi"
 
 [astroid]
@@ -3670,6 +3707,9 @@ source = "pypi"
 source = "pypi"
 
 [josepy]
+source = "pypi"
+
+[jrnl]
 source = "pypi"
 
 [Js2Py]
@@ -4885,55 +4925,69 @@ source = "gems"
 gems = "test-unit"
 
 [blur-effect]
-source = "github"
-github = "sonald/blur-effect"
-use_max_tag = true
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-account-faces]
-source = "github"
-github = "linuxdeepin/dde-account-faces"
-use_max_tag = true
+source = "apt"
+apt = "dde-account-faces"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-album]
-source = "github"
-github = "linuxdeepin/deepin-album"
-use_max_tag = true
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-anything]
-source = "github"
-github = "linuxdeepin/deepin-anything"
-use_max_tag = true
+source = "apt"
+apt = "deepin-anything-libs"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-api]
-source = "github"
-github = "linuxdeepin/dde-api"
-use_max_tag = true
-ignored = "2014.2 202008250003"
+source = "apt"
+apt = "dde-api"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-boot-maker]
-source = "github"
-github = "linuxdeepin/deepin-boot-maker"
-use_max_tag = true
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-calculator]
-source = "github"
-github = "linuxdeepin/deepin-calculator"
-use_max_tag = true
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-calendar]
-source = "github"
-github = "linuxdeepin/dde-calendar"
-use_max_tag = true
+source = "apt"
+apt = "dde-calendar"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-clipboard]
-source = "github"
-github = "linuxdeepin/dde-clipboard"
-use_max_tag = true
+source = "apt"
+apt = "dde-clipboard"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-clone]
-source = "github"
-github = "linuxdeepin/deepin-clone"
-use_max_tag = true
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-cogl]
 source = "github"
@@ -4941,125 +4995,128 @@ github = "linuxdeepin/deepin-cogl"
 use_max_tag = true
 
 [deepin-compressor]
-source = "github"
-github = "linuxdeepin/deepin-compressor"
-use_max_tag = true
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-control-center]
-source = "github"
-github = "linuxdeepin/dde-control-center"
-use_max_tag = true
-ignored = "2014.2.3 2014.2.1 2014.2"
+source = "apt"
+apt = "dde-control-center"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-daemon]
-source = "github"
-github = "linuxdeepin/dde-daemon"
-use_max_tag = true
-ignored = "2014.2.2 2014.2.1 2014.2 5.1000.1"
-
-[deepin-dbus-factory]
-source = "github"
-github = "linuxdeepin/dbus-factory"
-use_max_tag = true
-ignored = "2014.2.1 2014.2"
-
-[deepin-dbus-generator]
-source = "github"
-github = "linuxdeepin/go-dbus-generator"
-use_max_tag = true
+source = "apt"
+apt = "dde-daemon"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-desktop-base]
-source = "github"
-github = "linuxdeepin/deepin-desktop-base"
-use_max_tag = true
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-desktop-schemas]
-source = "github"
-github = "linuxdeepin/deepin-desktop-schemas"
-use_max_tag = true
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-dock]
-source = "github"
-github = "linuxdeepin/dde-dock"
-use_max_tag = true
+source = "apt"
+apt = "dde-dock"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-editor]
-source = "github"
-github = "linuxdeepin/deepin-editor"
-use_max_tag = true
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-file-manager]
-source = "github"
-github = "linuxdeepin/dde-file-manager"
-use_max_tag = true
+source = "apt"
+apt = "dde-file-manager"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-gettext-tools]
-source = "github"
-github = "linuxdeepin/deepin-gettext-tools"
-use_max_tag = true
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
-[deepin-gir-generator]
-source = "github"
-github = "linuxdeepin/go-gir-generator"
-use_max_tag = true
+[golang-deepin-gir]
+source = "apt"
+apt = "golang-gir-generator"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-gtk-theme]
-source = "github"
-github = "linuxdeepin/deepin-gtk-theme"
-use_max_tag = true
-
-[deepin-help]
-source = "github"
-github = "linuxdeepin/dde-help"
-use_max_tag = true
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-icon-theme]
-source = "github"
-github = "linuxdeepin/deepin-icon-theme"
-use_max_tag = true
-ignored = "2014.2"
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-image-viewer]
-source = "github"
-github = "linuxdeepin/deepin-image-viewer"
-use_max_tag = true
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-kwin]
-source = "github"
-github = "linuxdeepin/dde-kwin"
-use_max_tag = true
+source = "apt"
+apt = "dde-kwin"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-launcher]
-source = "github"
-github = "linuxdeepin/dde-launcher"
-use_max_tag = true
+source = "apt"
+apt = "dde-launcher"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
-[deepin-go-dbus-factory]
-source = "github"
-github = "linuxdeepin/go-dbus-factory"
-use_max_tag = true
+[golang-github-linuxdeepin-go-dbus-factory]
+source = "apt"
+apt = "golang-github-linuxdeepin-go-dbus-factory-dev"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
-[deepin-go-lib]
-source = "github"
-github = "linuxdeepin/go-lib"
-use_max_tag = true
-ignored = "2014.2.2 2014.2.1 2014.2"
+[golang-deepin-lib]
+source = "apt"
+apt = "golang-dlib-dev"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
-[deepin-go-x11-client]
-source = "github"
-github = "linuxdeepin/go-x11-client"
-use_max_tag = true
-
-[deepin-manual]
-source = "github"
-github = "linuxdeepin/deepin-manual"
-use_max_tag = true
+[golang-github-linuxdeepin-go-x11-client]
+source = "apt"
+apt = "golang-github-linuxdeepin-go-x11-client-dev"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-menu]
-source = "github"
-github = "linuxdeepin/deepin-menu"
-use_max_tag = true
-ignored = "2014.2.3 2014.2"
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-metacity]
 source = "github"
@@ -5067,136 +5124,143 @@ github = "linuxdeepin/deepin-metacity"
 use_max_tag = true
 
 [deepin-movie]
-source = "github"
-github = "linuxdeepin/deepin-movie-reborn"
-use_max_tag = true
-ignored = "2014.2.3 2014.2.1 2014.2"
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-music]
-source = "github"
-github = "linuxdeepin/deepin-music"
-use_max_tag = true
-ignored = "2014.3 2014.2 2.90.0"
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-mutter]
 source = "github"
 github = "linuxdeepin/deepin-mutter"
 use_max_tag = true
 
-[deepin-nautilus-properties]
-source = "github"
-github = "linuxdeepin/deepin-nautilus-properties"
-use_max_tag = true
-
 [deepin-network-utils]
-source = "github"
-github = "linuxdeepin/dde-network-utils"
-use_max_tag = true
+source = "apt"
+apt = "libdde-network-utils"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-notifications]
-source = "github"
-github = "linuxdeepin/deepin-notifications"
-use_max_tag = true
-ignored = "2014.2.3 2014.2.1 2014.2 2.90.0"
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-picker]
-source = "github"
-github = "linuxdeepin/deepin-picker"
-use_max_tag = true
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-polkit-agent]
-source = "github"
-github = "linuxdeepin/dde-polkit-agent"
-use_max_tag = true
+source = "apt"
+apt = "dde-polkit-agent"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-printer]
-source = "github"
-github = "linuxdeepin/dde-printer"
-use_max_tag = true
-
-[deepin-qml-widgets]
-source = "github"
-github = "linuxdeepin/deepin-qml-widgets"
-use_max_tag = true
-ignored = "2014.2.3 2014.2.1 2014.2"
+source = "apt"
+apt = "dde-printer"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-qt-dbus-factory]
-source = "github"
-github = "linuxdeepin/dde-qt-dbus-factory"
-use_max_tag = true
+source = "apt"
+apt = "libdframeworkdbus2"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
-[deepin-qt5dxcb-plugin]
-source = "github"
-github = "linuxdeepin/qt5dxcb-plugin"
-use_max_tag = true
+[deepin-qt5platform-plugins]
+source = "apt"
+apt = "dde-qt5xcb-plugin"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-qt5integration]
-source = "github"
-github = "linuxdeepin/qt5integration"
-use_max_tag = true
+source = "apt"
+apt = "dde-qt5integration"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-reader]
-source = "github"
-github = "linuxdeepin/deepin-reader"
-use_max_tag = true
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-screen-recorder]
-source = "github"
-github = "linuxdeepin/deepin-screen-recorder"
-use_max_tag = true
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-screenshot]
-source = "github"
-github = "linuxdeepin/deepin-screenshot"
-use_max_tag = true
-ignored = "2014.2.3 2014.2 2014rc"
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-session-shell]
-source = "github"
-github = "linuxdeepin/dde-session-shell"
-use_max_tag = true
+source = "apt"
+apt = "dde-session-shell"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-session-ui]
-source = "github"
-github = "linuxdeepin/dde-session-ui"
-use_max_tag = true
+source = "apt"
+apt = "dde-session-ui"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-shortcut-viewer]
-source = "github"
-github = "linuxdeepin/deepin-shortcut-viewer"
-use_max_tag = true
-
-[deepin-social-sharing]
-source = "github"
-github = "linuxdeepin/deepin-social-sharing"
-use_max_tag = true
-ignored = "2014.2.3"
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-sound-theme]
-source = "github"
-github = "linuxdeepin/deepin-sound-theme"
-use_max_tag = true
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-system-monitor]
-source = "github"
-github = "linuxdeepin/deepin-system-monitor"
-use_max_tag = true
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-terminal]
-source = "github"
-github = "linuxdeepin/deepin-terminal"
-use_max_tag = true
-ignored = "2014.2"
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-voice-note]
-source = "github"
-github = "linuxdeepin/deepin-voice-note"
-use_max_tag = true
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-wallpapers]
-source = "github"
-github = "linuxdeepin/deepin-wallpapers"
-use_max_tag = true
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [deepin-wm]
 source = "github"
@@ -5209,29 +5273,39 @@ github = "linuxdeepin/deepin-wm-switcher"
 use_max_tag = true
 
 [disomaster]
-source = "github"
-github = "linuxdeepin/disomaster"
-use_max_tag = true
+source = "apt"
+apt = "libdisomaster"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [dtkcore]
-source = "github"
-github = "linuxdeepin/dtkcore"
-use_max_tag = true
+source = "apt"
+apt = "libdtkcore5"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [dtkgui]
-source = "github"
-github = "linuxdeepin/dtkgui"
-use_max_tag = true
+source = "apt"
+apt = "libdtkgui5"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [dtkwidget]
-source = "github"
-github = "linuxdeepin/dtkwidget"
-use_max_tag = true
+source = "apt"
+apt = "libdtkwidget5"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [dtkwm]
-source = "github"
-github = "linuxdeepin/dtkwm"
-use_max_tag = true
+source = "apt"
+apt = "libdtkwm2"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [qtav]
 source = "github"
@@ -5239,15 +5313,17 @@ github = "wang-bin/QtAV"
 use_max_tag = true
 
 [startdde]
-source = "github"
-github = "linuxdeepin/startdde"
-use_max_tag = true
-ignored = "2014.2"
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [udisks2-qt5]
-source = "github"
-github = "linuxdeepin/udisks2-qt5"
-use_max_tag = true
+source = "apt"
+apt = "libudisks2-qt5"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
 
 [fcitx]
 source = "github"
@@ -5901,7 +5977,7 @@ use_max_tag = true
 
 [v2ray]
 source = "github"
-github = "v2ray/v2ray-core"
+github = "v2fly/v2ray-core"
 use_max_tag = true
 
 [v2ray-domain-list-community]
