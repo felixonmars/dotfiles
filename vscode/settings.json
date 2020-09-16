@@ -6,7 +6,7 @@
     "python.linting.pylintEnabled": false,
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
-        "--ignore=E501"
+        "--ignore=E501,E111,E302"
     ],
     "files.insertFinalNewline": true,
     "workbench.colorTheme": "Panda Syntax",
