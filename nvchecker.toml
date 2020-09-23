@@ -1392,6 +1392,9 @@ source = "hackage"
 [mountpoints]
 source = "hackage"
 
+[mueval]
+source = "hackage"
+
 [murmur-hash]
 source = "hackage"
 
@@ -1839,6 +1842,9 @@ source = "hackage"
 [should-not-typecheck]
 source = "hackage"
 
+[show]
+source = "hackage"
+
 [show-combinators]
 source = "hackage"
 
@@ -2002,6 +2008,9 @@ source = "hackage"
 source = "hackage"
 
 [tar-conduit]
+source = "hackage"
+
+[taskell]
 source = "hackage"
 
 [tasty]
@@ -2236,6 +2245,9 @@ source = "hackage"
 source = "hackage"
 
 [Unixutils]
+source = "hackage"
+
+[unlambda]
 source = "hackage"
 
 [unliftio]
