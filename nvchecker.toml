@@ -58,6 +58,9 @@ source = "hackage"
 [appar]
 source = "hackage"
 
+[arch-hs]
+source = "hackage"
+
 [asn1-encoding]
 source = "hackage"
 
@@ -217,6 +220,9 @@ source = "hackage"
 [cabal-install]
 source = "hackage"
 
+[cabal-install-parsers]
+source = "hackage"
+
 [cairo]
 source = "hackage"
 
@@ -323,6 +329,9 @@ source = "hackage"
 source = "hackage"
 
 [conduit-extra]
+source = "hackage"
+
+[conduit-parse]
 source = "hackage"
 
 [config-ini]
@@ -541,7 +550,13 @@ source = "hackage"
 [dhall-json]
 source = "hackage"
 
+[dhall-lsp-server]
+source = "hackage"
+
 [dhall-to-cabal]
+source = "hackage"
+
+[dhall-yaml]
 source = "hackage"
 
 [Diff]
@@ -730,6 +745,9 @@ source = "hackage"
 [generic-lens-core]
 source = "hackage"
 
+[generic-lens-lite]
+source = "hackage"
+
 [generic-lens]
 source = "hackage"
 
@@ -776,6 +794,9 @@ source = "hackage"
 source = "hackage"
 
 [ghc-typelits-natnormalise]
+source = "hackage"
+
+[gi-cairo]
 source = "hackage"
 
 [git-annex]
@@ -835,6 +856,9 @@ source = "hackage"
 [half]
 source = "hackage"
 
+[haskell-ci]
+source = "hackage"
+
 [haskell-gi]
 source = "hackage"
 
@@ -842,6 +866,9 @@ source = "hackage"
 source = "hackage"
 
 [haskell-gi-overloading]
+source = "hackage"
+
+[haskell-lsp]
 source = "hackage"
 
 [haskell-lsp-types]
@@ -1185,6 +1212,9 @@ source = "hackage"
 [language-python]
 source = "hackage"
 
+[lattices]
+source = "hackage"
+
 [leancheck]
 source = "hackage"
 
@@ -1240,6 +1270,9 @@ source = "hackage"
 source = "hackage"
 
 [lrucache]
+source = "hackage"
+
+[lsp-test]
 source = "hackage"
 
 [lucid]
@@ -1312,6 +1345,9 @@ source = "hackage"
 source = "hackage"
 
 [monad-control]
+source = "hackage"
+
+[monad-gen]
 source = "hackage"
 
 [monad-journal]
@@ -2185,6 +2221,12 @@ source = "hackage"
 source = "hackage"
 
 [uniplate]
+source = "hackage"
+
+[universe-base]
+source = "hackage"
+
+[universe-reverse-instances]
 source = "hackage"
 
 [unix-compat]
@@ -4890,9 +4932,10 @@ gems = "addressable"
 
 [ruby-bundler]
 source = "github"
-github = "bundler/bundler"
+github = "rubygems/rubygems"
 use_max_tag = true
-ignored = "v2.0.0.pre.3 v2.0.0.pre.2 v2.0.0.pre.1"
+include_regex = "bundler-.*"
+exclude_regex = ".*rc.*"
 
 [ruby-cairo]
 source = "gems"
@@ -5778,21 +5821,25 @@ github = "nodejs/http-parser"
 use_max_tag = true
 
 [jenkins]
-source = "github"
-github = "jenkinsci/jenkins"
-use_max_tag = true
-ignored = "unified-annotation-indexer prototype-1.7 prototype-1.5.1.1 split-from-core remoting-3.13 remoting-3.12\nremoting-3.11 remoting-3.10.2 remoting-3.10.1 remoting-3.10 remoting-3.9 remoting-3.8 remoting-3.7\nremoting-3.6 remoting-3.5 remoting-3.4.1 remoting-3.4 remoting-3.3 remoting-3.2 remoting-3.1 remoting-3.0\nremoting-2.62.6 remoting-2.62.5 remoting-2.62.4 remoting-2.62.3 remoting-2.62.2 remoting-2.62.1\nremoting-2.62 remoting-2.61 remoting-2.60.2 remoting-test-client-1.1 remoting-test-client-1.0\nremoting-2.60.1 remoting-2.60 remoting-2.59.2 remoting-2.59.1 remoting-2.59 remoting-2.58 remoting-2.57\nremoting-2.56 remoting-2.55 remoting-2.54 remoting-2.53.5 remoting-2.53.4 remoting-2.53.3 remoting-2.53.2\nremoting-2.53.1 remoting-2.53 remoting-2.52 remoting-2.51 remoting-2.50 remoting-2.49 remoting-2.48\nremoting-2.47 remoting-2.46"
+source = "git"
+git = "https://github.com/jenkinsci/jenkins.git"
+include_regex = "jenkins-.*"
 
 [kcptun]
 source = "github"
 github = "xtaci/kcptun"
 use_max_tag = true
 
+[klayout]
+source = "github"
+github = "KLayout/klayout"
+use_max_tag = true
+
 [libblockdev]
 source = "github"
 github = "rhinstaller/libblockdev"
 use_max_tag = true
-ignored = "libblockdev-0.7-1 libblockdev-0.8-1 libblockdev-0.9-1 libblockdev-0.10-1 libblockdev-0.11-1 libblockdev-0.12-1\nlibblockdev-0.13-1 libblockdev-1.0-1 libblockdev-1.1-1 libblockdev-1.2-1 libblockdev-1.3-1\nlibblockdev-1.4-1 libblockdev-1.5-1 libblockdev-1.6-1 libblockdev-1.7-1 libblockdev-1.8-1\nlibblockdev-1.9-1 libblockdev-2.0-1 libblockdev-2.1-1 libblockdev-2.2-1 libblockdev-2.3-1\nlibblockdev-2.4-1 libblockdev-2.5-1 libblockdev-2.6-1 libblockdev-2.7-1 libblockdev-2.8-1\nlibblockdev-2.9-1 libblockdev-2.10-1 libblockdev-2.11-1 libblockdev-2.12-1"
+exclude_regex = "libblockdev-.*"
 
 [libbson]
 source = "github"
@@ -5813,7 +5860,7 @@ use_max_tag = true
 source = "github"
 github = "mongodb/mongo-c-driver"
 use_max_tag = true
-ignored = "v0.2 v0.3 v0.3.1 v0.4 v0.5 v0.5.1 v0.5.2 v0.6 v0.7 v0.7.1 v0.8 v0.8.1\ndebian/1.3.5-1 debian/1.4.1-1 debian/1.4.2-1 debian/1.5.0-1 debian/1.5.3-1 debian/1.5.4-1 debian/1.6.1-1 debian/1.6.3-1 debian/1.7.0-1 debian/1.8.0-1\ndebian/1.8.1-1 debian/1.9.0+dfsg-1 debian/1.9.2+dfsg-1 debian/1.9.3+dfsg-1\ndebian/1.9.3+dfsg-2 debian/1.9.4+dfsg-1 debian/1.9.4+dfsg-2 debian/1.9.5+dfsg-1"
+include_regex = "\\d.*"
 
 [libpapyros]
 source = "github"
