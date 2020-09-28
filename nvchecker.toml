@@ -715,6 +715,9 @@ source = "hackage"
 [first-class-families]
 source = "hackage"
 
+[flexible-defaults]
+source = "hackage"
+
 [FloatingHex]
 source = "hackage"
 
@@ -1302,6 +1305,9 @@ source = "hackage"
 [MemoTrie]
 source = "hackage"
 
+[mersenne-random-pure64]
+source = "hackage"
+
 [microlens]
 source = "hackage"
 
@@ -1375,6 +1381,9 @@ source = "hackage"
 source = "hackage"
 
 [monadplus]
+source = "hackage"
+
+[MonadPrompt]
 source = "hackage"
 
 [MonadRandom]
@@ -1674,6 +1683,15 @@ source = "hackage"
 [random]
 source = "hackage"
 
+[random-fu]
+source = "hackage"
+
+[random-shuffle]
+source = "hackage"
+
+[random-source]
+source = "hackage"
+
 [Ranged-sets]
 source = "hackage"
 
@@ -1765,6 +1783,9 @@ source = "hackage"
 source = "hackage"
 
 [rope-utf16-splay]
+source = "hackage"
+
+[rvar]
 source = "hackage"
 
 [RSA]
@@ -1915,6 +1936,9 @@ source = "hackage"
 source = "hackage"
 
 [stack]
+source = "hackage"
+
+[stateref]
 source = "hackage"
 
 [StateVar]
@@ -2130,6 +2154,9 @@ source = "hackage"
 [th-expand-syns]
 source = "hackage"
 
+[th-extras]
+source = "hackage"
+
 [th-lift]
 source = "hackage"
 
@@ -2278,6 +2305,9 @@ source = "hackage"
 source = "hackage"
 
 [uuid-types]
+source = "hackage"
+
+[uusi]
 source = "hackage"
 
 [validation-selective]
@@ -3378,6 +3408,9 @@ source = "pypi"
 [click-default-group]
 source = "pypi"
 
+[click-didyoumean]
+source = "pypi"
+
 [cliff]
 source = "pypi"
 
@@ -4290,6 +4323,9 @@ source = "pypi"
 source = "pypi"
 
 [pytest-capturelog]
+source = "pypi"
+
+[pytest-celery]
 source = "pypi"
 
 [pytest-cov]
