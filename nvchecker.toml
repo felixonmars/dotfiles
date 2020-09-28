@@ -586,9 +586,6 @@ source = "hackage"
 [doclayout]
 source = "hackage"
 
-[docopt]
-source = "hackage"
-
 [doctemplates]
 source = "hackage"
 
@@ -2500,6 +2497,7 @@ source = "hackage"
 source = "npm"
 
 [babel-cli]
+npm = "@babel/cli"
 source = "npm"
 
 [bash-language-server]
@@ -4067,7 +4065,8 @@ pypi = "path"
 [pathlib]
 source = "pypi"
 
-[pathlib2]
+[python2-pathlib2]
+pypi = "pathlib2"
 source = "pypi"
 
 [pathtools]
@@ -6060,6 +6059,7 @@ use_max_tag = true
 source = "github"
 github = "TheRook/subbrute"
 use_max_tag = true
+arch_ignored = true
 
 [systemd-swap]
 source = "github"
@@ -6079,7 +6079,7 @@ use_max_tag = true
 [v2ray]
 source = "github"
 github = "v2fly/v2ray-core"
-use_max_tag = true
+use_latest_release = true
 
 [v2ray-domain-list-community]
 source = "github"
