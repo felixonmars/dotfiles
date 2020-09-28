@@ -6083,12 +6083,12 @@ use_latest_release = true
 
 [v2ray-domain-list-community]
 source = "github"
-github = "v2ray/domain-list-community"
+github = "v2fly/domain-list-community"
 use_max_tag = true
 
 [v2ray-geoip]
 source = "github"
-github = "v2ray/geoip"
+github = "v2fly/geoip"
 use_max_tag = true
 
 [winetricks]
