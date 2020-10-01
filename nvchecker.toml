@@ -2145,6 +2145,9 @@ source = "hackage"
 [th-abstraction]
 source = "hackage"
 
+[th-compat]
+source = "hackage"
+
 [th-desugar]
 source = "hackage"
 
@@ -2868,6 +2871,7 @@ source = "cpan"
 
 [Mail-SPF]
 source = "cpan"
+prefix = "v"
 
 [MailTools]
 source = "cpan"
@@ -2901,6 +2905,7 @@ source = "cpan"
 
 [Mouse]
 source = "cpan"
+prefix = "v"
 
 [Mozilla-CA]
 source = "cpan"
@@ -2970,6 +2975,7 @@ source = "cpan"
 
 [Path-FindDev]
 source = "cpan"
+prefix = "v"
 
 [Path-IsDev]
 source = "cpan"
@@ -3060,6 +3066,7 @@ source = "cpan"
 
 [Sys-Virt]
 source = "cpan"
+prefix = "v"
 
 [Task-Weaken]
 source = "cpan"
@@ -3099,6 +3106,7 @@ source = "cpan"
 
 [Test-MockModule]
 source = "cpan"
+prefix = "v"
 
 [Test-MockTime]
 source = "cpan"
@@ -4983,6 +4991,7 @@ github = "rubygems/rubygems"
 use_max_tag = true
 include_regex = "bundler-.*"
 exclude_regex = ".*rc.*"
+prefix = "bundler-v"
 
 [ruby-cairo]
 source = "gems"
@@ -5407,6 +5416,7 @@ strip_release = true
 source = "github"
 github = "wang-bin/QtAV"
 use_max_tag = true
+prefix = "v"
 
 [startdde]
 source = "apt"
@@ -5529,58 +5539,86 @@ use_max_tag = true
 [fcitx5]
 source = "github"
 github = "fcitx/fcitx5"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [fcitx5-anthy]
 source = "github"
 github = "fcitx/fcitx5-anthy"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [fcitx5-chewing]
 source = "github"
 github = "fcitx/fcitx5-chewing"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [fcitx5-chinese-addons]
 source = "github"
 github = "fcitx/fcitx5-chinese-addons"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [fcitx5-configtool]
 source = "github"
 github = "fcitx/fcitx5-configtool"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [fcitx5-gtk]
 source = "github"
 github = "fcitx/fcitx5-gtk"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [fcitx5-hangul]
 source = "github"
 github = "fcitx/fcitx5-hangul"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [fcitx5-lua]
 source = "github"
 github = "fcitx/fcitx5-lua"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [fcitx5-qt]
 source = "github"
 github = "fcitx/fcitx5-qt"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [fcitx5-rime]
 source = "github"
 github = "fcitx/fcitx5-rime"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [fcitx5-skk]
 source = "github"
 github = "fcitx/fcitx5-skk"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [fcitx5-unikey]
 source = "github"
 github = "fcitx/fcitx5-unikey"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [libime]
 source = "github"
 github = "fcitx/libime"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [xcb-imdkit]
 source = "github"
 github = "fcitx/xcb-imdkit"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [ibus]
 source = "github"
@@ -5596,6 +5634,7 @@ use_max_tag = true
 source = "github"
 github = "ueno/ibus-kkc"
 use_max_tag = true
+prefix = "v"
 
 [ibus-m17n]
 source = "github"
@@ -5642,134 +5681,176 @@ use_max_tag = true
 [rime-bopomofo]
 source = "github"
 github = "rime/rime-bopomofo"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [rime-cangjie]
 source = "github"
 github = "rime/rime-cangjie"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [rime-cantonese]
 source = "github"
 github = "rime/rime-cantonese"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [rime-double-pinyin]
 source = "github"
 github = "rime/rime-double-pinyin"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [rime-essay]
 source = "github"
 github = "rime/rime-essay"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [rime-loengfan]
 source = "github"
 github = "CanCLID/rime-loengfan"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [rime-luna-pinyin]
 source = "github"
 github = "rime/rime-luna-pinyin"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [rime-pinyin-simp]
 source = "github"
 github = "rime/rime-pinyin-simp"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [rime-prelude]
 source = "github"
 github = "rime/rime-prelude"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [rime-quick]
 source = "github"
 github = "rime/rime-quick"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [rime-stroke]
 source = "github"
 github = "rime/rime-stroke"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [rime-terra-pinyin]
 source = "github"
 github = "rime/rime-terra-pinyin"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [rime-wubi]
 source = "github"
 github = "rime/rime-wubi"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
 
 [kylin-nm]
 source = "github"
 github = "ukui/kylin-nm"
 use_max_tag = true
+prefix = "v"
 
 [ukwm]
 source = "github"
 github = "ukui/ukwm"
 use_max_tag = true
+prefix = "v"
 
 [peony]
 source = "github"
 github = "ukui/peony"
 use_max_tag = true
+prefix = "v"
 
 [ukui-menus]
 source = "github"
 github = "ukui/ukui-menus"
 use_max_tag = true
+prefix = "v"
 
 [ukui-panel]
 source = "github"
 github = "ukui/ukui-panel"
 use_max_tag = true
+prefix = "v"
 
 [ukui-window-switch]
 source = "github"
 github = "ukui/ukui-window-switch"
 use_max_tag = true
+prefix = "v"
 
 [ukui-settings-daemon]
 source = "github"
 github = "ukui/ukui-settings-daemon"
 use_max_tag = true
+prefix = "v"
 
 [ukui-media]
 source = "github"
 github = "ukui/ukui-media"
 use_max_tag = true
+prefix = "v"
 
 [ukui-greeter]
 source = "github"
 github = "ukui/ukui-greeter"
 use_max_tag = true
+prefix = "v"
 
 [ukui-biometric-auth]
 source = "github"
 github = "ukui/ukui-biometric-auth"
 use_max_tag = true
+prefix = "v"
 
 [ukui-session-manager]
 source = "github"
 github = "ukui/ukui-session-manager"
 use_max_tag = true
+prefix = "v"
 
 [ukui-themes]
 source = "github"
 github = "ukui/ukui-themes"
 use_max_tag = true
+prefix = "v"
 
 [ukui-control-center]
 source = "github"
 github = "ukui/ukui-control-center"
 use_max_tag = true
+prefix = "v"
 
 [ukui-menu]
 source = "github"
 github = "ukui/ukui-menu"
 use_max_tag = true
+prefix = "v"
 
 [ukui-sidebar]
 source = "github"
 github = "ukui/ukui-sidebar"
 use_max_tag = true
+prefix = "v"
 
 [qt5-ukui-platformtheme]
 source = "github"
 github = "ukui/qt5-ukui-platformtheme"
 use_max_tag = true
+prefix = "v"
 
 [ammonite]
 source = "github"
@@ -5780,6 +5861,7 @@ use_max_tag = true
 source = "github"
 github = "tatsuhiro-t/aria2"
 use_max_tag = true
+prefix = "release-"
 
 [bats]
 source = "github"
@@ -5805,6 +5887,7 @@ use_max_tag = true
 source = "github"
 github = "johang/btfs"
 use_max_tag = true
+prefix = "v"
 
 [catimg]
 source = "github"
@@ -5816,6 +5899,8 @@ source = "github"
 github = "fujiwarat/cldr-emoji-annotation"
 use_max_tag = true
 ignored = "30.0.3"
+from_pattern = "_"
+to_pattern = "."
 
 [cmake-fedora]
 source = "pagure"
@@ -5831,11 +5916,13 @@ use_max_tag = true
 source = "github"
 github = "so-fancy/diff-so-fancy"
 use_max_tag = true
+prefix = "v"
 
 [docker-machine]
 source = "github"
 github = "docker/machine"
 use_max_tag = true
+prefix = "v"
 
 [freebasic]
 source = "github"
@@ -5846,47 +5933,57 @@ use_max_tag = true
 source = "github"
 github = "nadoo/glider"
 use_max_tag = true
+prefix = "v"
 
 [glog]
 source = "github"
 github = "google/glog"
 use_max_tag = true
+prefix = "v"
 
 [goaccess]
 source = "github"
 github = "allinurl/goaccess"
 use_max_tag = true
+prefix = "v"
 
 [gost]
 source = "github"
 github = "ginuerzh/gost"
 use_max_tag = true
+prefix = "v"
 
 [http-parser]
 source = "github"
 github = "nodejs/http-parser"
 use_max_tag = true
+prefix = "v"
 
 [jenkins]
 source = "git"
 git = "https://github.com/jenkinsci/jenkins.git"
 include_regex = "jenkins-.*"
+prefix = "jenkins-"
 
 [kcptun]
 source = "github"
 github = "xtaci/kcptun"
 use_max_tag = true
+prefix = "v"
 
 [klayout]
 source = "github"
 github = "KLayout/klayout"
 use_max_tag = true
+prefix = "v"
 
 [libblockdev]
 source = "github"
 github = "rhinstaller/libblockdev"
 use_max_tag = true
 exclude_regex = "libblockdev-.*"
+from_pattern = "-\\d$"
+to_pattern = ""
 
 [libbson]
 source = "github"
@@ -5897,11 +5994,13 @@ use_max_tag = true
 source = "github"
 github = "NVIDIA/libglvnd"
 use_max_tag = true
+prefix = "v"
 
 [libkkc]
 source = "github"
 github = "ueno/libkkc"
 use_max_tag = true
+prefix = "v"
 
 [mongo-c-driver]
 source = "github"
@@ -5913,6 +6012,7 @@ include_regex = "\\d.*"
 source = "github"
 github = "papyros/libpapyros"
 use_max_tag = true
+prefix = "v"
 
 [libpinyin]
 source = "github"
@@ -5923,6 +6023,7 @@ use_max_tag = true
 source = "github"
 github = "shadowsocks/libQtShadowsocks"
 use_max_tag = true
+prefix = "v"
 
 [librime]
 source = "github"
@@ -5938,22 +6039,27 @@ use_max_tag = true
 source = "github"
 github = "libuv/libuv"
 use_max_tag = true
+prefix = "v"
 
 [lmdb]
-source = "github"
-github = "LMDB/lmdb"
+source = "gitlab"
+gitlab = "openldap/openldap"
+host = "git.openldap.org"
 use_max_tag = true
-ignored = "master.old"
+include_regex = "^LMDB_.*"
+prefix = "LMDB_"
 
 [manpages-zh]
 source = "github"
 github = "man-pages-zh/manpages-zh"
 use_max_tag = true
+prefix = "v"
 
 [marsyas]
 source = "github"
 github = "marsyas/marsyas"
 use_max_tag = true
+prefix = "version-"
 
 [minisign]
 source = "github"
@@ -5964,16 +6070,19 @@ use_max_tag = true
 source = "github"
 github = "pmem/ndctl"
 use_max_tag = true
+prefix = "v"
 
 [node]
 source = "github"
 github = "nodejs/node"
 use_max_tag = true
+prefix = "v"
 
 [opencc]
 source = "github"
 github = "BYVoid/OpenCC"
 use_max_tag = true
+prefix = "ver."
 
 [papirus-icon-theme]
 source = "github"
@@ -5984,11 +6093,13 @@ use_max_tag = true
 source = "github"
 github = "papyros/files-app"
 use_max_tag = true
+prefix = "v"
 
 [papyros-terminal]
 source = "github"
 github = "papyros/terminal-app"
 use_max_tag = true
+prefix = "v"
 
 [pony-stable]
 source = "github"
@@ -6004,56 +6115,67 @@ use_max_tag = true
 source = "github"
 github = "Xfennec/progress"
 use_max_tag = true
+prefix = "v"
 
 [proxychains-ng]
 source = "github"
 github = "rofl0r/proxychains-ng"
 use_max_tag = true
+prefix = "v"
 
 [qml-material]
 source = "github"
 github = "papyros/qml-material"
 use_max_tag = true
+prefix = "v"
 
 [qopenvpn]
 source = "github"
 github = "xmikos/qopenvpn"
 use_max_tag = true
+prefix = "v"
 
 [rclone]
 source = "github"
 github = "ncw/rclone"
 use_max_tag = true
+prefix = "v"
 
 [reaver]
 source = "github"
 github = "t6x/reaver-wps-fork-t6x"
 use_max_tag = true
+prefix = "v"
 
 [shadowsocks-libev]
 source = "github"
 github = "shadowsocks/shadowsocks-libev"
 use_max_tag = true
+prefix = "v"
 
 [shadowsocks-qt5]
 source = "github"
 github = "shadowsocks/shadowsocks-qt5"
 use_max_tag = true
+prefix = "v"
 
 [simple-obfs]
 source = "github"
 github = "shadowsocks/simple-obfs"
 use_max_tag = true
+prefix = "v"
 
 [smartdns]
 source = "github"
 github = "pymumu/smartdns"
 use_max_tag = true
+prefix = "Release"
 
 [sshuttle]
 source = "github"
 github = "sshuttle/sshuttle"
 use_max_tag = true
+prefix = "v"
 
 [subbrute]
 source = "github"
@@ -6075,11 +6197,13 @@ use_max_tag = true
 source = "github"
 github = "simsong/tcpflow"
 use_max_tag = true
+prefix = "tcpflow-"
 
 [v2ray]
 source = "github"
 github = "v2fly/v2ray-core"
 use_latest_release = true
+prefix = "v"
 
 [v2ray-domain-list-community]
 source = "github"
