@@ -2,6 +2,7 @@
 oldver = "old_ver.json"
 newver = "new_ver.json"
 keyfile = "keyfile.toml"
+http_timeout = 300
 max_concurrency = 100
 
 [abstract-deque]
@@ -5906,6 +5907,12 @@ to_pattern = "."
 source = "pagure"
 pagure = "cmake-fedora"
 
+[dart]
+source = "github"
+github = "dart-lang/sdk"
+use_max_tag = true
+exclude_regex = ".*\\.dev$"
+
 [debootstrap]
 source = "gitlab"
 gitlab = "installer-team/debootstrap"
@@ -5923,6 +5930,11 @@ source = "github"
 github = "docker/machine"
 use_max_tag = true
 prefix = "v"
+
+[faudio]
+source = "github"
+github = "FNA-XNA/FAudio"
+use_max_tag = true
 
 [freebasic]
 source = "github"
@@ -6198,6 +6210,12 @@ source = "github"
 github = "simsong/tcpflow"
 use_max_tag = true
 prefix = "tcpflow-"
+
+[ttf-sarasa-gothic]
+source = "github"
+github = "be5invis/Sarasa-Gothic"
+use_max_tag = true
+prefix = "v"
 
 [v2ray]
 source = "github"
