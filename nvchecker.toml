@@ -413,9 +413,6 @@ source = "hackage"
 [cryptohash]
 source = "hackage"
 
-[cryptohash-conduit]
-source = "hackage"
-
 [cryptohash-cryptoapi]
 source = "hackage"
 
@@ -776,6 +773,9 @@ source = "hackage"
 [getopt-generics]
 source = "hackage"
 
+[ghc-exactprint]
+source = "hackage"
+
 [ghc-lib-parser-ex]
 source = "hackage"
 
@@ -1009,6 +1009,9 @@ source = "hackage"
 [hspec]
 source = "hackage"
 
+[hspec-attoparsec]
+source = "hackage"
+
 [hspec-contrib]
 source = "hackage"
 
@@ -1118,6 +1121,9 @@ source = "hackage"
 source = "hackage"
 
 [IfElse]
+source = "hackage"
+
+[implicit-hie]
 source = "hackage"
 
 [incremental-parser]
@@ -1351,6 +1357,9 @@ source = "hackage"
 [monad-control]
 source = "hackage"
 
+[monad-dijkstra]
+source = "hackage"
+
 [monad-gen]
 source = "hackage"
 
@@ -1361,6 +1370,9 @@ source = "hackage"
 source = "hackage"
 
 [monad-loops]
+source = "hackage"
+
+[monad-memo]
 source = "hackage"
 
 [monad-par]
@@ -1400,6 +1412,9 @@ source = "hackage"
 source = "hackage"
 
 [mueval]
+source = "hackage"
+
+[multistate]
 source = "hackage"
 
 [murmur-hash]
@@ -1508,6 +1523,9 @@ source = "hackage"
 source = "hackage"
 
 [ordered-containers]
+source = "hackage"
+
+[ormolu]
 source = "hackage"
 
 [pandoc]
@@ -1705,6 +1723,12 @@ source = "hackage"
 [rebase]
 source = "hackage"
 
+[record-dot-preprocessor]
+source = "hackage"
+
+[record-hasfield]
+source = "hackage"
+
 [recursion-schemes]
 source = "hackage"
 
@@ -1712,6 +1736,9 @@ source = "hackage"
 source = "hackage"
 
 [refact]
+source = "hackage"
+
+[refinery]
 source = "hackage"
 
 [reflection]
@@ -1760,6 +1787,9 @@ source = "hackage"
 source = "hackage"
 
 [resourcet]
+source = "hackage"
+
+[retrie]
 source = "hackage"
 
 [retry]
@@ -1973,6 +2003,9 @@ source = "hackage"
 source = "hackage"
 
 [strict]
+source = "hackage"
+
+[strict-list]
 source = "hackage"
 
 [string-conversions]
@@ -2470,9 +2503,6 @@ source = "hackage"
 [yesod-core]
 source = "hackage"
 
-[yesod-default]
-source = "hackage"
-
 [yesod-form]
 source = "hackage"
 
@@ -2850,6 +2880,9 @@ source = "cpan"
 source = "cpan"
 
 [Lingua-EN-Inflect]
+source = "cpan"
+
+[List-Compare]
 source = "cpan"
 
 [List-MoreUtils]
@@ -3583,6 +3616,9 @@ source = "pypi"
 [fastpbkdf2]
 source = "pypi"
 
+[feeluown]
+source = "pypi"
+
 [fields]
 source = "pypi"
 
@@ -3668,7 +3704,30 @@ source = "pypi"
 [funcy]
 source = "pypi"
 
+[feeluown-kuwo]
+source = "pypi"
+pypi = "fuo_kuwo"
+
+[feeluown-local]
+source = "pypi"
+pypi = "fuo_local"
+
+[feeluown-netease]
+source = "pypi"
+pypi = "fuo_netease"
+
+[feeluown-qqmusic]
+source = "pypi"
+pypi = "fuo_qqmusic"
+
+[feeluown-xiami]
+source = "pypi"
+pypi = "fuo_xiami"
+
 [future]
+source = "pypi"
+
+[fuzzywuzzy]
 source = "pypi"
 
 [gcp-devrel-py-tools]
@@ -3792,6 +3851,9 @@ source = "pypi"
 source = "pypi"
 
 [jaeger-client]
+source = "pypi"
+
+[janus]
 source = "pypi"
 
 ["jaraco.envs"]
@@ -4481,6 +4543,9 @@ source = "pypi"
 source = "pypi"
 
 [pyxenstore]
+source = "pypi"
+
+[qasync]
 source = "pypi"
 
 [qiniu]
@@ -5936,6 +6001,11 @@ source = "github"
 github = "FNA-XNA/FAudio"
 use_max_tag = true
 
+[fcitx5-pinyin-zhwiki]
+source = "regex"
+url = "https://dumps.wikimedia.org/zhwiki/latest/zhwiki-latest-all-titles-in-ns0.gz-rss.xml"
+regex = "(?<=zhwiki-)\\d+(?=-all-titles-in-ns0)"
+
 [freebasic]
 source = "github"
 github = "freebasic/fbc"
@@ -6084,7 +6154,7 @@ github = "pmem/ndctl"
 use_max_tag = true
 prefix = "v"
 
-[node]
+[nodejs]
 source = "github"
 github = "nodejs/node"
 use_max_tag = true
