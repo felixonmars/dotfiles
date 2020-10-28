@@ -278,6 +278,9 @@ source = "hackage"
 [cipher-aes128]
 source = "hackage"
 
+[citeproc]
+source = "hackage"
+
 [clash-prelude]
 source = "hackage"
 
@@ -2606,6 +2609,10 @@ source = "npm"
 [uglify-js]
 source = "npm"
 
+[nodejs-yaml]
+source = "npm"
+npm = "yaml"
+
 [Acme-Alien-DontPanic]
 source = "cpan"
 
@@ -3626,6 +3633,9 @@ source = "pypi"
 source = "pypi"
 pypi = "filelock"
 
+[filetype]
+source = "pypi"
+
 [first]
 source = "pypi"
 
@@ -4392,9 +4402,6 @@ source = "pypi"
 [pytest-cache]
 source = "pypi"
 
-[pytest-capturelog]
-source = "pypi"
-
 [pytest-celery]
 source = "pypi"
 
@@ -4841,6 +4848,9 @@ source = "pypi"
 source = "pypi"
 
 [Twisted]
+source = "pypi"
+
+[typeguard]
 source = "pypi"
 
 [txaio]
@@ -5959,6 +5969,17 @@ prefix = "v"
 source = "github"
 github = "posva/catimg"
 use_max_tag = true
+
+[ccls]
+source = "github"
+github = "MaskRay/ccls"
+use_max_tag = true
+
+[clash]
+source = "github"
+github = "Dreamacro/clash"
+use_latest_release = true
+prefix = "v"
 
 [cldr-emoji-annotation]
 source = "github"
