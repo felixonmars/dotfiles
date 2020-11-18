@@ -15,6 +15,7 @@
 	b  = branch
 	c  = commit -S
 	ci = commit -S
+	cp = cherry-pick
 	cs = commit --signoff
 	cm = commit -S --amend
 	co = checkout
