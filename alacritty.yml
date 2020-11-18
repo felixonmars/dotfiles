@@ -3,29 +3,37 @@ window:
 
 font:
     offset:
-        y: 1
-    size: 7
+        y: 0
+    size: 7.5
 
 colors:
+  # Default colors
   primary:
-    foreground: '0xeeeeec'
-  
-  normal:
-     black:   '0x2e3436'
-     red:     '0xcc0000'
-     green:   '0x73d216'
-     yellow:  '0xedd400'
-     blue:    '0x3465a4'
-     magenta: '0x75507b'
-     cyan:    '0x06989a'
-     white:   '0xd3d7cf'
+    foreground: '0xEBEBEB'
 
+  # Cursor colors
+  cursor:
+    text: '0xFF261E'
+    cursor: '0xFF261E'
+
+  # Normal colors
+  normal:
+    black:   '0x0d0d0d'
+    red:     '0xFF301B'
+    green:   '0xA0E521'
+    yellow:  '0xFFC620'
+    blue:    '0x1BA6FA'
+    magenta: '0x8763B8'
+    cyan:    '0x21DEEF'
+    white:   '0xEBEBEB'
+
+  # Bright colors
   bright:
-     black:   '0x2e3436'
-     red:     '0xef2929'
-     green:   '0x8ae234'
-     yellow:  '0xfce94f'
-     blue:    '0x729fcf'
-     magenta: '0xad7fa8'
-     cyan:    '0x34e2e2'
-     white:   '0xeeeeec'
+    black:   '0x6D7070'
+    red:     '0xFF4352'
+    green:   '0xB8E466'
+    yellow:  '0xFFD750'
+    blue:    '0x1BA6FA'
+    magenta: '0xA578EA'
+    cyan:    '0x73FBF1'
+    white:   '0xFEFEF8'
