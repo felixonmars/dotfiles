@@ -3,7 +3,7 @@ oldver = "old_ver.json"
 newver = "new_ver.json"
 keyfile = "keyfile.toml"
 http_timeout = 300
-max_concurrency = 100
+max_concurrency = 20
 
 [abstract-deque]
 source = "hackage"
@@ -165,6 +165,9 @@ source = "hackage"
 source = "hackage"
 
 [blaze-markup]
+source = "hackage"
+
+[blaze-textual]
 source = "hackage"
 
 [bloomfilter]
@@ -1027,6 +1030,9 @@ source = "hackage"
 [hspec-expectations]
 source = "hackage"
 
+[hspec-expectations-lifted]
+source = "hackage"
+
 [hspec-golden]
 source = "hackage"
 
@@ -1427,6 +1433,12 @@ source = "hackage"
 source = "hackage"
 
 [mwc-random]
+source = "hackage"
+
+[mysql]
+source = "hackage"
+
+[mysql-simple]
 source = "hackage"
 
 [nanospec]
@@ -1843,6 +1855,9 @@ source = "hackage"
 [scientific]
 source = "hackage"
 
+[scotty]
+source = "hackage"
+
 [securemem]
 source = "hackage"
 
@@ -2093,6 +2108,9 @@ source = "hackage"
 source = "hackage"
 
 [tasty-hunit]
+source = "hackage"
+
+[tasty-kat]
 source = "hackage"
 
 [tasty-lua]
@@ -5615,86 +5633,102 @@ use_max_tag = true
 [fcitx5]
 source = "github"
 github = "fcitx/fcitx5"
-from_pattern = "^(\\d{8})\\.\\d{6}$"
-to_pattern = "0.0.0.\\1"
+use_max_tag = true
 
 [fcitx5-anthy]
 source = "github"
 github = "fcitx/fcitx5-anthy"
-from_pattern = "^(\\d{8})\\.\\d{6}$"
-to_pattern = "0.0.0.\\1"
+use_max_tag = true
 
 [fcitx5-chewing]
 source = "github"
 github = "fcitx/fcitx5-chewing"
-from_pattern = "^(\\d{8})\\.\\d{6}$"
-to_pattern = "0.0.0.\\1"
+use_max_tag = true
 
 [fcitx5-chinese-addons]
 source = "github"
 github = "fcitx/fcitx5-chinese-addons"
-from_pattern = "^(\\d{8})\\.\\d{6}$"
-to_pattern = "0.0.0.\\1"
+use_max_tag = true
 
 [fcitx5-configtool]
 source = "github"
 github = "fcitx/fcitx5-configtool"
-from_pattern = "^(\\d{8})\\.\\d{6}$"
-to_pattern = "0.0.0.\\1"
+use_max_tag = true
 
 [fcitx5-gtk]
 source = "github"
 github = "fcitx/fcitx5-gtk"
-from_pattern = "^(\\d{8})\\.\\d{6}$"
-to_pattern = "0.0.0.\\1"
+use_max_tag = true
 
 [fcitx5-hangul]
 source = "github"
 github = "fcitx/fcitx5-hangul"
-from_pattern = "^(\\d{8})\\.\\d{6}$"
-to_pattern = "0.0.0.\\1"
+use_max_tag = true
+
+[fcitx5-kkc]
+source = "github"
+github = "fcitx/fcitx5-kkc"
+use_max_tag = true
+
+[fcitx5-libthai]
+source = "github"
+github = "fcitx/fcitx5-libthai"
+use_max_tag = true
 
 [fcitx5-lua]
 source = "github"
 github = "fcitx/fcitx5-lua"
-from_pattern = "^(\\d{8})\\.\\d{6}$"
-to_pattern = "0.0.0.\\1"
+use_max_tag = true
+
+[fcitx5-m17n]
+source = "github"
+github = "fcitx/fcitx5-m17n"
+use_max_tag = true
 
 [fcitx5-qt]
 source = "github"
 github = "fcitx/fcitx5-qt"
-from_pattern = "^(\\d{8})\\.\\d{6}$"
-to_pattern = "0.0.0.\\1"
+use_max_tag = true
 
 [fcitx5-rime]
 source = "github"
 github = "fcitx/fcitx5-rime"
-from_pattern = "^(\\d{8})\\.\\d{6}$"
-to_pattern = "0.0.0.\\1"
+use_max_tag = true
+
+[fcitx5-sayura]
+source = "github"
+github = "fcitx/fcitx5-sayura"
+use_max_tag = true
 
 [fcitx5-skk]
 source = "github"
 github = "fcitx/fcitx5-skk"
-from_pattern = "^(\\d{8})\\.\\d{6}$"
-to_pattern = "0.0.0.\\1"
+use_max_tag = true
+
+[fcitx5-table-extra]
+source = "github"
+github = "fcitx/fcitx5-table-extra"
+use_max_tag = true
+
+[fcitx5-table-other]
+source = "github"
+github = "fcitx/fcitx5-table-other"
+use_max_tag = true
 
 [fcitx5-unikey]
 source = "github"
 github = "fcitx/fcitx5-unikey"
-from_pattern = "^(\\d{8})\\.\\d{6}$"
-to_pattern = "0.0.0.\\1"
+use_max_tag = true
 
 [libime]
 source = "github"
 github = "fcitx/libime"
-from_pattern = "^(\\d{8})\\.\\d{6}$"
-to_pattern = "0.0.0.\\1"
+use_max_tag = true
 
 [xcb-imdkit]
 source = "github"
 github = "fcitx/xcb-imdkit"
-from_pattern = "^(\\d{8})\\.\\d{6}$"
-to_pattern = "0.0.0.\\1"
+use_max_tag = true
 
 [ibus]
 source = "github"
@@ -5938,6 +5972,12 @@ source = "github"
 github = "tatsuhiro-t/aria2"
 use_max_tag = true
 prefix = "release-"
+
+[batctl]
+source = "github"
+github = "open-mesh-mirror/batctl"
+use_max_tag = true
+prefix = "v"
 
 [bats]
 source = "github"
@@ -6323,6 +6363,19 @@ use_max_tag = true
 source = "github"
 github = "v2fly/geoip"
 use_max_tag = true
+
+[wine]
+source = "git"
+git = "git://github.com/wine-mirror/wine"
+use_max_tag = true
+include_regex = "wine-\\d+(\\.\\d+)+"
+prefix = "wine-"
+
+[wine-staging]
+source = "github"
+github = "wine-staging/wine-staging"
+use_latest_tag = true
+prefix = "v"
 
 [winetricks]
 source = "github"
