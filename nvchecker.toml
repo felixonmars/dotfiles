@@ -182,6 +182,9 @@ source = "hackage"
 [brick]
 source = "hackage"
 
+[brittany]
+source = "hackage"
+
 [broadcast-chan]
 source = "hackage"
 
@@ -191,6 +194,9 @@ source = "hackage"
 [bug]
 source = "hackage"
 
+[butcher]
+source = "hackage"
+
 [bv-sized]
 source = "hackage"
 
@@ -198,6 +204,9 @@ source = "hackage"
 source = "hackage"
 
 [byteorder]
+source = "hackage"
+
+[bytestring-handle]
 source = "hackage"
 
 [bytestring-show]
@@ -231,6 +240,12 @@ source = "hackage"
 source = "hackage"
 
 [call-stack]
+source = "hackage"
+
+[casa-client]
+source = "hackage"
+
+[casa-types]
 source = "hackage"
 
 [case-insensitive]
@@ -446,6 +461,9 @@ source = "hackage"
 [csv]
 source = "hackage"
 
+[czipwith]
+source = "hackage"
+
 [darcs]
 source = "hackage"
 
@@ -509,6 +527,9 @@ source = "hackage"
 [data-textual]
 source = "hackage"
 
+[data-tree-print]
+source = "hackage"
+
 [dataenc]
 source = "hackage"
 
@@ -537,6 +558,9 @@ source = "hackage"
 source = "hackage"
 
 [dense-linear-algebra]
+source = "hackage"
+
+[deque]
 source = "hackage"
 
 [deriving-compat]
@@ -1187,6 +1211,9 @@ source = "hackage"
 source = "hackage"
 
 [jose]
+source = "hackage"
+
+[js-chart]
 source = "hackage"
 
 [js-dgtable]
@@ -3852,6 +3879,9 @@ source = "pypi"
 source = "pypi"
 
 [inflection]
+source = "pypi"
+
+[iniconfig]
 source = "pypi"
 
 [invoke]
