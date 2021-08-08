@@ -67,7 +67,7 @@ bind -r '\et'
 
 [ -r /usr/share/bash-completion/bash_completion   ] && . /usr/share/bash-completion/bash_completion
 
-[[ -s "/etc/profile.d/grc.bashrc" ]] && source /etc/profile.d/grc.bashrc
+#. /etc/profile.d/grc.sh
 
 alias netctl='sudo netctl'
 alias ll='ls -l'
@@ -81,8 +81,8 @@ alias u='git pull'
 alias l=ls
 alias sd='sdcv -u 朗道汉英字典5.0 -u 朗道英汉字典5.0'
 alias yd='ydcv'
-alias ds='dstat -tcmsdrgnp'
-alias dss='dstat -tcmsdn'
+alias ds='pcp dstat -tcmsdrgnp'
+alias dss='pcp dstat -tcmsdn'
 alias vnc='x11vnc -rfbauth ~/.vnc/passwd -shared -forever'
 alias updatedb='sudo updatedb'
 alias r='froute'
