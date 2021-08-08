@@ -4094,12 +4094,6 @@ source = "pypi"
 [fixtures]
 source = "pypi"
 
-[flake8-blind-except]
-source = "pypi"
-
-[flake8-debugger]
-source = "pypi"
-
 [flaky]
 source = "pypi"
 
