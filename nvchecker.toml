@@ -59,7 +59,19 @@ source = "hackage"
 [appar]
 source = "hackage"
 
+[apply-refact]
+source = "hackage"
+
 [arch-hs]
+source = "hackage"
+
+[arch-web]
+source = "hackage"
+
+[arithmoi]
+source = "hackage"
+
+[arrows]
 source = "hackage"
 
 [asn1-encoding]
@@ -137,6 +149,9 @@ source = "hackage"
 [bimap]
 source = "hackage"
 
+[bin]
+source = "hackage"
+
 [binary-conduit]
 source = "hackage"
 
@@ -173,6 +188,12 @@ source = "hackage"
 [bloomfilter]
 source = "hackage"
 
+[BNFC]
+source = "hackage"
+
+[boring]
+source = "hackage"
+
 [bower-json]
 source = "hackage"
 
@@ -206,6 +227,9 @@ source = "hackage"
 [byteorder]
 source = "hackage"
 
+[bytestring-encoding]
+source = "hackage"
+
 [bytestring-handle]
 source = "hackage"
 
@@ -234,6 +258,9 @@ source = "hackage"
 source = "hackage"
 
 [cabal-install-parsers]
+source = "hackage"
+
+[cabal-plan]
 source = "hackage"
 
 [cairo]
@@ -287,6 +314,9 @@ source = "hackage"
 [chell-quickcheck]
 source = "hackage"
 
+[chimera]
+source = "hackage"
+
 [chunked-data]
 source = "hackage"
 
@@ -297,6 +327,12 @@ source = "hackage"
 source = "hackage"
 
 [citeproc]
+source = "hackage"
+
+[clash-ghc]
+source = "hackage"
+
+[clash-lib]
 source = "hackage"
 
 [clash-prelude]
@@ -359,6 +395,9 @@ source = "hackage"
 [config-ini]
 source = "hackage"
 
+[config-value]
+source = "hackage"
+
 [configurator]
 source = "hackage"
 
@@ -369,6 +408,9 @@ source = "hackage"
 source = "hackage"
 
 [constraints]
+source = "hackage"
+
+[constraints-extras]
 source = "hackage"
 
 [contravariant]
@@ -417,6 +459,9 @@ source = "hackage"
 source = "hackage"
 
 [crypto-cipher-types]
+source = "hackage"
+
+[crypto-enigma]
 source = "hackage"
 
 [crypto-numbers]
@@ -560,7 +605,19 @@ source = "hackage"
 [dense-linear-algebra]
 source = "hackage"
 
+[dependent-map]
+source = "hackage"
+
+[dependent-sum]
+source = "hackage"
+
+[dependent-sum-template]
+source = "hackage"
+
 [deque]
+source = "hackage"
+
+[deriving-aeson]
 source = "hackage"
 
 [deriving-compat]
@@ -573,6 +630,9 @@ source = "hackage"
 source = "hackage"
 
 [dhall-bash]
+source = "hackage"
+
+[dhall-docs]
 source = "hackage"
 
 [dhall-json]
@@ -591,6 +651,9 @@ source = "hackage"
 source = "hackage"
 
 [digest]
+source = "hackage"
+
+[direct-sqlite]
 source = "hackage"
 
 [disk-free-space]
@@ -620,6 +683,15 @@ source = "hackage"
 [doctest]
 source = "hackage"
 
+[doctest-driver-gen]
+source = "hackage"
+
+[doctest-exitcode-stdio]
+source = "hackage"
+
+[doctest-lib]
+source = "hackage"
+
 [dotgen]
 source = "hackage"
 
@@ -636,6 +708,9 @@ source = "hackage"
 source = "hackage"
 
 [easytest]
+source = "hackage"
+
+[echo]
 source = "hackage"
 
 [ed25519]
@@ -680,6 +755,9 @@ source = "hackage"
 [esqueleto]
 source = "hackage"
 
+[exact-pi]
+source = "hackage"
+
 [exceptions]
 source = "hackage"
 
@@ -713,6 +791,9 @@ source = "hackage"
 [fgl]
 source = "hackage"
 
+[fgl-arbitrary]
+source = "hackage"
+
 [file-embed]
 source = "hackage"
 
@@ -731,10 +812,16 @@ source = "hackage"
 [filtrable]
 source = "hackage"
 
+[fin]
+source = "hackage"
+
 [FindBin]
 source = "hackage"
 
 [fingertree]
+source = "hackage"
+
+[finite-typelits]
 source = "hackage"
 
 [first-class-families]
@@ -759,6 +846,9 @@ source = "hackage"
 source = "hackage"
 
 [fsnotify]
+source = "hackage"
+
+[fuzzy]
 source = "hackage"
 
 [gauge]
@@ -803,6 +893,12 @@ source = "hackage"
 [getopt-generics]
 source = "hackage"
 
+[ghc-api-compat]
+source = "hackage"
+
+[ghc-check]
+source = "hackage"
+
 [ghc-exactprint]
 source = "hackage"
 
@@ -815,7 +911,13 @@ source = "hackage"
 [ghc-paths]
 source = "hackage"
 
+[ghc-source-gen]
+source = "hackage"
+
 [ghc-tcplugins-extra]
+source = "hackage"
+
+[ghc-trace-events]
 source = "hackage"
 
 [ghc-typelits-extra]
@@ -825,6 +927,9 @@ source = "hackage"
 source = "hackage"
 
 [ghc-typelits-natnormalise]
+source = "hackage"
+
+[ghcide]
 source = "hackage"
 
 [gi-cairo]
@@ -855,6 +960,9 @@ source = "hackage"
 source = "hackage"
 
 [gnutls]
+source = "hackage"
+
+[graphite]
 source = "hackage"
 
 [GraphSCC]
@@ -897,6 +1005,9 @@ source = "hackage"
 source = "hackage"
 
 [haskell-gi-overloading]
+source = "hackage"
+
+[haskell-language-server]
 source = "hackage"
 
 [haskell-lsp]
@@ -948,6 +1059,9 @@ source = "hackage"
 [heaps]
 source = "hackage"
 
+[heapsize]
+source = "hackage"
+
 [hedgehog]
 source = "hackage"
 
@@ -961,6 +1075,12 @@ source = "hackage"
 source = "hackage"
 
 [hi-file-parser]
+source = "hackage"
+
+[hie-bios]
+source = "hackage"
+
+[hiedb]
 source = "hackage"
 
 [hindent]
@@ -981,6 +1101,9 @@ source = "hackage"
 [hledger]
 source = "hackage"
 
+[hledger-iadd]
+source = "hackage"
+
 [hledger-lib]
 source = "hackage"
 
@@ -993,6 +1116,63 @@ source = "hackage"
 [hlint]
 source = "hackage"
 
+[hls-brittany-plugin]
+source = "hackage"
+
+[hls-class-plugin]
+source = "hackage"
+
+[hls-eval-plugin]
+source = "hackage"
+
+[hls-explicit-imports-plugin]
+source = "hackage"
+
+[hls-floskell-plugin]
+source = "hackage"
+
+[hls-fourmolu-plugin]
+source = "hackage"
+
+[hls-graph]
+source = "hackage"
+
+[hls-haddock-comments-plugin]
+source = "hackage"
+
+[hls-hlint-plugin]
+source = "hackage"
+
+[hls-module-name-plugin]
+source = "hackage"
+
+[hls-ormolu-plugin]
+source = "hackage"
+
+[hls-plugin-api]
+source = "hackage"
+
+[hls-pragmas-plugin]
+source = "hackage"
+
+[hls-refine-imports-plugin]
+source = "hackage"
+
+[hls-retrie-plugin]
+source = "hackage"
+
+[hls-splice-plugin]
+source = "hackage"
+
+[hls-stylish-haskell-plugin]
+source = "hackage"
+
+[hls-tactics-plugin]
+source = "hackage"
+
+[hls-test-utils]
+source = "hackage"
+
 [hoogle]
 source = "hackage"
 
@@ -1000,6 +1180,9 @@ source = "hackage"
 source = "hackage"
 
 [hopenpgp-tools]
+source = "hackage"
+
+[hosc]
 source = "hackage"
 
 [hostname]
@@ -1025,6 +1208,9 @@ source = "hackage"
 source = "hackage"
 
 [hslua]
+source = "hackage"
+
+[hslua-module-path]
 source = "hackage"
 
 [hslua-module-system]
@@ -1090,6 +1276,12 @@ source = "hackage"
 [html-conduit]
 source = "hackage"
 
+[html-entity-map]
+source = "hackage"
+
+[html-parse]
+source = "hackage"
+
 [HTTP]
 source = "hackage"
 
@@ -1147,6 +1339,9 @@ source = "hackage"
 [hxt-unicode]
 source = "hackage"
 
+[hyphenation]
+source = "hackage"
+
 [idris]
 source = "hackage"
 
@@ -1159,16 +1354,31 @@ source = "hackage"
 [implicit-hie]
 source = "hackage"
 
+[implicit-hie-cradle]
+source = "hackage"
+
 [incremental-parser]
 source = "hackage"
 
+[indexed-list-literals]
+source = "hackage"
+
 [indexed-profunctors]
+source = "hackage"
+
+[indexed-traversable]
+source = "hackage"
+
+[indexed-traversable-instances]
 source = "hackage"
 
 [infer-license]
 source = "hackage"
 
 [ini]
+source = "hackage"
+
+[input-parsers]
 source = "hackage"
 
 [insert-ordered-containers]
@@ -1178,6 +1388,9 @@ source = "hackage"
 source = "hackage"
 
 [integer-logarithms]
+source = "hackage"
+
+[integer-roots]
 source = "hackage"
 
 [interpolate]
@@ -1243,6 +1456,9 @@ source = "hackage"
 [knob]
 source = "hackage"
 
+[kvitable]
+source = "hackage"
+
 [language-c]
 source = "hackage"
 
@@ -1256,6 +1472,9 @@ source = "hackage"
 source = "hackage"
 
 [lattices]
+source = "hackage"
+
+[lazysmallcheck]
 source = "hackage"
 
 [leancheck]
@@ -1291,6 +1510,9 @@ source = "hackage"
 [libyaml]
 source = "hackage"
 
+[lift-type]
+source = "hackage"
+
 [lifted-async]
 source = "hackage"
 
@@ -1315,13 +1537,22 @@ source = "hackage"
 [lrucache]
 source = "hackage"
 
+[lsp]
+source = "hackage"
+
 [lsp-test]
+source = "hackage"
+
+[lsp-types]
 source = "hackage"
 
 [lucid]
 source = "hackage"
 
 [lukko]
+source = "hackage"
+
+[lumberjack]
 source = "hackage"
 
 [magic]
@@ -1381,10 +1612,16 @@ source = "hackage"
 [mmap]
 source = "hackage"
 
+[mmark]
+source = "hackage"
+
 [mmorph]
 source = "hackage"
 
 [mockery]
+source = "hackage"
+
+[mod]
 source = "hackage"
 
 [modern-uri]
@@ -1439,6 +1676,9 @@ source = "hackage"
 source = "hackage"
 
 [mono-traversable]
+source = "hackage"
+
+[mono-traversable-instances]
 source = "hackage"
 
 [monoid-subclasses]
@@ -1504,6 +1744,9 @@ source = "hackage"
 [network-protocol-xmpp]
 source = "hackage"
 
+[network-run]
+source = "hackage"
+
 [network-uri]
 source = "hackage"
 
@@ -1517,6 +1760,9 @@ source = "hackage"
 source = "hackage"
 
 [nonce]
+source = "hackage"
+
+[numtype-dk]
 source = "hackage"
 
 [old-locale]
@@ -1538,6 +1784,9 @@ source = "hackage"
 source = "hackage"
 
 [openssl-streams]
+source = "hackage"
+
+[opentelemetry]
 source = "hackage"
 
 [optics-core]
@@ -1627,13 +1876,13 @@ source = "hackage"
 [pem]
 source = "hackage"
 
+[persistent-mysql]
+source = "hackage"
+
 [persistent-qq]
 source = "hackage"
 
 [persistent-sqlite]
-source = "hackage"
-
-[persistent-template]
 source = "hackage"
 
 [persistent-test]
@@ -1667,6 +1916,12 @@ source = "hackage"
 source = "hackage"
 
 [postgresql-libpq]
+source = "hackage"
+
+[persistent-postgresql]
+source = "hackage"
+
+[postgresql-simple]
 source = "hackage"
 
 [postgrest]
@@ -1705,6 +1960,9 @@ source = "hackage"
 [primitive]
 source = "hackage"
 
+[primitive-addr]
+source = "hackage"
+
 [process-extras]
 source = "hackage"
 
@@ -1729,6 +1987,9 @@ source = "hackage"
 [quickcheck-assertions]
 source = "hackage"
 
+[quickcheck-classes]
+source = "hackage"
+
 [quickcheck-classes-base]
 source = "hackage"
 
@@ -1736,6 +1997,12 @@ source = "hackage"
 source = "hackage"
 
 [quickcheck-io]
+source = "hackage"
+
+[quickcheck-text]
+source = "hackage"
+
+[ral]
 source = "hackage"
 
 [random]
@@ -1822,6 +2089,9 @@ source = "hackage"
 [req]
 source = "hackage"
 
+[rere]
+source = "hackage"
+
 [rerebase]
 source = "hackage"
 
@@ -1891,13 +2161,25 @@ source = "hackage"
 [selective]
 source = "hackage"
 
+[semialign]
+source = "hackage"
+
 [semigroupoids]
+source = "hackage"
+
+[semirings]
 source = "hackage"
 
 [serialise]
 source = "hackage"
 
 [servant]
+source = "hackage"
+
+[servant-client-core]
+source = "hackage"
+
+[servant-client]
 source = "hackage"
 
 [servant-server]
@@ -1945,6 +2227,9 @@ source = "hackage"
 [silently]
 source = "hackage"
 
+[simple-get-opt]
+source = "hackage"
+
 [simple-reflect]
 source = "hackage"
 
@@ -1984,6 +2269,9 @@ source = "hackage"
 [socks]
 source = "hackage"
 
+[some]
+source = "hackage"
+
 [sop-core]
 source = "hackage"
 
@@ -2006,6 +2294,9 @@ source = "hackage"
 source = "hackage"
 
 [spoon]
+source = "hackage"
+
+[sqlite-simple]
 source = "hackage"
 
 [stack]
@@ -2044,6 +2335,12 @@ source = "hackage"
 [store-core]
 source = "hackage"
 
+[Stream]
+source = "hackage"
+
+[streams]
+source = "hackage"
+
 [streaming-commons]
 source = "hackage"
 
@@ -2078,6 +2375,9 @@ source = "hackage"
 source = "hackage"
 
 [summoner-tui]
+source = "hackage"
+
+[svg-builder]
 source = "hackage"
 
 [swagger2]
@@ -2119,6 +2419,9 @@ source = "hackage"
 [tasty-ant-xml]
 source = "hackage"
 
+[tasty-checklist]
+source = "hackage"
+
 [tasty-discover]
 source = "hackage"
 
@@ -2155,7 +2458,13 @@ source = "hackage"
 [tasty-smallcheck]
 source = "hackage"
 
+[tasty-sugar]
+source = "hackage"
+
 [tasty-th]
+source = "hackage"
+
+[tdigest]
 source = "hackage"
 
 [template-haskell-compat-v0208]
@@ -2185,6 +2494,9 @@ source = "hackage"
 [test-framework-th]
 source = "hackage"
 
+[test-lib]
+source = "hackage"
+
 [texmath]
 source = "hackage"
 
@@ -2198,6 +2510,9 @@ source = "hackage"
 source = "hackage"
 
 [text-format]
+source = "hackage"
+
+[text-icu]
 source = "hackage"
 
 [text-latin1]
@@ -2231,6 +2546,9 @@ source = "hackage"
 source = "hackage"
 
 [th-desugar]
+source = "hackage"
+
+[th-env]
 source = "hackage"
 
 [th-expand-syns]
@@ -2281,6 +2599,9 @@ source = "hackage"
 [tomland]
 source = "hackage"
 
+[topograph]
+source = "hackage"
+
 [torrent]
 source = "hackage"
 
@@ -2317,6 +2638,9 @@ source = "hackage"
 [typed-process]
 source = "hackage"
 
+[tz]
+source = "hackage"
+
 [tzdata]
 source = "hackage"
 
@@ -2330,6 +2654,12 @@ source = "hackage"
 source = "hackage"
 
 [unexceptionalio]
+source = "hackage"
+
+[unicode-collation]
+source = "hackage"
+
+[unicode-data]
 source = "hackage"
 
 [unicode-show]
@@ -2401,6 +2731,9 @@ source = "hackage"
 [vault]
 source = "hackage"
 
+[vec]
+source = "hackage"
+
 [vector]
 source = "hackage"
 
@@ -2414,6 +2747,9 @@ source = "hackage"
 source = "hackage"
 
 [vector-instances]
+source = "hackage"
+
+[vector-sized]
 source = "hackage"
 
 [vector-th-unbox]
@@ -2474,6 +2810,9 @@ source = "hackage"
 source = "hackage"
 
 [with-location]
+source = "hackage"
+
+[with-utf8]
 source = "hackage"
 
 [wizards]
@@ -2566,6 +2905,9 @@ source = "hackage"
 [zenc]
 source = "hackage"
 
+[zinza]
+source = "hackage"
+
 [zip-archive]
 source = "hackage"
 
@@ -2576,6 +2918,10 @@ source = "hackage"
 source = "hackage"
 
 [acorn]
+source = "npm"
+
+[babel-core]
+npm = "@babel/core"
 source = "npm"
 
 [babel-cli]
@@ -2627,6 +2973,9 @@ source = "npm"
 [material-design-icons]
 source = "npm"
 
+[nopt]
+source = "npm"
+
 [npm]
 source = "npm"
 
@@ -2639,7 +2988,13 @@ source = "npm"
 [pm2]
 source = "npm"
 
+[s3rver]
+source = "npm"
+
 [semver]
+source = "npm"
+
+[source-map]
 source = "npm"
 
 [stylus]
@@ -2868,12 +3223,6 @@ source = "cpan"
 [Gtk2-Ex-FormFactory]
 source = "cpan"
 
-[Gtk2-ImageView]
-source = "cpan"
-
-[Gtk2-Unique]
-source = "cpan"
-
 [Guard]
 source = "cpan"
 
@@ -2922,6 +3271,9 @@ source = "cpan"
 [IO-HTML]
 source = "cpan"
 
+[IO-Socket-SSL]
+source = "cpan"
+
 [IPC-System-Simple]
 source = "cpan"
 
@@ -2930,6 +3282,7 @@ source = "cpan"
 
 [libwww-perl]
 source = "cpan"
+arch_pkgname = "perl-libwww"
 
 [Lingua-EN-Inflect]
 source = "cpan"
@@ -3097,6 +3450,9 @@ source = "cpan"
 source = "cpan"
 
 [PPIx-Utilities]
+source = "cpan"
+
+[PPIx-Utils]
 source = "cpan"
 
 [Probe-Perl]
@@ -3281,7 +3637,22 @@ source = "cpan"
 [acme]
 source = "pypi"
 
+[aiogram]
+source = "pypi"
+
+[aiohttp]
+source = "pypi"
+
 [aioresponses]
+source = "pypi"
+
+[aiounittest]
+source = "pypi"
+
+[alembic]
+source = "pypi"
+
+[alt-pytest-asyncio]
 source = "pypi"
 
 [amqp]
@@ -3311,6 +3682,15 @@ source = "pypi"
 [appdirs]
 source = "pypi"
 
+[APScheduler]
+source = "pypi"
+
+[aresponses]
+source = "pypi"
+
+[argcomplete]
+source = "pypi"
+
 [argh]
 source = "pypi"
 
@@ -3327,6 +3707,12 @@ source = "pypi"
 source = "pypi"
 
 [astroid]
+source = "pypi"
+
+[async_generator]
+source = "pypi"
+
+[async-timeout]
 source = "pypi"
 
 [asynctest]
@@ -3369,6 +3755,9 @@ source = "pypi"
 source = "pypi"
 
 [beautifulsoup4]
+source = "pypi"
+
+[behave]
 source = "pypi"
 
 [betamax]
@@ -3578,10 +3967,19 @@ source = "pypi"
 [csv23]
 source = "pypi"
 
+[cucumber-tag-expressions]
+source = "pypi"
+
+[cx-Freeze]
+source = "pypi"
+
 [cycler]
 source = "pypi"
 
 [cymem]
+source = "pypi"
+
+[cython-test-exception-raiser]
 source = "pypi"
 
 [d2to1]
@@ -3603,6 +4001,9 @@ source = "pypi"
 source = "pypi"
 
 [deprecation]
+source = "pypi"
+
+[dict2xml]
 source = "pypi"
 
 [dns-lexicon]
@@ -3632,6 +4033,9 @@ source = "pypi"
 [editdistance]
 source = "pypi"
 
+[editdistance-s]
+source = "pypi"
+
 [EditorConfig]
 source = "pypi"
 
@@ -3645,6 +4049,9 @@ source = "pypi"
 source = "pypi"
 
 [email-validator]
+source = "pypi"
+
+[emoji]
 source = "pypi"
 
 [exam]
@@ -3788,7 +4195,7 @@ source = "pypi"
 [gcp-devrel-py-tools]
 source = "pypi"
 
-[gdspy]
+[gdstk]
 source = "pypi"
 
 [genty]
@@ -3801,6 +4208,9 @@ source = "pypi"
 source = "pypi"
 
 [gevent]
+source = "pypi"
+
+[glob2]
 source = "pypi"
 
 [google-auth]
@@ -3872,9 +4282,6 @@ source = "pypi"
 [importlib-metadata]
 source = "pypi"
 
-[importlib_resources]
-source = "pypi"
-
 [incremental]
 source = "pypi"
 
@@ -3914,7 +4321,16 @@ source = "pypi"
 [janus]
 source = "pypi"
 
+["jaraco.context"]
+source = "pypi"
+
 ["jaraco.envs"]
+source = "pypi"
+
+["jaraco.path"]
+source = "pypi"
+
+["jaraco.test"]
 source = "pypi"
 
 [jeepney]
@@ -3972,6 +4388,9 @@ source = "pypi"
 source = "pypi"
 
 [lark-parser]
+source = "pypi"
+
+[latex2mathml]
 source = "pypi"
 
 [lazy]
@@ -4067,6 +4486,12 @@ source = "pypi"
 [munch]
 source = "pypi"
 
+[nbval]
+source = "pypi"
+
+[nest-asyncio]
+source = "pypi"
+
 [netifaces]
 source = "pypi"
 
@@ -4088,6 +4513,9 @@ source = "pypi"
 [nose-show-skipped]
 source = "pypi"
 
+[noseOfYeti]
+source = "pypi"
+
 [nosexcover]
 source = "pypi"
 
@@ -4101,6 +4529,9 @@ source = "pypi"
 source = "pypi"
 
 [objgraph]
+source = "pypi"
+
+[openapi-schema-validator]
 source = "pypi"
 
 [openapi-spec-validator]
@@ -4125,6 +4556,9 @@ source = "pypi"
 source = "pypi"
 
 [osc-lib]
+source = "pypi"
+
+[oscpy]
 source = "pypi"
 
 [oslosphinx]
@@ -4169,6 +4603,9 @@ source = "pypi"
 [paramiko]
 source = "pypi"
 
+[parse_type]
+source = "pypi"
+
 [parsedatetime]
 source = "pypi"
 
@@ -4185,6 +4622,9 @@ source = "pypi"
 source = "pypi"
 
 [PasteDeploy]
+source = "pypi"
+
+[pbkdf2]
 source = "pypi"
 
 [python-path]
@@ -4270,6 +4710,9 @@ source = "pypi"
 [prawcore]
 source = "pypi"
 
+[pre-commit]
+source = "pypi"
+
 [pretend]
 source = "pypi"
 
@@ -4300,6 +4743,9 @@ source = "pypi"
 [py-cpuinfo]
 source = "pypi"
 
+[py3c]
+source = "pypi"
+
 [pyaml]
 source = "pypi"
 
@@ -4307,6 +4753,9 @@ source = "pypi"
 source = "pypi"
 
 [pyasn1-modules]
+source = "pypi"
+
+[pycapnp]
 source = "pypi"
 
 [pycdio]
@@ -4441,6 +4890,9 @@ source = "pypi"
 [pytest-asyncio]
 source = "pypi"
 
+[pytest-bdd]
+source = "pypi"
+
 [pytest-benchmark]
 source = "pypi"
 
@@ -4453,10 +4905,16 @@ source = "pypi"
 [pytest-celery]
 source = "pypi"
 
+[pytest-checkdocs]
+source = "pypi"
+
 [pytest-cov]
 source = "pypi"
 
 [pytest-django]
+source = "pypi"
+
+[pytest-enabler]
 source = "pypi"
 
 [pytest-fixture-config]
@@ -4471,6 +4929,9 @@ source = "pypi"
 [pytest-httpbin]
 source = "pypi"
 
+[pytest-httpx]
+source = "pypi"
+
 [pytest-isort]
 source = "pypi"
 
@@ -4480,7 +4941,13 @@ source = "pypi"
 [pytest-mock]
 source = "pypi"
 
+[pytest-mypy]
+source = "pypi"
+
 [pytest-pylint]
+source = "pypi"
+
+[pytest-raises]
 source = "pypi"
 
 [pytest-randomly]
@@ -4493,6 +4960,9 @@ source = "pypi"
 source = "pypi"
 
 [pytest-shutil]
+source = "pypi"
+
+[pytest-subtests]
 source = "pypi"
 
 [pytest-sugar]
@@ -4675,6 +5145,9 @@ source = "pypi"
 [resolvelib]
 source = "pypi"
 
+[rfc3339-validator]
+source = "pypi"
+
 [rfc3986]
 source = "pypi"
 
@@ -4727,7 +5200,7 @@ source = "pypi"
 source = "pypi"
 pypi = "semver"
 
-[service_identity]
+[service-identity]
 source = "pypi"
 
 [setuptools]
@@ -5024,6 +5497,9 @@ source = "pypi"
 [xcffib]
 source = "pypi"
 
+[xmljson]
+source = "pypi"
+
 [xmlschema]
 source = "pypi"
 
@@ -5042,6 +5518,9 @@ source = "pypi"
 [yaspin]
 source = "pypi"
 
+["yg.lockfile"]
+source = "pypi"
+
 [you-get]
 source = "pypi"
 
@@ -5049,6 +5528,12 @@ source = "pypi"
 source = "pypi"
 
 [zeep]
+source = "pypi"
+
+[ziafont]
+source = "pypi"
+
+[ziamath]
 source = "pypi"
 
 [zipp]
@@ -5205,6 +5690,13 @@ mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
+[deepin-camera]
+source = "apt"
+pkg = "deepin-camera"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
+
 [deepin-clipboard]
 source = "apt"
 pkg = "dde-clipboard"
@@ -5271,6 +5763,13 @@ strip_release = true
 [deepin-file-manager]
 source = "apt"
 pkg = "dde-file-manager"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
+
+[deepin-font-manager]
+source = "apt"
+pkg = "deepin-font-manager"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
@@ -5402,6 +5901,12 @@ mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
+[deepin-pw-check]
+source = "apt"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
+
 [deepin-qt-dbus-factory]
 source = "apt"
 srcpkg = "dde-qt-dbus-factory"
@@ -5467,6 +5972,11 @@ mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
+[deepin-store]
+source = "github"
+github = "dekzi/dde-store"
+use_max_tag = true
+
 [deepin-system-monitor]
 source = "apt"
 mirror = "https://community-packages.deepin.com/deepin"
@@ -5491,6 +6001,13 @@ mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
 
+[deepin-wayland]
+source = "apt"
+srcpkg = "dde-wayland"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
+
 [deepin-wm]
 source = "github"
 github = "linuxdeepin/deepin-wm"
@@ -5504,6 +6021,13 @@ use_max_tag = true
 [disomaster]
 source = "apt"
 srcpkg = "disomaster"
+mirror = "https://community-packages.deepin.com/deepin"
+suite = "apricot"
+strip_release = true
+
+[dtkcommon]
+source = "apt"
+srcpkg = "dtkcommon"
 mirror = "https://community-packages.deepin.com/deepin"
 suite = "apricot"
 strip_release = true
@@ -5715,6 +6239,11 @@ source = "github"
 github = "fcitx/fcitx5-m17n"
 use_max_tag = true
 
+[fcitx5-material-color]
+source = "github"
+github = "hosxy/Fcitx5-Material-Color"
+use_max_tag = true
+
 [fcitx5-qt]
 source = "github"
 github = "fcitx/fcitx5-qt"
@@ -5842,6 +6371,12 @@ github = "rime/rime-double-pinyin"
 from_pattern = "^(\\d{8})\\.\\d{6}$"
 to_pattern = "0.0.0.\\1"
 
+[rime-emoji]
+source = "github"
+github = "rime/rime-emoji"
+from_pattern = "^(\\d{8})\\.\\d{6}$"
+to_pattern = "0.0.0.\\1"
+
 [rime-essay]
 source = "github"
 github = "rime/rime-essay"
@@ -5938,6 +6473,12 @@ github = "ukui/ukui-settings-daemon"
 use_max_tag = true
 prefix = "v"
 
+[ukui-screensaver]
+source = "github"
+github = "ukui/ukui-screensaver"
+use_max_tag = true
+prefix = "v"
+
 [ukui-media]
 source = "github"
 github = "ukui/ukui-media"
@@ -5989,6 +6530,17 @@ prefix = "v"
 [qt5-ukui-platformtheme]
 source = "github"
 github = "ukui/qt5-ukui-platformtheme"
+use_max_tag = true
+prefix = "v"
+
+[acme.sh]
+source = "github"
+github = "acmesh-official/acme.sh"
+use_max_tag = true
+
+[albert]
+source = "github"
+github = "albertlauncher/albert"
 use_max_tag = true
 prefix = "v"
 
@@ -6051,14 +6603,6 @@ github = "Dreamacro/clash"
 use_latest_release = true
 prefix = "v"
 
-[cldr-emoji-annotation]
-source = "github"
-github = "fujiwarat/cldr-emoji-annotation"
-use_max_tag = true
-ignored = "30.0.3"
-from_pattern = "_"
-to_pattern = "."
-
 [cmake-fedora]
 source = "pagure"
 pagure = "cmake-fedora"
@@ -6074,6 +6618,12 @@ source = "gitlab"
 gitlab = "installer-team/debootstrap"
 host = "salsa.debian.org"
 use_max_tag = true
+
+[deno]
+source = "github"
+github = "denoland/deno"
+use_max_tag = true
+prefix = "v"
 
 [diff-so-fancy]
 source = "github"
@@ -6393,6 +6943,12 @@ use_max_tag = true
 source = "github"
 github = "v2fly/geoip"
 use_max_tag = true
+
+[verilator]
+source = "github"
+github = "verilator/verilator"
+use_max_tag = true
+prefix = "v"
 
 [wine]
 source = "git"
