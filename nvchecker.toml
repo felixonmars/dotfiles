@@ -4710,9 +4710,6 @@ source = "pypi"
 [prawcore]
 source = "pypi"
 
-[pre-commit]
-source = "pypi"
-
 [pretend]
 source = "pypi"
 
