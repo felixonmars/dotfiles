@@ -1,6 +1,5 @@
 {
     "editor.fontFamily": "'monospace', monospace",
-    "editor.fontSize": 12,
     "editor.rulers": [100],
     "window.openFilesInNewWindow": "off",
     "python.linting.pylintEnabled": false,
@@ -9,9 +8,16 @@
         "--ignore=E501,E111,E302"
     ],
     "files.insertFinalNewline": true,
-    "window.zoomLevel": 0,
     "python.pythonPath": "/usr/bin/python",
     "workbench.colorTheme": "Argonaut",
     "python.showStartPage": false,
-    "tabnine.experimentalAutoImports": true
+    "tabnine.experimentalAutoImports": true,
+    "haskell.updateBehavior": "never-check",
+    "haskell.serverExecutablePath": "haskell-language-server-wrapper",
+    "ghcSimple.replCommand": "cabal v2-repl",
+    "ghcSimple.trustedReplCommandConfigs": {
+        "/home/felix/projects/tamarin-prover/lib/theory": "cabal v2-repl",
+        "/home/felix/projects/cryptol": "cabal v2-repl"
+    },
+    "security.workspace.trust.untrustedFiles": "open"
 }
