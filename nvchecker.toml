@@ -3706,9 +3706,6 @@ source = "pypi"
 [asteval]
 source = "pypi"
 
-[astroid]
-source = "pypi"
-
 [async_generator]
 source = "pypi"
 
@@ -4297,9 +4294,6 @@ source = "pypi"
 [ipdb]
 source = "pypi"
 
-[isort]
-source = "pypi"
-
 [itemadapter]
 source = "pypi"
 
@@ -4439,9 +4433,6 @@ source = "pypi"
 source = "pypi"
 
 [maxminddb]
-source = "pypi"
-
-[mccabe]
 source = "pypi"
 
 [memory_profiler]
@@ -4807,9 +4798,6 @@ source = "pypi"
 source = "pypi"
 
 [pykerberos]
-source = "pypi"
-
-[pylint]
 source = "pypi"
 
 [pylons-sphinx-themes]
