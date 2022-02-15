@@ -134,6 +134,9 @@ source = "hackage"
 [base16-bytestring]
 source = "hackage"
 
+[base64]
+source = "hackage"
+
 [base64-bytestring]
 source = "hackage"
 
@@ -896,6 +899,9 @@ source = "hackage"
 [ghc-api-compat]
 source = "hackage"
 
+[ghc-bignum-orphans]
+source = "hackage"
+
 [ghc-check]
 source = "hackage"
 
@@ -1020,6 +1026,9 @@ source = "hackage"
 source = "hackage"
 hackage = "persistent"
 
+[haskell-src]
+source = "hackage"
+
 [haskell-src-exts]
 source = "hackage"
 
@@ -1047,6 +1056,15 @@ source = "hackage"
 [hasql]
 source = "hackage"
 
+[hasql-dynamic-statements]
+source = "hackage"
+
+[hasql-implicits]
+source = "hackage"
+
+[hasql-notifications]
+source = "hackage"
+
 [hasql-pool]
 source = "hackage"
 
@@ -1063,6 +1081,9 @@ source = "hackage"
 source = "hackage"
 
 [hedgehog]
+source = "hackage"
+
+[hedgehog-classes]
 source = "hackage"
 
 [here]
@@ -1210,6 +1231,12 @@ source = "hackage"
 [hslua]
 source = "hackage"
 
+[hslua-core]
+source = "hackage"
+
+[hslua-marshalling]
+source = "hackage"
+
 [hslua-module-path]
 source = "hackage"
 
@@ -1217,6 +1244,12 @@ source = "hackage"
 source = "hackage"
 
 [hslua-module-text]
+source = "hackage"
+
+[hslua-objectorientation]
+source = "hackage"
+
+[hslua-packaging]
 source = "hackage"
 
 [HsOpenSSL]
@@ -1268,6 +1301,9 @@ source = "hackage"
 source = "hackage"
 
 [HsYAML-aeson]
+source = "hackage"
+
+[HTF]
 source = "hackage"
 
 [html]
@@ -1546,6 +1582,12 @@ source = "hackage"
 [lsp-types]
 source = "hackage"
 
+[lua]
+source = "hackage"
+
+[lua-arbitrary]
+source = "hackage"
+
 [lucid]
 source = "hackage"
 
@@ -1687,6 +1729,9 @@ source = "hackage"
 [mountpoints]
 source = "hackage"
 
+[mtl-prelude]
+source = "hackage"
+
 [mueval]
 source = "hackage"
 
@@ -1747,6 +1792,9 @@ source = "hackage"
 [network-run]
 source = "hackage"
 
+[network-simple]
+source = "hackage"
+
 [network-uri]
 source = "hackage"
 
@@ -1772,6 +1820,9 @@ source = "hackage"
 source = "hackage"
 
 [one-liner]
+source = "hackage"
+
+[OneTuple]
 source = "hackage"
 
 [Only]
@@ -1865,6 +1916,9 @@ source = "hackage"
 source = "hackage"
 
 [pattern-arrows]
+source = "hackage"
+
+[pcg-random]
 source = "hackage"
 
 [pcre-heavy]
@@ -1978,6 +2032,9 @@ source = "hackage"
 [psqueues]
 source = "hackage"
 
+[ptr]
+source = "hackage"
+
 [pureMD5]
 source = "hackage"
 
@@ -2006,6 +2063,9 @@ source = "hackage"
 source = "hackage"
 
 [random]
+source = "hackage"
+
+[random-bytestring]
 source = "hackage"
 
 [random-fu]
@@ -2434,10 +2494,16 @@ source = "hackage"
 [tasty-hedgehog]
 source = "hackage"
 
+[tasty-hslua]
+source = "hackage"
+
 [tasty-hspec]
 source = "hackage"
 
 [tasty-hunit]
+source = "hackage"
+
+[tasty-inspection-testing]
 source = "hackage"
 
 [tasty-kat]
@@ -2873,6 +2939,9 @@ source = "hackage"
 source = "hackage"
 
 [xml-types]
+source = "hackage"
+
+[xmlgen]
 source = "hackage"
 
 [xss-sanitize]
@@ -3776,6 +3845,9 @@ source = "pypi"
 source = "pypi"
 
 [blockdiag]
+source = "pypi"
+
+[boltons]
 source = "pypi"
 
 [boto]
@@ -4695,7 +4767,7 @@ source = "pypi"
 [pretend]
 source = "pypi"
 
-[PrettyTable]
+[prettytable]
 source = "pypi"
 
 [priority]
@@ -5058,6 +5130,12 @@ source = "pypi"
 [raet]
 source = "pypi"
 
+[railroad]
+source = "pypi"
+
+[railroad-diagrams]
+source = "pypi"
+
 [ratelim]
 source = "pypi"
 
@@ -5151,7 +5229,7 @@ source = "pypi"
 [scandir]
 source = "pypi"
 
-[SchemDraw]
+[schemdraw]
 source = "pypi"
 
 [scrapy]
@@ -5354,6 +5432,9 @@ source = "pypi"
 source = "pypi"
 
 [uhashring]
+source = "pypi"
+
+[ukkonen]
 source = "pypi"
 
 [ukpostcodeparser]
