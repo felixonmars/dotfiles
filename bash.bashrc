@@ -7,15 +7,15 @@
 
 [[ $DISPLAY ]] && shopt -s checkwinsize
 
+shopt -s autocd
 
 #PS1='[\u@\h \W]\$ '
 PS2='> '
 PS3='> '
 PS4='+ '
 
-export EDITOR="vim"
+export EDITOR="nvim"
 export HISTCONTROL=ignoreboth
-export PYTHONDOCS=/usr/share/doc/python2/html/
 export LESS_TERMCAP_mb=$'\E[01;31m'
 export LESS_TERMCAP_md=$'\E[01;31m'
 export LESS_TERMCAP_me=$'\E[0m'
@@ -55,7 +55,7 @@ case ${TERM} in
     PROMPT_COMMAND=${PROMPT_COMMAND:+$PROMPT_COMMAND; }'printf "\033]0;%s@%s:%s\007" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/~}"'
                                                         
     ;;
-  screen*)
+  screen*|tmux*)
     PROMPT_COMMAND=${PROMPT_COMMAND:+$PROMPT_COMMAND; }'printf "\033_%s@%s:%s\033\\" "${USER}" "${HOSTNAME%%.*}" "${PWD/#$HOME/~}"'
     ;;
 esac
@@ -79,7 +79,7 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias u='git pull'
 alias l=ls
-alias sd='sdcv -u 朗道汉英字典5.0 -u 朗道英汉字典5.0'
+alias sdcv='/usr/bin/sdcv -u 朗道汉英字典5.0 -u 朗道英汉字典5.0'
 alias yd='ydcv'
 alias ds='pcp dstat -tcmsdrgnp'
 alias dss='pcp dstat -tcmsdn'
