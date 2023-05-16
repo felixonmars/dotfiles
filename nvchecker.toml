@@ -20,7 +20,7 @@ source = "hackage"
 [aeson-better-errors]
 source = "hackage"
 
-[aeson-compat]
+[aeson-casing]
 source = "hackage"
 
 [aeson-diff]
@@ -44,6 +44,9 @@ source = "hackage"
 [algebraic-graphs]
 source = "hackage"
 
+[Allure]
+source = "hackage"
+
 [annotated-wl-pprint]
 source = "hackage"
 
@@ -60,6 +63,9 @@ source = "hackage"
 source = "hackage"
 
 [apply-refact]
+source = "hackage"
+
+[arbtt]
 source = "hackage"
 
 [arch-hs]
@@ -81,6 +87,9 @@ source = "hackage"
 source = "hackage"
 
 [asn1-types]
+source = "hackage"
+
+[assert-failure]
 source = "hackage"
 
 [assoc]
@@ -111,6 +120,9 @@ source = "hackage"
 source = "hackage"
 
 [aws]
+source = "hackage"
+
+[barbies]
 source = "hackage"
 
 [base-compat]
@@ -170,6 +182,9 @@ source = "hackage"
 [binary-tagged]
 source = "hackage"
 
+[bindings-DSL]
+source = "hackage"
+
 [bitarray]
 source = "hackage"
 
@@ -194,13 +209,25 @@ source = "hackage"
 [BNFC]
 source = "hackage"
 
+[Boolean]
+source = "hackage"
+
 [boring]
+source = "hackage"
+
+[BoundedChan]
 source = "hackage"
 
 [bower-json]
 source = "hackage"
 
 [boxes]
+source = "hackage"
+
+[brainfuck]
+source = "hackage"
+
+[breakpoint]
 source = "hackage"
 
 [brick]
@@ -218,10 +245,16 @@ source = "hackage"
 [bug]
 source = "hackage"
 
+[bustle]
+source = "hackage"
+
 [butcher]
 source = "hackage"
 
 [bv-sized]
+source = "hackage"
+
+[byte-order]
 source = "hackage"
 
 [byteable]
@@ -230,16 +263,25 @@ source = "hackage"
 [byteorder]
 source = "hackage"
 
+[bytes]
+source = "hackage"
+
 [bytestring-encoding]
 source = "hackage"
 
 [bytestring-handle]
 source = "hackage"
 
+[bytestring-progress]
+source = "hackage"
+
 [bytestring-show]
 source = "hackage"
 
 [bytestring-strict-builder]
+source = "hackage"
+
+[bytestring-to-vector]
 source = "hackage"
 
 [bytestring-tree-builder]
@@ -285,6 +327,9 @@ source = "hackage"
 source = "hackage"
 
 [cassava-megaparsec]
+source = "hackage"
+
+[cbor-tool]
 source = "hackage"
 
 [cborg]
@@ -341,6 +386,9 @@ source = "hackage"
 [clash-prelude]
 source = "hackage"
 
+[clay]
+source = "hackage"
+
 [clientsession]
 source = "hackage"
 
@@ -353,7 +401,13 @@ source = "hackage"
 [cmdargs]
 source = "hackage"
 
+[co-log-core]
+source = "hackage"
+
 [code-page]
+source = "hackage"
+
+[coinbase-pro]
 source = "hackage"
 
 [colour]
@@ -371,10 +425,16 @@ source = "hackage"
 [commonmark-pandoc]
 source = "hackage"
 
+[commutative-semigroups]
+source = "hackage"
+
 [comonad]
 source = "hackage"
 
 [concise]
+source = "hackage"
+
+[concurrent-extra]
 source = "hackage"
 
 [concurrent-output]
@@ -398,7 +458,13 @@ source = "hackage"
 [config-ini]
 source = "hackage"
 
+[config-schema]
+source = "hackage"
+
 [config-value]
+source = "hackage"
+
+[ConfigFile]
 source = "hackage"
 
 [configurator]
@@ -479,6 +545,9 @@ source = "hackage"
 [crypto-random]
 source = "hackage"
 
+[crypto-token]
+source = "hackage"
+
 [cryptohash]
 source = "hackage"
 
@@ -509,6 +578,9 @@ source = "hackage"
 [csv]
 source = "hackage"
 
+[curve25519]
+source = "hackage"
+
 [czipwith]
 source = "hackage"
 
@@ -522,6 +594,9 @@ source = "hackage"
 source = "hackage"
 
 [data-accessor-transformers]
+source = "hackage"
+
+[data-array-byte]
 source = "hackage"
 
 [data-binary-ieee754]
@@ -564,6 +639,12 @@ source = "hackage"
 source = "hackage"
 
 [data-hash]
+source = "hackage"
+
+[data-inttrie]
+source = "hackage"
+
+[data-memocombinators]
 source = "hackage"
 
 [data-ordlist]
@@ -656,6 +737,9 @@ source = "hackage"
 [digest]
 source = "hackage"
 
+[dir-traverse]
+source = "hackage"
+
 [direct-sqlite]
 source = "hackage"
 
@@ -684,6 +768,9 @@ source = "hackage"
 source = "hackage"
 
 [doctest]
+source = "hackage"
+
+[doctest-discover]
 source = "hackage"
 
 [doctest-driver-gen]
@@ -737,6 +824,9 @@ source = "hackage"
 [email-validate]
 source = "hackage"
 
+[enummapset]
+source = "hackage"
+
 [emojis]
 source = "hackage"
 
@@ -759,9 +849,6 @@ source = "hackage"
 source = "hackage"
 
 [exact-pi]
-source = "hackage"
-
-[exceptions]
 source = "hackage"
 
 [executable-path]
@@ -812,6 +899,9 @@ source = "hackage"
 [filepattern]
 source = "hackage"
 
+[filestore]
+source = "hackage"
+
 [filtrable]
 source = "hackage"
 
@@ -836,13 +926,22 @@ source = "hackage"
 [FloatingHex]
 source = "hackage"
 
+[floskell]
+source = "hackage"
+
 [fmlist]
+source = "hackage"
+
+[focus]
 source = "hackage"
 
 [foldl]
 source = "hackage"
 
 [foundation]
+source = "hackage"
+
+[fourmolu]
 source = "hackage"
 
 [free]
@@ -878,6 +977,9 @@ source = "hackage"
 [generic-trie]
 source = "hackage"
 
+[generically]
+source = "hackage"
+
 [generics-sop]
 source = "hackage"
 
@@ -896,9 +998,6 @@ source = "hackage"
 [getopt-generics]
 source = "hackage"
 
-[ghc-api-compat]
-source = "hackage"
-
 [ghc-bignum-orphans]
 source = "hackage"
 
@@ -912,6 +1011,9 @@ source = "hackage"
 source = "hackage"
 
 [ghc-mod]
+source = "hackage"
+
+[ghc-parser]
 source = "hackage"
 
 [ghc-paths]
@@ -938,7 +1040,70 @@ source = "hackage"
 [ghcide]
 source = "hackage"
 
+[ghcide-test-utils]
+source = "hackage"
+
+[gi-atk]
+source = "hackage"
+
 [gi-cairo]
+source = "hackage"
+
+[gi-cairo-connector]
+source = "hackage"
+
+[gi-cairo-render]
+source = "hackage"
+
+[gi-dbusmenu]
+source = "hackage"
+
+[gi-dbusmenugtk3]
+source = "hackage"
+
+[gi-freetype2]
+source = "hackage"
+
+[gi-gdk]
+source = "hackage"
+
+[gi-gdkpixbuf]
+source = "hackage"
+
+[gi-gdkx11]
+source = "hackage"
+
+[gi-gio]
+source = "hackage"
+
+[gi-glib]
+source = "hackage"
+
+[gi-gmodule]
+source = "hackage"
+
+[gi-gobject]
+source = "hackage"
+
+[gi-graphene]
+source = "hackage"
+
+[gi-gsk]
+source = "hackage"
+
+[gi-gtk]
+source = "hackage"
+
+[gi-gtk-hs]
+source = "hackage"
+
+[gi-harfbuzz]
+source = "hackage"
+
+[gi-pango]
+source = "hackage"
+
+[gio]
 source = "hackage"
 
 [git-annex]
@@ -953,10 +1118,16 @@ source = "hackage"
 [githash]
 source = "hackage"
 
+[gitit]
+source = "hackage"
+
 [gitrev]
 source = "hackage"
 
 [glib]
+source = "hackage"
+
+[glirc]
 source = "hackage"
 
 [Glob]
@@ -977,7 +1148,19 @@ source = "hackage"
 [graphviz]
 source = "hackage"
 
+[gridtables]
+source = "hackage"
+
+[groups]
+source = "hackage"
+
 [gsasl]
+source = "hackage"
+
+[gtk-sni-tray]
+source = "hackage"
+
+[gtk-strut]
 source = "hackage"
 
 [gtk2hs-buildtools]
@@ -999,6 +1182,9 @@ source = "hackage"
 source = "hackage"
 
 [half]
+source = "hackage"
+
+[happstack-server]
 source = "hackage"
 
 [haskell-ci]
@@ -1030,6 +1216,9 @@ hackage = "persistent"
 source = "hackage"
 
 [haskell-src-exts]
+source = "hackage"
+
+[haskell-src-exts-simple]
 source = "hackage"
 
 [haskell-src-exts-util]
@@ -1137,22 +1326,49 @@ source = "hackage"
 [hlint]
 source = "hackage"
 
+[hls-alternate-number-format-plugin]
+source = "hackage"
+
 [hls-brittany-plugin]
+source = "hackage"
+
+[hls-cabal-fmt-plugin]
+source = "hackage"
+
+[hls-cabal-plugin]
+source = "hackage"
+
+[hls-call-hierarchy-plugin]
+source = "hackage"
+
+[hls-change-type-signature-plugin]
 source = "hackage"
 
 [hls-class-plugin]
 source = "hackage"
 
+[hls-code-range-plugin]
+source = "hackage"
+
 [hls-eval-plugin]
 source = "hackage"
 
+[hls-explicit-fixity-plugin]
+source = "hackage"
+
 [hls-explicit-imports-plugin]
+source = "hackage"
+
+[hls-explicit-record-fields-plugin]
 source = "hackage"
 
 [hls-floskell-plugin]
 source = "hackage"
 
 [hls-fourmolu-plugin]
+source = "hackage"
+
+[hls-gadt-plugin]
 source = "hackage"
 
 [hls-graph]
@@ -1176,7 +1392,16 @@ source = "hackage"
 [hls-pragmas-plugin]
 source = "hackage"
 
+[hls-qualify-imported-names-plugin]
+source = "hackage"
+
+[hls-refactor-plugin]
+source = "hackage"
+
 [hls-refine-imports-plugin]
+source = "hackage"
+
+[hls-rename-plugin]
 source = "hackage"
 
 [hls-retrie-plugin]
@@ -1194,7 +1419,13 @@ source = "hackage"
 [hls-test-utils]
 source = "hackage"
 
+[hoauth2]
+source = "hackage"
+
 [hoogle]
+source = "hackage"
+
+[hookup]
 source = "hackage"
 
 [hOpenPGP]
@@ -1225,16 +1456,34 @@ source = "hackage"
 [hscolour]
 source = "hackage"
 
+[hsini]
+source = "hackage"
+
 [hslogger]
 source = "hackage"
 
 [hslua]
 source = "hackage"
 
+[hslua-aeson]
+source = "hackage"
+
+[hslua-classes]
+source = "hackage"
+
+[hslua-cli]
+source = "hackage"
+
 [hslua-core]
 source = "hackage"
 
+[hslua-list]
+source = "hackage"
+
 [hslua-marshalling]
+source = "hackage"
+
+[hslua-module-doclayout]
 source = "hackage"
 
 [hslua-module-path]
@@ -1246,6 +1495,12 @@ source = "hackage"
 [hslua-module-text]
 source = "hackage"
 
+[hslua-module-version]
+source = "hackage"
+
+[hslua-module-zip]
+source = "hackage"
+
 [hslua-objectorientation]
 source = "hackage"
 
@@ -1253,6 +1508,9 @@ source = "hackage"
 source = "hackage"
 
 [HsOpenSSL]
+source = "hackage"
+
+[HsOpenSSL-x509-system]
 source = "hackage"
 
 [hspec]
@@ -1295,6 +1553,9 @@ source = "hackage"
 source = "hackage"
 
 [hspec-wai-json]
+source = "hackage"
+
+[HStringTemplate]
 source = "hackage"
 
 [HsYAML]
@@ -1357,10 +1618,22 @@ source = "hackage"
 [http2]
 source = "hackage"
 
+[http3]
+source = "hackage"
+
 [httpd-shed]
 source = "hackage"
 
 [HUnit]
+source = "hackage"
+
+[hw-fingertree]
+source = "hackage"
+
+[hw-hspec-hedgehog]
+source = "hackage"
+
+[hw-prim]
 source = "hackage"
 
 [hxt]
@@ -1385,6 +1658,9 @@ source = "hackage"
 source = "hackage"
 
 [IfElse]
+source = "hackage"
+
+[ihaskell]
 source = "hackage"
 
 [implicit-hie]
@@ -1447,10 +1723,22 @@ source = "hackage"
 [io-streams-haproxy]
 source = "hackage"
 
+[IOSpec]
+source = "hackage"
+
 [iproute]
 source = "hackage"
 
 [ipynb]
+source = "hackage"
+
+[ipython-kernel]
+source = "hackage"
+
+[irc-core]
+source = "hackage"
+
+[isomorphism-class]
 source = "hackage"
 
 [ixset-typed]
@@ -1493,6 +1781,12 @@ source = "hackage"
 source = "hackage"
 
 [kvitable]
+source = "hackage"
+
+[lambdabot-trusted]
+source = "hackage"
+
+[LambdaHack]
 source = "hackage"
 
 [language-c]
@@ -1555,6 +1849,15 @@ source = "hackage"
 [lifted-base]
 source = "hackage"
 
+[linear]
+source = "hackage"
+
+[linear-base]
+source = "hackage"
+
+[linear-generics]
+source = "hackage"
+
 [ListLike]
 source = "hackage"
 
@@ -1568,6 +1871,9 @@ source = "hackage"
 source = "hackage"
 
 [loop]
+source = "hackage"
+
+[lpeg]
 source = "hackage"
 
 [lrucache]
@@ -1621,6 +1927,9 @@ source = "hackage"
 [mersenne-random-pure64]
 source = "hackage"
 
+[microaeson]
+source = "hackage"
+
 [microlens]
 source = "hackage"
 
@@ -1642,13 +1951,25 @@ source = "hackage"
 [microstache]
 source = "hackage"
 
+[mighttpd2]
+source = "hackage"
+
 [mime-mail]
 source = "hackage"
 
 [mime-types]
 source = "hackage"
 
+[minimorph]
+source = "hackage"
+
+[miniutter]
+source = "hackage"
+
 [mintty]
+source = "hackage"
+
+[MissingH]
 source = "hackage"
 
 [mmap]
@@ -1735,6 +2056,9 @@ source = "hackage"
 [mueval]
 source = "hackage"
 
+[multimap]
+source = "hackage"
+
 [multistate]
 source = "hackage"
 
@@ -1795,6 +2119,9 @@ source = "hackage"
 [network-simple]
 source = "hackage"
 
+[network-udp]
+source = "hackage"
+
 [network-uri]
 source = "hackage"
 
@@ -1810,7 +2137,19 @@ source = "hackage"
 [nonce]
 source = "hackage"
 
+[nothunks]
+source = "hackage"
+
+[numbers]
+source = "hackage"
+
+[NumInstances]
+source = "hackage"
+
 [numtype-dk]
+source = "hackage"
+
+[oeis]
 source = "hackage"
 
 [old-locale]
@@ -1876,7 +2215,22 @@ source = "hackage"
 [pandoc-citeproc]
 source = "hackage"
 
+[pandoc-cli]
+source = "hackage"
+
 [pandoc-crossref]
+source = "hackage"
+
+[pandoc-lua-engine]
+source = "hackage"
+
+[pandoc-lua-marshal]
+source = "hackage"
+
+[pandoc-plot]
+source = "hackage"
+
+[pandoc-server]
 source = "hackage"
 
 [pandoc-types]
@@ -2008,6 +2362,9 @@ source = "hackage"
 [prettyprinter-convert-ansi-wl-pprint]
 source = "hackage"
 
+[prim-uniq]
+source = "hackage"
+
 [primes]
 source = "hackage"
 
@@ -2015,6 +2372,15 @@ source = "hackage"
 source = "hackage"
 
 [primitive-addr]
+source = "hackage"
+
+[primitive-extras]
+source = "hackage"
+
+[primitive-unaligned]
+source = "hackage"
+
+[primitive-unlifted]
 source = "hackage"
 
 [process-extras]
@@ -2038,6 +2404,9 @@ source = "hackage"
 [pureMD5]
 source = "hackage"
 
+[quic]
+source = "hackage"
+
 [QuickCheck]
 source = "hackage"
 
@@ -2054,6 +2423,9 @@ source = "hackage"
 source = "hackage"
 
 [quickcheck-io]
+source = "hackage"
+
+[QuickCheck-safe]
 source = "hackage"
 
 [quickcheck-text]
@@ -2083,6 +2455,9 @@ source = "hackage"
 [rank2classes]
 source = "hackage"
 
+[rate-limit]
+source = "hackage"
+
 [raw-strings-qq]
 source = "hackage"
 
@@ -2092,6 +2467,9 @@ source = "hackage"
 [rebase]
 source = "hackage"
 
+[recaptcha]
+source = "hackage"
+
 [record-dot-preprocessor]
 source = "hackage"
 
@@ -2099,6 +2477,9 @@ source = "hackage"
 source = "hackage"
 
 [recursion-schemes]
+source = "hackage"
+
+[recv]
 source = "hackage"
 
 [reducers]
@@ -2215,6 +2596,12 @@ source = "hackage"
 [scotty]
 source = "hackage"
 
+[sdl2]
+source = "hackage"
+
+[sdl2-ttf]
+source = "hackage"
+
 [securemem]
 source = "hackage"
 
@@ -2228,6 +2615,9 @@ source = "hackage"
 source = "hackage"
 
 [semirings]
+source = "hackage"
+
+[sendfile]
 source = "hackage"
 
 [serialise]
@@ -2314,6 +2704,21 @@ source = "hackage"
 [skylighting-core]
 source = "hackage"
 
+[skylighting-format-ansi]
+source = "hackage"
+
+[skylighting-format-blaze-html]
+source = "hackage"
+
+[skylighting-format-context]
+source = "hackage"
+
+[skylighting-format-latex]
+source = "hackage"
+
+[slist]
+source = "hackage"
+
 [smallcheck]
 source = "hackage"
 
@@ -2324,6 +2729,9 @@ source = "hackage"
 source = "hackage"
 
 [snap-server]
+source = "hackage"
+
+[sockaddr]
 source = "hackage"
 
 [socks]
@@ -2368,10 +2776,22 @@ source = "hackage"
 [StateVar]
 source = "hackage"
 
+[static-hash]
+source = "hackage"
+
 [statistics]
 source = "hackage"
 
+[status-notifier-item]
+source = "hackage"
+
 [stm-chans]
+source = "hackage"
+
+[stm-containers]
+source = "hackage"
+
+[stm-hamt]
 source = "hackage"
 
 [STMonadTrans]
@@ -2453,6 +2873,9 @@ source = "hackage"
 source = "hackage"
 
 [tabular]
+source = "hackage"
+
+[taffybar]
 source = "hackage"
 
 [tagged]
@@ -2539,6 +2962,9 @@ source = "hackage"
 [temporary]
 source = "hackage"
 
+[terminal-progress-bar]
+source = "hackage"
+
 [terminal-size]
 source = "hackage"
 
@@ -2572,6 +2998,9 @@ source = "hackage"
 [text-builder]
 source = "hackage"
 
+[text-builder-dev]
+source = "hackage"
+
 [text-conversions]
 source = "hackage"
 
@@ -2591,6 +3020,9 @@ source = "hackage"
 source = "hackage"
 
 [text-printer]
+source = "hackage"
+
+[text-rope]
 source = "hackage"
 
 [text-short]
@@ -2653,6 +3085,9 @@ source = "hackage"
 [time-manager]
 source = "hackage"
 
+[time-units]
+source = "hackage"
+
 [timeit]
 source = "hackage"
 
@@ -2671,6 +3106,9 @@ source = "hackage"
 [torrent]
 source = "hackage"
 
+[tostring]
+source = "hackage"
+
 [transformers-base]
 source = "hackage"
 
@@ -2681,6 +3119,9 @@ source = "hackage"
 source = "hackage"
 
 [trifecta]
+source = "hackage"
+
+[tuple]
 source = "hackage"
 
 [tuple-th]
@@ -2714,6 +3155,9 @@ source = "hackage"
 source = "hackage"
 
 [unagi-chan]
+source = "hackage"
+
+[unagi-streams]
 source = "hackage"
 
 [unbounded-delays]
@@ -2770,6 +3214,9 @@ source = "hackage"
 [uri-bytestring]
 source = "hackage"
 
+[uri-bytestring-aeson]
+source = "hackage"
+
 [uri-encode]
 source = "hackage"
 
@@ -2812,10 +3259,19 @@ source = "hackage"
 [vector-builder]
 source = "hackage"
 
+[vector-hashtables]
+source = "hackage"
+
 [vector-instances]
 source = "hackage"
 
 [vector-sized]
+source = "hackage"
+
+[vector-space]
+source = "hackage"
+
+[vector-stream]
 source = "hackage"
 
 [vector-th-unbox]
@@ -2833,6 +3289,9 @@ source = "hackage"
 [wai]
 source = "hackage"
 
+[wai-app-file-cgi]
+source = "hackage"
+
 [wai-app-static]
 source = "hackage"
 
@@ -2848,6 +3307,9 @@ source = "hackage"
 [wai-handler-launch]
 source = "hackage"
 
+[wai-http2-extra]
+source = "hackage"
+
 [wai-logger]
 source = "hackage"
 
@@ -2858,6 +3320,9 @@ source = "hackage"
 source = "hackage"
 
 [warp]
+source = "hackage"
+
+[warp-quic]
 source = "hackage"
 
 [warp-tls]
@@ -2875,10 +3340,19 @@ source = "hackage"
 [what4]
 source = "hackage"
 
+[wide-word]
+source = "hackage"
+
+[witch]
+source = "hackage"
+
 [with-location]
 source = "hackage"
 
 [with-utf8]
+source = "hackage"
+
+[witherable]
 source = "hackage"
 
 [wizards]
@@ -2905,6 +3379,9 @@ source = "hackage"
 [wreq]
 source = "hackage"
 
+[wuss]
+source = "hackage"
+
 [X11]
 source = "hackage"
 
@@ -2929,6 +3406,9 @@ source = "hackage"
 [xdg-basedir]
 source = "hackage"
 
+[xdg-desktop-entry]
+source = "hackage"
+
 [xml]
 source = "hackage"
 
@@ -2938,10 +3418,16 @@ source = "hackage"
 [xml-hamlet]
 source = "hackage"
 
+[xml-helpers]
+source = "hackage"
+
 [xml-types]
 source = "hackage"
 
 [xmlgen]
+source = "hackage"
+
+[xmonad-extras]
 source = "hackage"
 
 [xss-sanitize]
@@ -2972,6 +3458,9 @@ source = "hackage"
 source = "hackage"
 
 [zenc]
+source = "hackage"
+
+[zeromq4-haskell]
 source = "hackage"
 
 [zinza]
@@ -3072,9 +3561,6 @@ source = "npm"
 [ts-node]
 source = "npm"
 
-[typescript]
-source = "npm"
-
 [uglify-js]
 source = "npm"
 
@@ -3089,6 +3575,9 @@ source = "cpan"
 source = "cpan"
 
 [Alien-Build]
+source = "cpan"
+
+[Alien-Build-Plugin-Download-GitLab]
 source = "cpan"
 
 [Alien-cmake3]
@@ -3110,6 +3599,9 @@ source = "cpan"
 source = "cpan"
 
 [Async-Interrupt]
+source = "cpan"
+
+[B-COW]
 source = "cpan"
 
 [B-Keywords]
@@ -3286,9 +3778,6 @@ source = "cpan"
 [Goo-Canvas]
 source = "cpan"
 
-[GraphViz]
-source = "cpan"
-
 [Gtk2-Ex-FormFactory]
 source = "cpan"
 
@@ -3332,6 +3821,9 @@ source = "cpan"
 source = "cpan"
 
 [IO-CaptureOutput]
+source = "cpan"
+
+[IO-Compress-Brotli]
 source = "cpan"
 
 [IO-Dirent]
@@ -3533,6 +4025,12 @@ source = "cpan"
 [Proc-Simple]
 source = "cpan"
 
+[Ref-Util]
+source = "cpan"
+
+[Ref-Util-XS]
+source = "cpan"
+
 [Return-MultiLevel]
 source = "cpan"
 
@@ -3658,6 +4156,9 @@ source = "cpan"
 [Test2-Suite]
 source = "cpan"
 
+[Test2-Tools-Process]
+source = "cpan"
+
 [Text-Iconv]
 source = "cpan"
 
@@ -3703,13 +4204,7 @@ source = "cpan"
 [YAML-Tiny]
 source = "cpan"
 
-[acme]
-source = "pypi"
-
 [aiogram]
-source = "pypi"
-
-[aiohttp]
 source = "pypi"
 
 [aioresponses]
@@ -3787,13 +4282,10 @@ source = "pypi"
 [attrs]
 source = "pypi"
 
+[autocommand]
+source = "pypi"
+
 [Automat]
-source = "pypi"
-
-[autopep8]
-source = "pypi"
-
-[awkward]
 source = "pypi"
 
 ["backports.functools_lru_cache"]
@@ -3820,9 +4312,6 @@ source = "pypi"
 [Beaker]
 source = "pypi"
 
-[beautifulsoup4]
-source = "pypi"
-
 [behave]
 source = "pypi"
 
@@ -3833,6 +4322,9 @@ source = "pypi"
 source = "pypi"
 
 [betamax-serializers]
+source = "pypi"
+
+[big-O]
 source = "pypi"
 
 [billiard]
@@ -3877,6 +4369,9 @@ source = "pypi"
 [cairosvg]
 source = "pypi"
 
+[calver]
+source = "pypi"
+
 [case]
 source = "pypi"
 
@@ -3884,57 +4379,6 @@ source = "pypi"
 source = "pypi"
 
 [Cerberus]
-source = "pypi"
-
-[certbot]
-source = "pypi"
-
-[certbot-apache]
-source = "pypi"
-
-[certbot-dns-cloudflare]
-source = "pypi"
-
-[certbot-dns-cloudxns]
-source = "pypi"
-
-[certbot-dns-digitalocean]
-source = "pypi"
-
-[certbot-dns-dnsimple]
-source = "pypi"
-
-[certbot-dns-dnsmadeeasy]
-source = "pypi"
-
-[certbot-dns-gehirn]
-source = "pypi"
-
-[certbot-dns-google]
-source = "pypi"
-
-[certbot-dns-linode]
-source = "pypi"
-
-[certbot-dns-luadns]
-source = "pypi"
-
-[certbot-dns-nsone]
-source = "pypi"
-
-[certbot-dns-ovh]
-source = "pypi"
-
-[certbot-dns-rfc2136]
-source = "pypi"
-
-[certbot-dns-route53]
-source = "pypi"
-
-[certbot-dns-sakuracloud]
-source = "pypi"
-
-[certbot-nginx]
 source = "pypi"
 
 [certifi]
@@ -3985,7 +4429,7 @@ source = "pypi"
 [ConfigArgParse]
 source = "pypi"
 
-[configparser]
+[ConfigUpdater]
 source = "pypi"
 
 [constantly]
@@ -4022,9 +4466,6 @@ source = "pypi"
 source = "pypi"
 
 [cryptography]
-source = "pypi"
-
-[cryptography-vectors]
 source = "pypi"
 
 [cssselect]
@@ -4150,10 +4591,6 @@ source = "pypi"
 [fields]
 source = "pypi"
 
-[python-filelock]
-source = "pypi"
-pypi = "filelock"
-
 [filetype]
 source = "pypi"
 
@@ -4173,12 +4610,6 @@ source = "pypi"
 source = "pypi"
 
 [flask-bootstrap]
-source = "pypi"
-
-[Flask-Caching]
-source = "pypi"
-
-[Flask-Dance]
 source = "pypi"
 
 [Flask-Debug]
@@ -4279,6 +4710,9 @@ source = "pypi"
 [google-auth-httplib2]
 source = "pypi"
 
+[green]
+source = "pypi"
+
 [greenlet]
 source = "pypi"
 
@@ -4295,6 +4729,9 @@ source = "pypi"
 source = "pypi"
 
 [harparser]
+source = "pypi"
+
+[hatch-vcs]
 source = "pypi"
 
 [helper]
@@ -4321,19 +4758,7 @@ source = "pypi"
 [hyperlink]
 source = "pypi"
 
-[hypothesis]
-source = "pypi"
-
-[hypothesis-auto]
-source = "pypi"
-
 [hypothesis-fspaths]
-source = "pypi"
-
-[hypothesmith]
-source = "pypi"
-
-[identify]
 source = "pypi"
 
 [idna]
@@ -4346,6 +4771,9 @@ source = "pypi"
 source = "pypi"
 
 [inflection]
+source = "pypi"
+
+[ini2toml]
 source = "pypi"
 
 [iniconfig]
@@ -4423,9 +4851,6 @@ source = "pypi"
 [jsonpointer]
 source = "pypi"
 
-[jsonschema]
-source = "pypi"
-
 [kaitaistruct]
 source = "pypi"
 
@@ -4477,13 +4902,7 @@ source = "pypi"
 [logbook]
 source = "pypi"
 
-[logilab-common]
-source = "pypi"
-
 [lxml]
-source = "pypi"
-
-[m2r]
 source = "pypi"
 
 [Mako]
@@ -4505,9 +4924,6 @@ source = "pypi"
 source = "pypi"
 
 [maxminddb]
-source = "pypi"
-
-[memory_profiler]
 source = "pypi"
 
 [mimerender]
@@ -4585,13 +5001,10 @@ source = "pypi"
 [objgraph]
 source = "pypi"
 
-[openapi-schema-validator]
-source = "pypi"
-
-[openapi-spec-validator]
-source = "pypi"
-
 [openmdao]
+source = "pypi"
+
+[openstackdocstheme]
 source = "pypi"
 
 [openstacksdk]
@@ -4688,10 +5101,6 @@ pypi = "path"
 [pathlib]
 source = "pypi"
 
-[python2-pathlib2]
-pypi = "pathlib2"
-source = "pypi"
-
 [pathtools]
 source = "pypi"
 
@@ -4699,12 +5108,6 @@ source = "pypi"
 source = "pypi"
 
 [pbr]
-source = "pypi"
-
-[pdoc]
-source = "pypi"
-
-[peewee]
 source = "pypi"
 
 [pep517]
@@ -4716,10 +5119,13 @@ source = "pypi"
 [pifpaf]
 source = "pypi"
 
-[pigar]
+[Pint]
 source = "pypi"
 
-[Pint]
+[pip]
+source = "pypi"
+
+[pip-run]
 source = "pypi"
 
 [pip-shims]
@@ -4729,9 +5135,6 @@ source = "pypi"
 source = "pypi"
 
 [pipreqs]
-source = "pypi"
-
-[pkginfo]
 source = "pypi"
 
 [plette]
@@ -4786,9 +5189,6 @@ source = "pypi"
 source = "pypi"
 
 [purl]
-source = "pypi"
-
-[py]
 source = "pypi"
 
 [py-cpuinfo]
@@ -4851,6 +5251,9 @@ source = "pypi"
 [pygal]
 source = "pypi"
 
+[pygaljs]
+source = "pypi"
+
 [pygeoip]
 source = "pypi"
 
@@ -4875,9 +5278,6 @@ source = "pypi"
 [pylons-sphinx-themes]
 source = "pypi"
 
-[pymongo]
-source = "pypi"
-
 [PyNamecheap]
 source = "pypi"
 
@@ -4894,6 +5294,9 @@ source = "pypi"
 source = "pypi"
 
 [pyperclip]
+source = "pypi"
+
+[pypinyin]
 source = "pypi"
 
 [pyprof2calltree]
@@ -4932,9 +5335,6 @@ source = "pypi"
 [pyte]
 source = "pypi"
 
-[pytest]
-source = "pypi"
-
 [pytest-asyncio]
 source = "pypi"
 
@@ -4951,9 +5351,6 @@ source = "pypi"
 source = "pypi"
 
 [pytest-celery]
-source = "pypi"
-
-[pytest-checkdocs]
 source = "pypi"
 
 [pytest-cov]
@@ -5002,6 +5399,9 @@ source = "pypi"
 source = "pypi"
 
 [pytest-relaxed]
+source = "pypi"
+
+[pytest-ruff]
 source = "pypi"
 
 [pytest-runner]
@@ -5063,9 +5463,6 @@ source = "pypi"
 source = "pypi"
 
 [python-keystoneclient]
-source = "pypi"
-
-[python-Levenshtein]
 source = "pypi"
 
 [python-magnumclient]
@@ -5154,9 +5551,6 @@ source = "pypi"
 [redbaron]
 source = "pypi"
 
-[redis]
-source = "pypi"
-
 [rednose]
 source = "pypi"
 
@@ -5185,9 +5579,6 @@ source = "pypi"
 source = "pypi"
 
 [requestsexceptions]
-source = "pypi"
-
-[requirementslib]
 source = "pypi"
 
 [responses]
@@ -5241,6 +5632,9 @@ source = "pypi"
 [SecretStorage]
 source = "pypi"
 
+[seedir]
+source = "pypi"
+
 [semantic_version]
 source = "pypi"
 
@@ -5266,6 +5660,9 @@ source = "pypi"
 [setuptools-markdown]
 source = "pypi"
 
+[setuptools-rust]
+source = "pypi"
+
 [setuptools-scm]
 source = "pypi"
 
@@ -5276,9 +5673,6 @@ source = "pypi"
 source = "pypi"
 
 [Shapely]
-source = "pypi"
-
-[simplejson]
 source = "pypi"
 
 [six]
@@ -5305,9 +5699,6 @@ source = "pypi"
 [sortedcontainers]
 source = "pypi"
 
-[soupsieve]
-source = "pypi"
-
 [SPARQLWrapper]
 source = "pypi"
 
@@ -5315,6 +5706,9 @@ source = "pypi"
 source = "pypi"
 
 [sphinxcontrib-seqdiag]
+source = "pypi"
+
+[sphinxcontrib-towncrier]
 source = "pypi"
 
 [SQLAlchemy]
@@ -5330,9 +5724,6 @@ source = "pypi"
 source = "pypi"
 
 [strict-rfc3339]
-source = "pypi"
-
-[structlog]
 source = "pypi"
 
 [subunit2sql]
@@ -5351,6 +5742,9 @@ source = "pypi"
 source = "pypi"
 
 [sysv_ipc]
+source = "pypi"
+
+[teamcity-messages]
 source = "pypi"
 
 [tenacity]
@@ -5395,9 +5789,6 @@ source = "pypi"
 [tldextract]
 source = "pypi"
 
-[tomlkit]
-source = "pypi"
-
 [toposort]
 source = "pypi"
 
@@ -5417,6 +5808,9 @@ source = "pypi"
 source = "pypi"
 
 [treq]
+source = "pypi"
+
+[trove-classifiers]
 source = "pypi"
 
 [twine]
@@ -5464,6 +5858,9 @@ source = "pypi"
 [validate_email]
 source = "pypi"
 
+[validate-pyproject]
+source = "pypi"
+
 [validators]
 source = "pypi"
 
@@ -5477,9 +5874,6 @@ source = "pypi"
 source = "pypi"
 
 [vine]
-source = "pypi"
-
-[virtualenv]
 source = "pypi"
 
 [visitor]
@@ -5533,6 +5927,9 @@ source = "pypi"
 [whoosh]
 source = "pypi"
 
+[wilderness]
+source = "pypi"
+
 [wrapt]
 source = "pypi"
 
@@ -5555,9 +5952,6 @@ source = "pypi"
 source = "pypi"
 
 [xmljson]
-source = "pypi"
-
-[xmlschema]
 source = "pypi"
 
 [xmlsec]
@@ -5651,21 +6045,178 @@ source = "pypi"
 source = "gems"
 gems = "addressable"
 
-[ruby-bundler]
-source = "github"
-github = "rubygems/rubygems"
-use_max_tag = true
-include_regex = "bundler-.*"
-exclude_regex = ".*rc.*"
-prefix = "bundler-v"
+[ruby-ae]
+source = "gems"
+gems = "ae"
+
+[ruby-ast]
+source = "gems"
+gems = "ast"
+
+[ruby-async-container]
+source = "gems"
+gems = "async-container"
+
+[ruby-async-http]
+source = "gems"
+gems = "async-http"
+
+[ruby-async-http-cache]
+source = "gems"
+gems = "async-http-cache"
+
+[ruby-async-pool]
+source = "gems"
+gems = "async-pool"
+
+[ruby-async-process]
+source = "gems"
+gems = "async-process"
+
+[ruby-async-rest]
+source = "gems"
+gems = "async-rest"
+
+[ruby-async-rspec]
+source = "gems"
+gems = "async-rspec"
+
+[ruby-async-websocket]
+source = "gems"
+gems = "async-websocket"
+
+[ruby-attr_extras]
+source = "gems"
+gems = "attr_extras"
+
+[ruby-awesome_print]
+source = "gems"
+gems = "awesome_print"
+exclude_regex = ".*pre\\d*"
+
+[ruby-bacon]
+source = "gems"
+gems = "bacon"
+
+[ruby-bacon-colored_output]
+source = "gems"
+gems = "bacon-colored_output"
+
+[ruby-bake]
+source = "gems"
+gems = "bake"
+
+[ruby-bake-bundler]
+source = "gems"
+gems = "bake-bundler"
+
+[ruby-bake-modernize]
+source = "gems"
+gems = "bake-modernize"
+
+[ruby-bake-test]
+source = "gems"
+gems = "bake-test"
+
+[ruby-bake-test-external]
+source = "gems"
+gems = "bake-test-external"
+
+[ruby-brass]
+source = "gems"
+gems = "brass"
+
+[ruby-build-environment]
+source = "gems"
+gems = "build-environment"
+
+[ruby-build-files]
+source = "gems"
+gems = "build-files"
+
+[ruby-bump]
+source = "gems"
+gems = "bump"
+
+[ruby-byebug]
+source = "gems"
+gems = "byebug"
 
 [ruby-cairo]
 source = "gems"
 gems = "cairo"
 
-[ruby-faraday]
+[ruby-certificate_authority]
 source = "gems"
-gems = "faraday"
+gems = "certificate_authority"
+
+[ruby-childprocess]
+source = "gems"
+gems = "childprocess"
+
+[ruby-climate_control]
+source = "gems"
+gems = "climate_control"
+
+[ruby-connection_pool]
+source = "gems"
+gems = "connection_pool"
+
+[ruby-console]
+source = "gems"
+gems = "console"
+
+[ruby-contracts]
+source = "gems"
+gems = "contracts"
+
+[ruby-covered]
+source = "gems"
+gems = "covered"
+
+[ruby-cucumber-ci-environment]
+source = "gems"
+gems = "cucumber-ci-environment"
+
+[ruby-cucumber-compatibility-kit]
+source = "gems"
+gems = "cucumber-compatibility-kit"
+
+[ruby-cucumber-core]
+source = "gems"
+gems = "cucumber-core"
+
+[ruby-cucumber-cucumber-expressions]
+source = "gems"
+gems = "cucumber-cucumber-expressions"
+
+[ruby-cucumber-gherkin]
+source = "gems"
+gems = "cucumber-gherkin"
+
+[ruby-cucumber-html-formatter]
+source = "gems"
+gems = "cucumber-html-formatter"
+
+[ruby-cucumber-messages]
+source = "gems"
+gems = "cucumber-messages"
+
+[ruby-cucumber-tag-expressions]
+source = "gems"
+gems = "cucumber-tag-expressions"
+
+[ruby-facets]
+source = "gems"
+gems = "facets"
+
+[ruby-fakefs]
+source = "gems"
+gems = "fakefs"
+
+[ruby-falcon]
+source = "gems"
+gems = "falcon"
 
 [ruby-faraday-middleware]
 source = "gems"
@@ -5675,97 +6226,385 @@ gems = "faraday_middleware"
 source = "gems"
 gems = "ffi"
 
+[ruby-ffi-compiler]
+source = "gems"
+gems = "ffi-compiler"
+
+[ruby-filelock]
+source = "gems"
+gems = "filelock"
+
+[ruby-formatador]
+source = "gems"
+gems = "formatador"
+
+[ruby-fuubar]
+source = "gems"
+gems = "fuubar"
+
+[ruby-get_process_mem]
+source = "gems"
+gems = "get_process_mem"
+
+[ruby-http]
+source = "gems"
+gems = "http"
+
+[ruby-http-form_data]
+source = "gems"
+gems = "http-form_data"
+
+[ruby-json_pure]
+source = "gems"
+gems = "json_pure"
+
+[ruby-lemon]
+source = "gems"
+gems = "lemon"
+
+[ruby-listen]
+source = "gems"
+gems = "listen"
+
+[ruby-llhttp-ffi]
+source = "gems"
+gems = "llhttp-ffi"
+
+[ruby-localhost]
+source = "gems"
+gems = "localhost"
+
+[ruby-lumberjack]
+source = "gems"
+gems = "lumberjack"
+
+[ruby-mapping]
+source = "gems"
+gems = "mapping"
+
+[ruby-markly]
+source = "gems"
+gems = "markly"
+
+[ruby-maxitest]
+source = "gems"
+gems = "maxitest"
+
+[ruby-maxmind-db]
+source = "gems"
+gems = "maxmind-db"
+
+[ruby-minitest-hooks]
+source = "gems"
+gems = "minitest-hooks"
+
+[ruby-minitest-parallel_fork]
+source = "gems"
+gems = "minitest-parallel_fork"
+
+[ruby-minitest-rg]
+source = "gems"
+gems = "minitest-rg"
+
 [ruby-multi_json]
 source = "gems"
 gems = "multi_json"
+
+[ruby-multi_test]
+source = "gems"
+gems = "multi_test"
 
 [ruby-multipart-post]
 source = "gems"
 gems = "multipart-post"
 
-[ruby-power_assert]
+[ruby-nanotest]
 source = "gems"
-gems = "power_assert"
+gems = "nanotest"
+
+[ruby-nenv]
+source = "gems"
+gems = "nenv"
+
+[ruby-net-http-persistent]
+source = "gems"
+gems = "net-http-persistent"
+
+[ruby-netrc]
+source = "gems"
+gems = "netrc"
+
+[ruby-notiffany]
+source = "gems"
+gems = "notiffany"
+
+[ruby-octokit]
+source = "gems"
+gems = "octokit"
+
+[ruby-pandoc-ruby]
+source = "gems"
+gems = "pandoc-ruby"
+
+[ruby-parser]
+source = "gems"
+gems = "parser"
+
+[ruby-patience_diff]
+source = "gems"
+gems = "patience_diff"
+
+[ruby-process-metrics]
+source = "gems"
+gems = "process-metrics"
+
+[ruby-protocol-hpack]
+source = "gems"
+gems = "protocol-hpack"
+
+[ruby-protocol-http]
+source = "gems"
+gems = "protocol-http"
+
+[ruby-protocol-http1]
+source = "gems"
+gems = "protocol-http1"
+
+[ruby-protocol-http2]
+source = "gems"
+gems = "protocol-http2"
+
+[ruby-protocol-rack]
+source = "gems"
+gems = "protocol-rack"
+
+[ruby-protocol-websocket]
+source = "gems"
+gems = "protocol-websocket"
+
+[ruby-pry]
+source = "gems"
+gems = "pry"
+exclude_regex = ".*pre\\d*"
+
+[ruby-pry-byebug]
+source = "gems"
+gems = "pry-byebug"
 
 [ruby-public_suffix]
 source = "gems"
 gems = "public_suffix"
 
+[ruby-pycall]
+source = "gems"
+gems = "pycall"
+
+[ruby-qed]
+source = "gems"
+gems = "qed"
+
+[ruby-rack-session]
+source = "gems"
+gems = "rack-session"
+
+[ruby-rake-contrib]
+source = "gems"
+gems = "rake-contrib"
+
+[ruby-range_compressor]
+source = "gems"
+gems = "range_compressor"
+
+[ruby-rbnacl]
+source = "gems"
+gems = "rbnacl"
+
+[ruby-redcarpet]
+source = "gems"
+gems = "redcarpet"
+
+[ruby-redcloth]
+source = "gems"
+gems = "RedCloth"
+
+[ruby-rspec-files]
+source = "gems"
+gems = "rspec-files"
+
+[ruby-rspec-memory]
+source = "gems"
+gems = "rspec-memory"
+
+[ruby-rss]
+source = "gems"
+gems = "rss"
+
+[ruby-ruby_memcheck]
+source = "gems"
+gems = "ruby_memcheck"
+
+[ruby-rubygems-tasks]
+source = "gems"
+gems = "rubygems-tasks"
+
+[ruby-rubytest]
+source = "gems"
+gems = "rubytest"
+
+[ruby-rubytest-cli]
+source = "gems"
+gems = "rubytest-cli"
+
+[ruby-samovar]
+source = "gems"
+gems = "samovar"
+
+[ruby-sawyer]
+source = "gems"
+gems = "sawyer"
+
+[ruby-sequel]
+source = "gems"
+gems = "sequel"
+
+[ruby-shellany]
+source = "gems"
+gems = "shellany"
+
+[ruby-shindo]
+source = "gems"
+gems = "shindo"
+
+[ruby-shoulda-context]
+source = "gems"
+gems = "shoulda-context"
+
+[ruby-snowglobe]
+source = "gems"
+gems = "snowglobe"
+
+[ruby-sorted_set]
+source = "gems"
+gems = "sorted_set"
+
+[ruby-sus]
+source = "gems"
+gems = "sus"
+
+[ruby-sus-fixtures-async]
+source = "gems"
+gems = "sus-fixtures-async"
+
+[ruby-sus-fixtures-async-http]
+source = "gems"
+gems = "sus-fixtures-async-http"
+
+[ruby-syntax]
+source = "gems"
+gems = "syntax"
+
+[ruby-sys-uname]
+source = "gems"
+gems = "sys-uname"
+
 [ruby-test-unit]
 source = "gems"
 gems = "test-unit"
 
+[ruby-thread-local]
+source = "gems"
+gems = "thread-local"
+
+[ruby-timecop]
+source = "gems"
+gems = "timecop"
+
+[ruby-traces]
+source = "gems"
+gems = "traces"
+
+[ruby-trenni]
+source = "gems"
+gems = "trenni"
+
+[ruby-unindent]
+source = "gems"
+gems = "unindent"
+
+[ruby-vcr]
+source = "gems"
+gems = "vcr"
+
+[ruby-warnings_logger]
+source = "gems"
+gems = "warnings_logger"
+
+[ruby-xpath]
+source = "gems"
+gems = "xpath"
+
 [blur-effect]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/blur-effect"
+use_max_tag = true
 
 [deepin-account-faces]
-source = "apt"
-pkg = "dde-account-faces"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dde-account-faces"
+use_max_tag = true
 
 [deepin-album]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-album"
+use_max_tag = true
 
 [deepin-anything]
-source = "apt"
-srcpkg = "deepin-anything"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-anything"
+use_max_tag = true
 
 [deepin-api]
-source = "apt"
-pkg = "dde-api"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dde-api"
+use_max_tag = true
+ignored = "202008250003 2014.2"
+
+[deepin-app-services]
+source = "github"
+github = "linuxdeepin/dde-app-services"
+use_max_tag = true
 
 [deepin-boot-maker]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-boot-maker"
+use_max_tag = true
 
 [deepin-calculator]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-calculator"
+use_max_tag = true
+ignored = "6.0.0"
 
 [deepin-calendar]
-source = "apt"
-pkg = "dde-calendar"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dde-calendar"
+use_max_tag = true
 
 [deepin-camera]
-source = "apt"
-pkg = "deepin-camera"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-camera"
+use_max_tag = true
 
 [deepin-clipboard]
-source = "apt"
-pkg = "dde-clipboard"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dde-clipboard"
+use_max_tag = true
+ignored = "5.15.0102.7 5.15.0102.2"
 
 [deepin-clone]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-clone"
+use_max_tag = true
 
 [deepin-cogl]
 source = "github"
@@ -5773,135 +6612,124 @@ github = "linuxdeepin/deepin-cogl"
 use_max_tag = true
 
 [deepin-compressor]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-compressor"
+use_max_tag = true
+ignored = "6.0.0"
 
 [deepin-control-center]
-source = "apt"
-pkg = "dde-control-center"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dde-control-center"
+use_max_tag = true
+ignored = "2014.2.3 2014.2.1 2014.2 6.0.0.1 6.0.0 5.15.1000.29 5.15.1000.28 5.9.101"
 
 [deepin-daemon]
-source = "apt"
-pkg = "dde-daemon"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dde-daemon"
+use_max_tag = true
+ignored = "2014.2.2 2014.2.1 2014.2 5.1000.1 5.16.1000.1 5.16.0102.12 5.15.0102.84+sp2-1"
 
 [deepin-desktop-base]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-desktop-base"
+use_max_tag = true
 
 [deepin-desktop-schemas]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-desktop-schemas"
+use_max_tag = true
 
 [deepin-dock]
-source = "apt"
-pkg = "dde-dock"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dde-dock"
+use_max_tag = true
+ignored = "2014.2.2 2014.2.1 2014.2 5.1000.1 5.15.1000.12 5.15.0102.48 5.15.0102.37+sp2-1 5.15.0102.37+sp2-1"
 
 [deepin-editor]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-editor"
+use_max_tag = true
+
+[deepin-draw]
+source = "github"
+github = "linuxdeepin/deepin-draw"
+use_max_tag = true
 
 [deepin-file-manager]
-source = "apt"
-pkg = "dde-file-manager"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dde-file-manager"
+use_max_tag = true
 
 [deepin-font-manager]
-source = "apt"
-pkg = "deepin-font-manager"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-font-manager"
+use_max_tag = true
 
 [deepin-gettext-tools]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-gettext-tools"
+use_max_tag = true
 
-[golang-deepin-gir]
-source = "apt"
-pkg = "golang-gir-generator"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+[golang-github-linuxdeepin-go-gir]
+source = "github"
+github = "linuxdeepin/go-gir-generator"
+use_max_tag = true
 
 [deepin-gtk-theme]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-gtk-theme"
+use_max_tag = true
 
 [deepin-icon-theme]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-icon-theme"
+use_max_tag = true
+
+[deepin-image-editor]
+source = "github"
+github = "linuxdeepin/image-editor"
+use_max_tag = true
+ignored = "1.9.10"
 
 [deepin-image-viewer]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-image-viewer"
+use_max_tag = true
+ignored = "6.0.0"
 
 [deepin-kwin]
-source = "apt"
-pkg = "dde-kwin"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dde-kwin"
+use_max_tag = true
 
 [deepin-launcher]
-source = "apt"
-pkg = "dde-launcher"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dde-launcher"
+use_max_tag = true
+ignored = "5.15.1000.03"
 
 [golang-github-linuxdeepin-go-dbus-factory]
-source = "apt"
-srcpkg = "golang-github-linuxdeepin-go-dbus-factory"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/go-dbus-factory"
+use_max_tag = true
+ignored = "5.10.22"
 
-[golang-deepin-lib]
-source = "apt"
-srcpkg = "go-dlib"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+[golang-github-linuxdeepin-go-lib]
+source = "github"
+github = "linuxdeepin/go-lib"
+use_max_tag = true
+ignored = "2014.2.2 2014.2.1 2014.2 5.15.1000.09 5.15.1000.08"
 
 [golang-github-linuxdeepin-go-x11-client]
-source = "apt"
-srcpkg = "golang-github-linuxdeepin-go-x11-client"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/go-x11-client"
+use_max_tag = true
 
 [deepin-menu]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-menu"
+use_max_tag = true
+ignored = "2014.2.3 2014.2"
 
 [deepin-metacity]
 source = "github"
@@ -5909,16 +6737,15 @@ github = "linuxdeepin/deepin-metacity"
 use_max_tag = true
 
 [deepin-movie]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-movie-reborn"
+use_max_tag = true
 
 [deepin-music]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-music"
+use_max_tag = true
+ignored = "2014.3 2014.2"
 
 [deepin-mutter]
 source = "github"
@@ -5926,108 +6753,85 @@ github = "linuxdeepin/deepin-mutter"
 use_max_tag = true
 
 [deepin-network-utils]
-source = "apt"
-srcpkg = "dde-network-utils"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
-
-[deepin-notifications]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dde-network-utils"
+use_max_tag = true
+ignored = "6.1.0101.1"
 
 [deepin-picker]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-picker"
+use_max_tag = true
+ignored = "5.0.0102.1 5.0.0102.2 5.0.0102.3 5.0.0102.4 5.0.0102.5"
 
 [deepin-polkit-agent]
-source = "apt"
-pkg = "dde-polkit-agent"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dde-polkit-agent"
+use_max_tag = true
 
 [deepin-printer]
-source = "apt"
-pkg = "dde-printer"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dde-printer"
+use_max_tag = true
 
 [deepin-pw-check]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-pw-check"
+use_max_tag = true
 
 [deepin-qt-dbus-factory]
-source = "apt"
-srcpkg = "dde-qt-dbus-factory"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dde-qt-dbus-factory"
+use_max_tag = true
 
 [deepin-qt5platform-plugins]
-source = "apt"
-srcpkg = "dde-qt5platform-plugins"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/qt5platform-plugins"
+use_max_tag = true
 
 [deepin-qt5integration]
-source = "apt"
-pkg = "dde-qt5integration"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/qt5integration"
+use_max_tag = true
 
 [deepin-reader]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-reader"
+use_max_tag = true
+ignored = "6.0.0"
 
 [deepin-screen-recorder]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-screen-recorder"
+use_max_tag = true
 
 [deepin-screenshot]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-screenshot"
+use_max_tag = true
+ignored = "2014.2.3 2014.2 2014rc"
 
 [deepin-session-shell]
-source = "apt"
-pkg = "dde-session-shell"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dde-session-shell"
+use_max_tag = true
+ignored = "5.15.1000.16"
 
 [deepin-session-ui]
-source = "apt"
-pkg = "dde-session-ui"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dde-session-ui"
+use_max_tag = true
+ignored = "5.15.1000.05 5.15.1000.04"
 
 [deepin-shortcut-viewer]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-shortcut-viewer"
+use_max_tag = true
 
 [deepin-sound-theme]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-sound-theme"
+use_max_tag = true
 
 [deepin-store]
 source = "github"
@@ -6035,35 +6839,35 @@ github = "dekzi/dde-store"
 use_max_tag = true
 
 [deepin-system-monitor]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-system-monitor"
+use_max_tag = true
 
 [deepin-terminal]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-terminal"
+use_max_tag = true
 
 [deepin-voice-note]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-voice-note"
+use_max_tag = true
 
 [deepin-wallpapers]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/deepin-wallpapers"
+use_max_tag = true
 
 [deepin-wayland]
-source = "apt"
-srcpkg = "dde-wayland"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dde-wayland"
+use_max_tag = true
+
+[deepin-wayland-protocols]
+source = "github"
+github = "linuxdeepin/deepin-wayland-protocols"
+use_max_tag = true
+include_regex = ".*deepin.*"
 
 [deepin-wm]
 source = "github"
@@ -6076,46 +6880,40 @@ github = "linuxdeepin/deepin-wm-switcher"
 use_max_tag = true
 
 [disomaster]
-source = "apt"
-srcpkg = "disomaster"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/disomaster"
+use_max_tag = true
 
 [dtkcommon]
-source = "apt"
-srcpkg = "dtkcommon"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dtkcommon"
+use_max_tag = true
 
 [dtkcore]
-source = "apt"
-srcpkg = "dtkcore"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dtkcore"
+use_max_tag = true
 
 [dtkgui]
-source = "apt"
-pkg = "libdtkgui5"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dtkgui"
+use_max_tag = true
 
 [dtkwidget]
-source = "apt"
-srcpkg = "dtkwidget"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dtkwidget"
+use_max_tag = true
 
 [dtkwm]
-source = "apt"
-srcpkg = "dtkwm"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/dtkwm"
+use_max_tag = true
+
+[dwayland]
+source = "github"
+github = "linuxdeepin/dwayland"
+use_max_tag = true
+include_regex = ".*deepin.*"
 
 [qtav]
 source = "github"
@@ -6124,17 +6922,15 @@ use_max_tag = true
 prefix = "v"
 
 [startdde]
-source = "apt"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/startdde"
+use_max_tag = true
+ignored = "2014.2 6.0.0.0 5.15.1000.13 5.15.1000.12"
 
 [udisks2-qt5]
-source = "apt"
-srcpkg = "udisks2-qt5"
-mirror = "https://community-packages.deepin.com/deepin"
-suite = "apricot"
-strip_release = true
+source = "github"
+github = "linuxdeepin/udisks2-qt5"
+use_max_tag = true
 
 [fcitx]
 source = "github"
@@ -6249,6 +7045,11 @@ use_max_tag = true
 [fcitx5-anthy]
 source = "github"
 github = "fcitx/fcitx5-anthy"
+use_max_tag = true
+
+[fcitx5-bamboo]
+source = "github"
+github = "fcitx/fcitx5-bamboo"
 use_max_tag = true
 
 [fcitx5-chewing]
@@ -6372,11 +7173,6 @@ source = "github"
 github = "ibus/ibus-pinyin"
 use_max_tag = true
 
-[ibus-qt]
-source = "github"
-github = "ibus/ibus-qt"
-use_max_tag = true
-
 [ibus-rime]
 source = "github"
 github = "rime/ibus-rime"
@@ -6389,19 +7185,17 @@ use_max_tag = true
 
 [ibus-table-chinese]
 source = "github"
-github = "definite/ibus-table-chinese"
+github = "mike-fabian/ibus-table-chinese"
 use_max_tag = true
 
 [mlite]
-source = "gitlab"
-gitlab = "mer-core/mlite"
-host = "git.merproject.org"
+source = "github"
+github = "sailfishos/mlite"
 use_max_tag = true
 
 [fingerterm]
-source = "gitlab"
-gitlab = "mer-core/fingerterm"
-host = "git.merproject.org"
+source = "github"
+github = "sailfishos/fingerterm"
 use_max_tag = true
 
 [rime-bopomofo]
@@ -6505,6 +7299,7 @@ source = "github"
 github = "ukui/peony"
 use_max_tag = true
 prefix = "v"
+ignored = "0722"
 
 [ukui-menus]
 source = "github"
@@ -6590,16 +7385,10 @@ github = "ukui/qt5-ukui-platformtheme"
 use_max_tag = true
 prefix = "v"
 
-[acme.sh]
+["acme.sh"]
 source = "github"
 github = "acmesh-official/acme.sh"
 use_max_tag = true
-
-[albert]
-source = "github"
-github = "albertlauncher/albert"
-use_max_tag = true
-prefix = "v"
 
 [ammonite]
 source = "github"
@@ -6664,17 +7453,18 @@ prefix = "v"
 source = "pagure"
 pagure = "cmake-fedora"
 
-[dart]
-source = "github"
-github = "dart-lang/sdk"
+[debian-archive-keyring]
+source = "gitlab"
+gitlab = "release-team/debian-archive-keyring"
+host = "salsa.debian.org"
 use_max_tag = true
-exclude_regex = ".*\\.dev$"
 
 [debootstrap]
 source = "gitlab"
 gitlab = "installer-team/debootstrap"
 host = "salsa.debian.org"
 use_max_tag = true
+exclude_regex = ".*\\+nmu\\d*"
 
 [deno]
 source = "github"
@@ -6881,6 +7671,18 @@ github = "papyros/terminal-app"
 use_max_tag = true
 prefix = "v"
 
+[phrase-pinyin-data]
+source = "github"
+github = "mozillazg/phrase-pinyin-data"
+use_max_tag = true
+prefix = "v"
+
+[pinyin-data]
+source = "github"
+github = "mozillazg/pinyin-data"
+use_max_tag = true
+prefix = "v"
+
 [pony-stable]
 source = "github"
 github = "ponylang/pony-stable"
@@ -6912,12 +7714,6 @@ prefix = "v"
 [qopenvpn]
 source = "github"
 github = "xmikos/qopenvpn"
-use_max_tag = true
-prefix = "v"
-
-[rclone]
-source = "github"
-github = "ncw/rclone"
 use_max_tag = true
 prefix = "v"
 
@@ -7009,7 +7805,7 @@ prefix = "v"
 
 [wine]
 source = "git"
-git = "git://github.com/wine-mirror/wine"
+git = "https://github.com/wine-mirror/wine"
 use_max_tag = true
 include_regex = "wine-\\d+(\\.\\d+)+"
 prefix = "wine-"
@@ -7023,9 +7819,4 @@ prefix = "v"
 [winetricks]
 source = "github"
 github = "Winetricks/winetricks"
-use_max_tag = true
-
-[zerotier-one]
-source = "github"
-github = "zerotier/ZeroTierOne"
 use_max_tag = true
