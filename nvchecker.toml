@@ -107,6 +107,9 @@ source = "hackage"
 [attoparsec]
 source = "hackage"
 
+[attoparsec-aeson]
+source = "hackage"
+
 [attoparsec-iso8601]
 source = "hackage"
 
@@ -473,9 +476,6 @@ source = "hackage"
 [configurator-pg]
 source = "hackage"
 
-[connection]
-source = "hackage"
-
 [constraints]
 source = "hackage"
 
@@ -564,6 +564,27 @@ source = "hackage"
 source = "hackage"
 
 [cryptol]
+source = "hackage"
+
+[crypton]
+source = "hackage"
+
+[crypton-conduit]
+source = "hackage"
+
+[crypton-connection]
+source = "hackage"
+
+[crypton-x509]
+source = "hackage"
+
+[crypton-x509-store]
+source = "hackage"
+
+[crypton-x509-system]
+source = "hackage"
+
+[crypton-x509-validation]
 source = "hackage"
 
 [cryptonite]
@@ -735,6 +756,9 @@ source = "hackage"
 source = "hackage"
 
 [digest]
+source = "hackage"
+
+[digits]
 source = "hackage"
 
 [dir-traverse]
@@ -1284,6 +1308,9 @@ source = "hackage"
 [hex]
 source = "hackage"
 
+[hgmp]
+source = "hackage"
+
 [hi-file-parser]
 source = "hackage"
 
@@ -1507,6 +1534,12 @@ source = "hackage"
 [hslua-packaging]
 source = "hackage"
 
+[hslua-repl]
+source = "hackage"
+
+[hslua-typing]
+source = "hackage"
+
 [HsOpenSSL]
 source = "hackage"
 
@@ -1687,6 +1720,9 @@ source = "hackage"
 [infer-license]
 source = "hackage"
 
+[infinite-list]
+source = "hackage"
+
 [ini]
 source = "hackage"
 
@@ -1736,6 +1772,9 @@ source = "hackage"
 source = "hackage"
 
 [irc-core]
+source = "hackage"
+
+[isocline]
 source = "hackage"
 
 [isomorphism-class]
@@ -1790,6 +1829,15 @@ source = "hackage"
 source = "hackage"
 
 [language-c]
+source = "hackage"
+
+[language-c99]
+source = "hackage"
+
+[language-c99-util]
+source = "hackage"
+
+[language-c99-simple]
 source = "hackage"
 
 [language-haskell-extract]
@@ -2207,6 +2255,9 @@ source = "hackage"
 source = "hackage"
 
 [ormolu]
+source = "hackage"
+
+[pager]
 source = "hackage"
 
 [pandoc]
@@ -2992,6 +3043,9 @@ source = "hackage"
 [texmath]
 source = "hackage"
 
+[text-ansi]
+source = "hackage"
+
 [text-binary]
 source = "hackage"
 
@@ -3097,6 +3151,9 @@ source = "hackage"
 [tls-session-manager]
 source = "hackage"
 
+[toml-parser]
+source = "hackage"
+
 [tomland]
 source = "hackage"
 
@@ -3143,6 +3200,12 @@ source = "hackage"
 source = "hackage"
 
 [typed-process]
+source = "hackage"
+
+[typst]
+source = "hackage"
+
+[typst-symbols]
 source = "hackage"
 
 [tz]
@@ -3389,15 +3452,6 @@ source = "hackage"
 source = "hackage"
 
 [x509]
-source = "hackage"
-
-[x509-store]
-source = "hackage"
-
-[x509-system]
-source = "hackage"
-
-[x509-validation]
 source = "hackage"
 
 [xcb-types]
@@ -4300,13 +4354,7 @@ source = "pypi"
 [baron]
 source = "pypi"
 
-[basictracer]
-source = "pypi"
-
 [bcloud]
-source = "pypi"
-
-[bcrypt]
 source = "pypi"
 
 [Beaker]
@@ -4327,9 +4375,6 @@ source = "pypi"
 [big-O]
 source = "pypi"
 
-[billiard]
-source = "pypi"
-
 [biscuits]
 source = "pypi"
 
@@ -4337,9 +4382,6 @@ source = "pypi"
 source = "pypi"
 
 [blockdiag]
-source = "pypi"
-
-[boltons]
 source = "pypi"
 
 [boto]
@@ -4373,9 +4415,6 @@ source = "pypi"
 source = "pypi"
 
 [case]
-source = "pypi"
-
-[celery]
 source = "pypi"
 
 [Cerberus]
@@ -4558,9 +4597,6 @@ source = "pypi"
 [elementpath]
 source = "pypi"
 
-[email-validator]
-source = "pypi"
-
 [emoji]
 source = "pypi"
 
@@ -4657,6 +4693,9 @@ source = "pypi"
 [funcy]
 source = "pypi"
 
+[feeluown-bilibili]
+source = "pypi"
+
 [feeluown-kuwo]
 source = "pypi"
 pypi = "fuo_kuwo"
@@ -4698,22 +4737,13 @@ source = "pypi"
 [geoip2]
 source = "pypi"
 
-[gevent]
-source = "pypi"
-
 [glob2]
-source = "pypi"
-
-[google-auth]
 source = "pypi"
 
 [google-auth-httplib2]
 source = "pypi"
 
 [green]
-source = "pypi"
-
-[greenlet]
 source = "pypi"
 
 [gunicorn]
@@ -4732,9 +4762,6 @@ source = "pypi"
 source = "pypi"
 
 [hatch-vcs]
-source = "pypi"
-
-[helper]
 source = "pypi"
 
 [hpack]
@@ -4800,9 +4827,6 @@ source = "pypi"
 [itemloaders]
 source = "pypi"
 
-[jaeger-client]
-source = "pypi"
-
 [janus]
 source = "pypi"
 
@@ -4864,9 +4888,6 @@ source = "pypi"
 source = "pypi"
 
 [kiwisolver]
-source = "pypi"
-
-[kombu]
 source = "pypi"
 
 [lark-parser]
@@ -5010,9 +5031,6 @@ source = "pypi"
 [openstacksdk]
 source = "pypi"
 
-[opentracing]
-source = "pypi"
-
 [ordered-set]
 source = "pypi"
 
@@ -5110,9 +5128,6 @@ source = "pypi"
 [pbr]
 source = "pypi"
 
-[pep517]
-source = "pypi"
-
 [phonenumbers]
 source = "pypi"
 
@@ -5123,9 +5138,6 @@ source = "pypi"
 source = "pypi"
 
 [pip]
-source = "pypi"
-
-[pip-run]
 source = "pypi"
 
 [pip-shims]
@@ -5245,9 +5257,6 @@ source = "pypi"
 [pyflakes]
 source = "pypi"
 
-[pyftpdlib]
-source = "pypi"
-
 [pygal]
 source = "pypi"
 
@@ -5282,9 +5291,6 @@ source = "pypi"
 source = "pypi"
 
 [PyOpenGL]
-source = "pypi"
-
-[pyOpenSSL]
 source = "pypi"
 
 [pypandoc]
@@ -5375,6 +5381,9 @@ source = "pypi"
 source = "pypi"
 
 [pytest-httpx]
+source = "pypi"
+
+[pytest-ignore-flaky]
 source = "pypi"
 
 [pytest-isort]
@@ -5478,6 +5487,9 @@ source = "pypi"
 source = "pypi"
 
 [python-novaclient]
+source = "pypi"
+
+[python-octaviaclient]
 source = "pypi"
 
 [python-openid]
@@ -5605,15 +5617,6 @@ source = "pypi"
 [rply]
 source = "pypi"
 
-[Rtree]
-source = "pypi"
-
-["ruamel.yaml"]
-source = "pypi"
-
-["ruamel.yaml.clib"]
-source = "pypi"
-
 [salsa20]
 source = "pypi"
 
@@ -5706,9 +5709,6 @@ source = "pypi"
 source = "pypi"
 
 [sphinxcontrib-seqdiag]
-source = "pypi"
-
-[sphinxcontrib-towncrier]
 source = "pypi"
 
 [SQLAlchemy]
@@ -6041,10 +6041,6 @@ source = "pypi"
 ["zope.testrunner"]
 source = "pypi"
 
-[ruby-addressable]
-source = "gems"
-gems = "addressable"
-
 [ruby-ae]
 source = "gems"
 gems = "ae"
@@ -6230,6 +6226,14 @@ gems = "ffi"
 source = "gems"
 gems = "ffi-compiler"
 
+[ruby-fiber-annotation]
+source = "gems"
+gems = "fiber-annotation"
+
+[ruby-fiber-local]
+source = "gems"
+gems = "fiber-local"
+
 [ruby-filelock]
 source = "gems"
 gems = "filelock"
@@ -6245,6 +6249,10 @@ gems = "fuubar"
 [ruby-get_process_mem]
 source = "gems"
 gems = "get_process_mem"
+
+[ruby-highline]
+source = "gems"
+gems = "highline"
 
 [ruby-http]
 source = "gems"
@@ -6569,9 +6577,24 @@ github = "linuxdeepin/dde-api"
 use_max_tag = true
 ignored = "202008250003 2014.2"
 
+[deepin-api-proxy]
+source = "github"
+github = "linuxdeepin/dde-api-proxy"
+use_max_tag = true
+
 [deepin-app-services]
 source = "github"
 github = "linuxdeepin/dde-app-services"
+use_max_tag = true
+
+[deepin-appearance]
+source = "github"
+github = "linuxdeepin/dde-appearance"
+use_max_tag = true
+
+[deepin-application-manager]
+source = "github"
+github = "linuxdeepin/dde-application-manager"
 use_max_tag = true
 
 [deepin-boot-maker]
@@ -6632,6 +6655,11 @@ ignored = "2014.2.2 2014.2.1 2014.2 5.1000.1 5.16.1000.1 5.16.0102.12 5.15.0102.
 [deepin-desktop-base]
 source = "github"
 github = "linuxdeepin/deepin-desktop-base"
+use_max_tag = true
+
+[deepin-desktop-theme]
+source = "github"
+github = "linuxdeepin/deepin-desktop-theme"
 use_max_tag = true
 
 [deepin-desktop-schemas]
@@ -6699,7 +6727,7 @@ ignored = "6.0.0"
 
 [deepin-kwin]
 source = "github"
-github = "linuxdeepin/dde-kwin"
+github = "linuxdeepin/deepin-kwin"
 use_max_tag = true
 
 [deepin-launcher]
@@ -6707,23 +6735,6 @@ source = "github"
 github = "linuxdeepin/dde-launcher"
 use_max_tag = true
 ignored = "5.15.1000.03"
-
-[golang-github-linuxdeepin-go-dbus-factory]
-source = "github"
-github = "linuxdeepin/go-dbus-factory"
-use_max_tag = true
-ignored = "5.10.22"
-
-[golang-github-linuxdeepin-go-lib]
-source = "github"
-github = "linuxdeepin/go-lib"
-use_max_tag = true
-ignored = "2014.2.2 2014.2.1 2014.2 5.15.1000.09 5.15.1000.08"
-
-[golang-github-linuxdeepin-go-x11-client]
-source = "github"
-github = "linuxdeepin/go-x11-client"
-use_max_tag = true
 
 [deepin-menu]
 source = "github"
@@ -6757,6 +6768,11 @@ source = "github"
 github = "linuxdeepin/dde-network-utils"
 use_max_tag = true
 ignored = "6.1.0101.1"
+
+[deepin-pdfium]
+source = "github"
+github = "linuxdeepin/deepin-pdfium"
+use_max_tag = true
 
 [deepin-picker]
 source = "github"
@@ -6805,11 +6821,10 @@ source = "github"
 github = "linuxdeepin/deepin-screen-recorder"
 use_max_tag = true
 
-[deepin-screenshot]
+[deepin-session]
 source = "github"
-github = "linuxdeepin/deepin-screenshot"
+github = "linuxdeepin/dde-session"
 use_max_tag = true
-ignored = "2014.2.3 2014.2 2014rc"
 
 [deepin-session-shell]
 source = "github"
@@ -6846,6 +6861,11 @@ use_max_tag = true
 [deepin-terminal]
 source = "github"
 github = "linuxdeepin/deepin-terminal"
+use_max_tag = true
+
+[deepin-util-dfm]
+source = "github"
+github = "linuxdeepin/util-dfm"
 use_max_tag = true
 
 [deepin-voice-note]
@@ -6894,6 +6914,11 @@ source = "github"
 github = "linuxdeepin/dtkcore"
 use_max_tag = true
 
+[dtkdeclarative]
+source = "github"
+github = "linuxdeepin/dtkdeclarative"
+use_max_tag = true
+
 [dtkgui]
 source = "github"
 github = "linuxdeepin/dtkgui"
@@ -6904,9 +6929,24 @@ source = "github"
 github = "linuxdeepin/dtkwidget"
 use_max_tag = true
 
-[dtkwm]
+[dtk6core]
 source = "github"
-github = "linuxdeepin/dtkwm"
+github = "linuxdeepin/dtk6core"
+use_max_tag = true
+
+[dtk6declarative]
+source = "github"
+github = "linuxdeepin/dtk6declarative"
+use_max_tag = true
+
+[dtk6gui]
+source = "github"
+github = "linuxdeepin/dtk6gui"
+use_max_tag = true
+
+[dtk6widget]
+source = "github"
+github = "linuxdeepin/dtk6widget"
 use_max_tag = true
 
 [dwayland]
@@ -6914,12 +6954,6 @@ source = "github"
 github = "linuxdeepin/dwayland"
 use_max_tag = true
 include_regex = ".*deepin.*"
-
-[qtav]
-source = "github"
-github = "wang-bin/QtAV"
-use_max_tag = true
-prefix = "v"
 
 [startdde]
 source = "github"
@@ -7409,22 +7443,17 @@ prefix = "v"
 
 [bats]
 source = "github"
-github = "sstephenson/bats"
+github = "bats-core/bats-core"
 use_max_tag = true
 
 [bats-assert]
 source = "github"
-github = "ztombol/bats-assert"
+github = "bats-core/bats-assert"
 use_max_tag = true
 
 [bats-support]
 source = "github"
-github = "ztombol/bats-support"
-use_max_tag = true
-
-[brise]
-source = "github"
-github = "rime/brise"
+github = "bats-core/bats-support"
 use_max_tag = true
 
 [btfs]
@@ -7442,12 +7471,6 @@ use_max_tag = true
 source = "github"
 github = "MaskRay/ccls"
 use_max_tag = true
-
-[clash]
-source = "github"
-github = "Dreamacro/clash"
-use_latest_release = true
-prefix = "v"
 
 [cmake-fedora]
 source = "pagure"
@@ -7477,17 +7500,6 @@ source = "github"
 github = "so-fancy/diff-so-fancy"
 use_max_tag = true
 prefix = "v"
-
-[docker-machine]
-source = "github"
-github = "docker/machine"
-use_max_tag = true
-prefix = "v"
-
-[faudio]
-source = "github"
-github = "FNA-XNA/FAudio"
-use_max_tag = true
 
 [fcitx5-pinyin-zhwiki]
 source = "regex"
@@ -7529,12 +7541,6 @@ github = "nodejs/http-parser"
 use_max_tag = true
 prefix = "v"
 
-[jenkins]
-source = "git"
-git = "https://github.com/jenkinsci/jenkins.git"
-include_regex = "jenkins-.*"
-prefix = "jenkins-"
-
 [kcptun]
 source = "github"
 github = "xtaci/kcptun"
@@ -7555,11 +7561,6 @@ exclude_regex = "libblockdev-.*"
 from_pattern = "-\\d$"
 to_pattern = ""
 
-[libbson]
-source = "github"
-github = "mongodb/libbson"
-use_max_tag = true
-
 [libglvnd]
 source = "github"
 github = "NVIDIA/libglvnd"
@@ -7572,28 +7573,10 @@ github = "ueno/libkkc"
 use_max_tag = true
 prefix = "v"
 
-[mongo-c-driver]
-source = "github"
-github = "mongodb/mongo-c-driver"
-use_max_tag = true
-include_regex = "\\d.*"
-
-[libpapyros]
-source = "github"
-github = "papyros/libpapyros"
-use_max_tag = true
-prefix = "v"
-
 [libpinyin]
 source = "github"
 github = "libpinyin/libpinyin"
 use_max_tag = true
-
-[libQtShadowsocks]
-source = "github"
-github = "shadowsocks/libQtShadowsocks"
-use_max_tag = true
-prefix = "v"
 
 [librime]
 source = "github"
@@ -7659,18 +7642,6 @@ source = "github"
 github = "PapirusDevelopmentTeam/papirus-icon-theme"
 use_max_tag = true
 
-[papyros-files]
-source = "github"
-github = "papyros/files-app"
-use_max_tag = true
-prefix = "v"
-
-[papyros-terminal]
-source = "github"
-github = "papyros/terminal-app"
-use_max_tag = true
-prefix = "v"
-
 [phrase-pinyin-data]
 source = "github"
 github = "mozillazg/phrase-pinyin-data"
@@ -7705,12 +7676,6 @@ github = "rofl0r/proxychains-ng"
 use_max_tag = true
 prefix = "v"
 
-[qml-material]
-source = "github"
-github = "papyros/qml-material"
-use_max_tag = true
-prefix = "v"
-
 [qopenvpn]
 source = "github"
 github = "xmikos/qopenvpn"
@@ -7723,21 +7688,9 @@ github = "t6x/reaver-wps-fork-t6x"
 use_max_tag = true
 prefix = "v"
 
-[shadowsocks-libev]
+[shadowsocks-rust]
 source = "github"
-github = "shadowsocks/shadowsocks-libev"
-use_max_tag = true
-prefix = "v"
-
-[shadowsocks-qt5]
-source = "github"
-github = "shadowsocks/shadowsocks-qt5"
-use_max_tag = true
-prefix = "v"
-
-[simple-obfs]
-source = "github"
-github = "shadowsocks/simple-obfs"
+github = "shadowsocks/shadowsocks-rust"
 use_max_tag = true
 prefix = "v"
 
@@ -7758,11 +7711,6 @@ source = "github"
 github = "TheRook/subbrute"
 use_max_tag = true
 arch_ignored = true
-
-[systemd-swap]
-source = "github"
-github = "Nefelim4ag/systemd-swap"
-use_max_tag = true
 
 [tamarin-prover]
 source = "github"
