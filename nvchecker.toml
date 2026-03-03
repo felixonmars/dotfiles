@@ -4500,6 +4500,9 @@ source = "pypi"
 [emoji]
 source = "pypi"
 
+[eth-hash]
+source = "pypi"
+
 [execnet]
 source = "pypi"
 
@@ -6094,6 +6097,7 @@ source = "github"
 github = "linuxdeepin/deepin-anything"
 use_max_tag = true
 
+
 [deepin-api]
 source = "github"
 github = "linuxdeepin/dde-api"
@@ -6175,6 +6179,11 @@ source = "github"
 github = "linuxdeepin/deepin-desktop-theme"
 use_max_tag = true
 
+[deepin-device-formatter]
+source = "github"
+github = "linuxdeepin/dde-device-formatter"
+use_max_tag = true
+
 [deepin-desktop-schemas]
 source = "github"
 github = "linuxdeepin/deepin-desktop-schemas"
@@ -6209,6 +6218,16 @@ use_max_tag = true
 [deepin-gettext-tools]
 source = "github"
 github = "linuxdeepin/deepin-gettext-tools"
+use_max_tag = true
+
+[deepin-gomoku]
+source = "github"
+github = "linuxdeepin/deepin-gomoku"
+use_max_tag = true
+
+[deepin-grand-search]
+source = "github"
+github = "linuxdeepin/dde-grand-search"
 use_max_tag = true
 
 [deepin-gtk-theme]
@@ -6286,6 +6305,11 @@ source = "github"
 github = "linuxdeepin/dde-polkit-agent"
 use_max_tag = true
 
+[deepin-polkit-agent-ext-gnomekeyring]
+source = "github"
+github = "linuxdeepin/dpa-ext-gnomekeyring"
+use_max_tag = true
+
 [deepin-printer]
 source = "github"
 github = "linuxdeepin/dde-printer"
@@ -6332,9 +6356,24 @@ source = "github"
 github = "linuxdeepin/deepin-screen-recorder"
 use_max_tag = true
 
+[deepin-screensaver]
+source = "github"
+github = "linuxdeepin/deepin-screensaver"
+use_max_tag = true
+
+[deepin-screensaver-pp]
+source = "github"
+github = "zccrs/screensaver-pp"
+use_max_tag = true
+
 [deepin-service-manager]
 source = "github"
 github = "linuxdeepin/deepin-service-manager"
+use_max_tag = true
+
+[deepin-services]
+source = "github"
+github = "linuxdeepin/dde-services"
 use_max_tag = true
 
 [deepin-session]
@@ -6384,6 +6423,16 @@ source = "github"
 github = "linuxdeepin/deepin-terminal"
 use_max_tag = true
 
+[deepin-terminal-gtk]
+source = "github"
+github = "linuxdeepin/deepin-terminal-gtk"
+use_max_tag = true
+
+[deepin-turbo]
+source = "github"
+github = "linuxdeepin/deepin-turbo"
+use_max_tag = true
+
 [deepin-tray-loader]
 source = "github"
 github = "linuxdeepin/dde-tray-loader"
@@ -6409,6 +6458,16 @@ source = "github"
 github = "linuxdeepin/deepin-wayland-protocols"
 use_max_tag = true
 include_regex = ".*deepin.*"
+
+[deepin-widgets]
+source = "github"
+github = "linuxdeepin/dde-widgets"
+use_max_tag = true
+
+[deepin-wloutput-daemon]
+source = "github"
+github = "linuxdeepin/dde-wloutput-daemon"
+use_max_tag = true
 
 [disomaster]
 source = "github"
